@@ -1,4 +1,4 @@
-import { useRef, useState, useMemo, useCallback, Suspense } from 'react';
+import { useRef, useState, useMemo, useCallback, Suspense, useEffect } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, Text, Float, Stars } from '@react-three/drei';
 import * as THREE from 'three';
@@ -8,7 +8,7 @@ import {
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
 import { X } from 'lucide-react';
-import { CATEGORIES } from '../data/mockData'; // TRANSACTIONS removed, we'll need a new route for details later
+import { CATEGORIES, API_BASE } from '../data/constants';
 import './ExpenseGalaxy.css';
 
 ChartJS.register(ArcElement, CategoryScale, LinearScale, BarElement, Tooltip, Legend);
@@ -99,32 +99,62 @@ function GalaxyScene({ onSelectCategory, spendingData }) {
 export default function ExpenseGalaxy() {
   const [selected, setSelected] = useState(null);
   const [spendingData, setSpendingData] = useState({});
+  const [budgets, setBudgets] = useState({});
+  const [categoryTxns, setCategoryTxns] = useState([]);
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
-    fetch('/api/dashboard/stats')
-      .then(res => res.json())
-      .then(data => {
-        setSpendingData(data.spendingByCategory || {});
+    Promise.all([
+      fetch(`${API_BASE}/api/dashboard/stats`).then(res => res.json()),
+      fetch(`${API_BASE}/api/budgets`).then(res => res.json())
+    ])
+      .then(([statsData, budgetsData]) => {
+        setSpendingData(statsData.spendingByCategory || {});
+        
+        const budgetMap = {};
+        if (Array.isArray(budgetsData)) {
+          budgetsData.forEach(b => { budgetMap[b.category] = b.amount; });
+        }
+        setBudgets(budgetMap);
         setLoaded(true);
       })
       .catch(err => {
-        console.error("Failed to load galaxy stats", err);
+        console.error('Failed to load galaxy stats', err);
         setLoaded(true);
       });
   }, []);
 
-  const handleSelect = useCallback((category) => setSelected(category), []);
+  const handleSelect = useCallback((category) => {
+    setSelected(category);
+    fetch(`${API_BASE}/api/transactions?category=${category.id}&type=expense`)
+      .then(res => res.json())
+      .then(data => {
+        setCategoryTxns(Array.isArray(data) ? data : []);
+      })
+      .catch(err => console.error(err));
+  }, []);
   const handleClose = useCallback(() => setSelected(null), []);
 
   const getDetailData = () => {
-    // Note: To show real sub-transactions in the overlay, we need a new API endpoint. 
-    // For now, we stub this out so the UI doesn't crash from missing TRANSACTIONS mock.
     if (!selected) return null;
+    
+    if (categoryTxns.length === 0) {
+      return {
+        labels: ["Category Total"],
+        datasets: [{
+          data: [spendingData[selected.id] || 0],
+          backgroundColor: [selected.color + 'CC'],
+          borderColor: selected.color, borderWidth: 1, borderRadius: 4,
+        }],
+      };
+    }
+
+    const recentTxns = [...categoryTxns].slice(0, 5);
     return {
-      labels: ["Category Total"],
+      labels: recentTxns.map(t => t.description || 'Unknown'),
       datasets: [{
-        data: [spendingData[selected.id] || 0],
+        label: 'Recent Expenses',
+        data: recentTxns.map(t => t.amount),
         backgroundColor: [selected.color + 'CC'],
         borderColor: selected.color, borderWidth: 1, borderRadius: 4,
       }],
@@ -174,12 +204,12 @@ export default function ExpenseGalaxy() {
             <div className="galaxy__detail-budget">
               <div className="galaxy__detail-progress-bar">
                 <div className="galaxy__detail-progress-fill" style={{
-                  width: `${Math.min(100, ((spendingData[selected.id] || 0) / selected.budget) * 100)}%`,
-                  background: (spendingData[selected.id] || 0) > selected.budget ? '#f43f5e' : selected.color,
+                  width: budgets[selected.id] ? `${Math.min(100, ((spendingData[selected.id] || 0) / budgets[selected.id]) * 100)}%` : '0%',
+                  background: budgets[selected.id] && (spendingData[selected.id] || 0) > budgets[selected.id] ? '#f43f5e' : selected.color,
                 }} />
               </div>
               <span className="galaxy__detail-budget-text">
-                ₹{(spendingData[selected.id] || 0).toLocaleString('en-IN')} / ₹{selected.budget.toLocaleString('en-IN')} budget
+                ₹{(spendingData[selected.id] || 0).toLocaleString('en-IN')} / {budgets[selected.id] ? `₹${budgets[selected.id].toLocaleString('en-IN')} budget` : 'No budget set'}
               </span>
             </div>
             <div className="galaxy__detail-chart">

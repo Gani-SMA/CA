@@ -178,3 +178,134 @@
   .invest__summary { grid-template-columns: 1fr; }
   .invest__card { min-width: 260px; }
 }
+
+/* Header row */
+.invest__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.invest__header h2 {
+  font-size: 1.8rem !important;
+  background: linear-gradient(135deg, #f0f4ff, #94a3b8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Profile Panel */
+.invest__profile-panel {
+  padding: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.invest__profile-panel h3 { font-size: 1rem; color: #f0f4ff; margin: 0 0 0.75rem; }
+.invest__profile-row { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+.invest__profile-field { display: flex; flex-direction: column; gap: 0.3rem; flex: 1; min-width: 160px; }
+.invest__profile-field label { font-size: 0.75rem; color: #94a3b8; }
+.invest__profile-field select, .invest__profile-field input {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(148,163,184,0.2);
+  border-radius: 0.5rem;
+  padding: 0.45rem 0.7rem;
+  color: #f0f4ff;
+  font-size: 0.85rem;
+  outline: none;
+}
+.invest__profile-field select option { background: #1e293b; }
+
+/* Add Form */
+.invest__add-form { padding: 1.25rem; }
+.invest__add-form h3 { font-size: 1rem; color: #f0f4ff; margin: 0 0 0.75rem; }
+.invest__form-row { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+.invest__form-field { display: flex; flex-direction: column; gap: 0.3rem; flex: 1; min-width: 160px; }
+.invest__form-field label { font-size: 0.75rem; color: #94a3b8; }
+.invest__form-field input, .invest__form-field select {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(148,163,184,0.15);
+  border-radius: 0.5rem;
+  padding: 0.45rem 0.7rem;
+  color: #f0f4ff;
+  font-size: 0.85rem;
+  outline: none;
+}
+.invest__form-field select option { background: #1e293b; }
+
+/* Edit form in card */
+.invest__edit-form { display: flex; flex-direction: column; gap: 0.4rem; }
+.invest__edit-input {
+  width: 100%;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(139,92,246,0.4);
+  border-radius: 0.35rem;
+  padding: 0.3rem 0.5rem;
+  color: #f0f4ff;
+  font-size: 0.82rem;
+  outline: none;
+}
+
+/* AI Plan Section */
+.invest__ai-plan { padding: 1.5rem; }
+.invest__ai-plan-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.invest__ai-plan-header h3 { font-size: 1rem; font-weight: 600; color: #f0f4ff; margin: 0 0 0.3rem; }
+.invest__ai-plan-header p { font-size: 0.82rem; color: #64748b; margin: 0; }
+.invest__ai-loading { text-align: center; padding: 2rem; color: #64748b; display: flex; flex-direction: column; align-items: center; gap: 0.75rem; }
+
+.invest__plan-summary {
+  font-size: 0.9rem; color: #94a3b8;
+  background: rgba(255,255,255,0.03); border-radius: 0.5rem;
+  padding: 0.75rem; margin-bottom: 1rem; line-height: 1.6;
+}
+
+.invest__plan-recs h4, .invest__health-card h4, .invest__tax-card h4 {
+  font-size: 0.85rem; font-weight: 600; color: #f0f4ff;
+  margin: 0 0 0.75rem; text-transform: uppercase; letter-spacing: 0.04em;
+}
+
+.invest__recs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.invest__rec-card {
+  padding: 1rem;
+  border-left: 2px solid var(--rec-color, #8b5cf6);
+}
+.invest__rec-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem; }
+.invest__rec-cat { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--rec-color, #8b5cf6); font-weight: 600; }
+.invest__rec-amount { font-size: 0.78rem; font-weight: 700; color: var(--rec-color, #8b5cf6); font-family: 'Outfit', sans-serif; }
+.invest__rec-name { font-size: 0.88rem; font-weight: 600; color: #f0f4ff; margin: 0 0 0.35rem; }
+.invest__rec-rationale { font-size: 0.8rem; color: #64748b; line-height: 1.5; margin: 0 0 0.5rem; }
+.invest__rec-returns {
+  font-size: 0.73rem; color: #10b981;
+  background: rgba(16,185,129,0.1); padding: 0.2rem 0.45rem;
+  border-radius: 0.25rem; display: inline-block;
+}
+
+/* Health Insurance & Tax Cards */
+.invest__health-card, .invest__tax-card {
+  padding: 1rem; margin-top: 0.75rem;
+}
+.invest__health-grid, .invest__tax-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.5rem;
+}
+.invest__health-grid > div, .invest__tax-grid > div {
+  display: flex; flex-direction: column; gap: 0.2rem;
+}
+.invest__health-grid label, .invest__tax-grid label {
+  font-size: 0.7rem; color: #64748b; text-transform: uppercase; letter-spacing: 0.04em;
+}
+.invest__health-grid span, .invest__tax-grid span {
+  font-size: 0.85rem; color: #f0f4ff; line-height: 1.4;
+}

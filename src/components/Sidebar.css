@@ -21,6 +21,17 @@
 
 .sidebar--collapsed { width: var(--sidebar-collapsed); padding: var(--space-lg) var(--space-sm); }
 
+/* Mobile Backdrop */
+.sidebar-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: 95;
+  animation: fadeIn 200ms ease forwards;
+}
+
 .sidebar__logo {
   display: flex;
   align-items: center;
@@ -197,5 +208,13 @@ img.sidebar__avatar {
 }
 
 @media (max-width: 768px) {
-  .sidebar { display: none; }
+  .sidebar { 
+    transform: translateX(-100%);
+    width: 280px;
+    box-shadow: var(--shadow-xl);
+  }
+  .sidebar--mobile-open {
+    transform: translateX(0);
+  }
+  .sidebar__toggle { display: none; }
 }

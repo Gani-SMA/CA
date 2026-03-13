@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Search, Globe, Bell, Sun, Moon } from 'lucide-react';
 import { UserButton, useUser } from '@clerk/clerk-react';
 import './Header.css';
@@ -16,6 +17,8 @@ const LANGUAGES = [
 export default function Header({ title, language, onLanguageChange, onMenuToggle, theme, onToggleTheme }) {
   const [langOpen, setLangOpen] = useState(false);
   const [searchFocused, setSearchFocused] = useState(false);
+  const [searchValue, setSearchValue] = useState('');
+  const navigate = useNavigate();
   const currentLang = LANGUAGES.find(l => l.code === language) || LANGUAGES[0];
 
   return (
@@ -37,6 +40,13 @@ export default function Header({ title, language, onLanguageChange, onMenuToggle
           <input
             type="text"
             placeholder="Search transactions..."
+            value={searchValue}
+            onChange={(e) => setSearchValue(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' && searchValue.trim()) {
+                navigate(`/transactions?q=${encodeURIComponent(searchValue.trim())}`);
+              }
+            }}
             className="header__search-input"
             onFocus={() => setSearchFocused(true)}
             onBlur={() => setSearchFocused(false)}

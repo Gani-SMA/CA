@@ -122,4 +122,76 @@
 @media (max-width: 768px) {
   .grove__canvas-wrapper { height: 300px; }
   .grove__goals { grid-template-columns: 1fr; }
+  .grove__header { flex-direction: column; align-items: stretch; gap: 0.5rem; }
+  .grove__form-row { flex-direction: column; }
 }
+
+/* Header row */
+.grove__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.grove__header h2 {
+  font-size: 1.8rem;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  background: linear-gradient(135deg, #f0f4ff, #94a3b8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0 0 0.2rem;
+}
+.grove__header p { font-size: 0.85rem; color: #64748b; margin: 0; }
+.grove__header > div { flex: 1; }
+
+/* Loading & Empty states */
+.grove__loading, .grove__empty {
+  text-align: center; padding: 2.5rem;
+  display: flex; flex-direction: column; align-items: center; gap: 0.75rem;
+}
+.grove__loading { color: #64748b; }
+.grove__empty span { font-size: 2.5rem; }
+.grove__empty h3 { font-size: 1rem; color: #f0f4ff; margin: 0; }
+.grove__empty p { font-size: 0.85rem; color: #64748b; margin: 0; max-width: 300px; }
+
+/* Add Goal Form */
+.grove__add-form { padding: 1.25rem; }
+.grove__add-form h3 { font-size: 0.95rem; color: #f0f4ff; margin: 0 0 0.75rem; }
+.grove__form-row { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+.grove__form-field { display: flex; flex-direction: column; gap: 0.3rem; flex: 1; min-width: 140px; }
+.grove__form-field label { font-size: 0.73rem; color: #94a3b8; }
+.grove__form-field input {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(148,163,184,0.15);
+  border-radius: 0.5rem;
+  padding: 0.45rem 0.7rem;
+  color: #f0f4ff;
+  font-size: 0.85rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.grove__form-field input:focus { border-color: rgba(139,92,246,0.5); }
+.grove__color-input { width: 100%; height: 38px; border-radius: 0.5rem; cursor: pointer; padding: 2px; }
+.grove__form-actions { display: flex; gap: 0.5rem; margin-top: 0.75rem; }
+
+/* Edit form in goal card */
+.grove__edit-form { display: flex; flex-direction: column; gap: 0.4rem; }
+.grove__edit-input {
+  width: 100%;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(139,92,246,0.4);
+  border-radius: 0.35rem;
+  padding: 0.3rem 0.5rem;
+  color: #f0f4ff;
+  font-size: 0.82rem;
+  outline: none;
+}
+.grove__edit-actions { display: flex; gap: 0.4rem; margin-top: 0.25rem; }
+
+/* Goal buttons */
+.grove__goal-btns { display: flex; gap: 0.3rem; opacity: 0; transition: opacity 0.2s; }
+.grove__goal:hover .grove__goal-btns { opacity: 1; }
+

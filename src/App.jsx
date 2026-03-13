@@ -10,6 +10,7 @@ import ExpenseGalaxy from './components/ExpenseGalaxy';
 import GrowthGrove from './components/GrowthGrove';
 import SOSAlerts from './components/SOSAlerts';
 import InvestmentPortfolio from './components/InvestmentPortfolio';
+import TransactionManager from './components/TransactionManager';
 import ChatDrawer from './components/ChatDrawer';
 import LiquidBackground from './components/LiquidBackground';
 import LandingPage from './components/LandingPage';
@@ -17,10 +18,12 @@ import './App.css';
 
 const PAGE_TITLES = {
   '/': 'Dashboard',
+  '/dashboard': 'Dashboard',
   '/galaxy': 'Expense Galaxy',
   '/savings': 'Growth Grove',
   '/alerts': 'SOS Alerts',
   '/investments': 'Investments',
+  '/transactions': 'Transactions',
 };
 
 function AppContent() {
@@ -53,7 +56,12 @@ function AppContent() {
 
       <SignedIn>
         {/* Authenticated User Flow */}
-        <Sidebar collapsed={sidebarCollapsed} onToggle={() => setSidebarCollapsed(!sidebarCollapsed)} />
+        <Sidebar 
+          collapsed={sidebarCollapsed} 
+          onToggle={() => setSidebarCollapsed(!sidebarCollapsed)} 
+          isOpen={mobileMenuOpen}
+          onClose={() => setMobileMenuOpen(false)}
+        />
         <main className={`main-content ${sidebarCollapsed ? 'main-content--expanded' : ''}`}>
           <Header
             title={title}
@@ -71,6 +79,7 @@ function AppContent() {
               <Route path="/savings" element={<GrowthGrove />} />
               <Route path="/alerts" element={<SOSAlerts />} />
               <Route path="/investments" element={<InvestmentPortfolio />} />
+              <Route path="/transactions" element={<TransactionManager />} />
               <Route path="*" element={<Navigate to="/dashboard" replace />} />
             </Routes>
           </div>

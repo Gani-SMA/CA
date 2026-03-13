@@ -2,24 +2,33 @@ import { NavLink, useLocation } from 'react-router-dom';
 import { useUser } from '@clerk/clerk-react';
 import {
   LayoutDashboard, Orbit, TreePine, AlertTriangle, TrendingUp,
-  ChevronLeft, ChevronRight, Gem
+  ChevronLeft, ChevronRight, Gem, Receipt
 } from 'lucide-react';
 import './Sidebar.css';
 
 const navItems = [
-  { path: '/', icon: LayoutDashboard, label: 'Dashboard' },
+  { path: '/dashboard', icon: LayoutDashboard, label: 'Dashboard' },
+  { path: '/transactions', icon: Receipt, label: 'Transactions' },
   { path: '/galaxy', icon: Orbit, label: 'Expense Galaxy' },
   { path: '/savings', icon: TreePine, label: 'Growth Grove' },
   { path: '/alerts', icon: AlertTriangle, label: 'SOS Alerts' },
   { path: '/investments', icon: TrendingUp, label: 'Investments' },
 ];
 
-export default function Sidebar({ collapsed, onToggle }) {
+export default function Sidebar({ collapsed, onToggle, isOpen, onClose }) {
   const location = useLocation();
   const { user } = useUser();
 
   return (
-    <aside className={`sidebar ${collapsed ? 'sidebar--collapsed' : ''}`} role="navigation" aria-label="Main navigation">
+    <>
+      {/* Mobile Backdrop */}
+      {isOpen && <div className="sidebar-backdrop" onClick={onClose} aria-hidden="true" />}
+      
+      <aside 
+        className={`sidebar ${collapsed ? 'sidebar--collapsed' : ''} ${isOpen ? 'sidebar--mobile-open' : ''}`} 
+        role="navigation" 
+        aria-label="Main navigation"
+      >
       {/* Logo */}
       <div className="sidebar__logo">
         <div className="sidebar__logo-icon">
@@ -44,6 +53,9 @@ export default function Sidebar({ collapsed, onToggle }) {
               className={({ isActive }) =>
                 `sidebar__link ${isActive ? 'sidebar__link--active' : ''}`
               }
+              onClick={() => {
+                if (isOpen && onClose) onClose();
+              }}
               title={item.label}
               aria-label={item.label}
             >
@@ -67,7 +79,7 @@ export default function Sidebar({ collapsed, onToggle }) {
             <span className="sidebar__user-name">
               {user.fullName || user.primaryEmailAddress?.emailAddress || "Investor"}
             </span>
-            <span className="sidebar__user-balance">₹2,45,000</span>
+            <span className="sidebar__user-balance">{user.primaryEmailAddress?.emailAddress?.split('@')[0] || 'FinAdvisor'}</span>
           </div>
         </div>
       )}
@@ -77,5 +89,6 @@ export default function Sidebar({ collapsed, onToggle }) {
         {collapsed ? <ChevronRight size={14} /> : <ChevronLeft size={14} />}
       </button>
     </aside>
+    </>
   );
 }
