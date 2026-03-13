@@ -1,0 +1,22 @@
+.liquid-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0; /* Stay behind everything */
+  pointer-events: none; /* Let clicks pass through to the app */
+  transition: opacity 1000ms ease;
+}
+
+[data-theme="light"] .liquid-background {
+  /* Invert black to white, rotate hue back correctly, and multiply to darken the light bg */
+  opacity: 0.35;
+  mix-blend-mode: multiply;
+  filter: invert(1) hue-rotate(180deg);
+}
+
+[data-theme="dark"] .liquid-background {
+  opacity: 0.25;
+  mix-blend-mode: screen;
+}

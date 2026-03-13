@@ -1,0 +1,1001 @@
+Respondent_ID,Age,Gender,City_Tier,Employment_Type,Monthly_Income_INR,Monthly_Expenses_INR,Savings_Percentage,Investment_Type,Has_Health_Insurance,Has_Life_Insurance,Has_Emergency_Fund,Debt_Status,Monthly_Debt_Payment_INR,Financial_Literacy_Score,Uses_Financial_Apps,Primary_Financial_Goal,Risk_Tolerance_Level,Savings_Channel,Region
+1,59,Female,Tier 3,Salaried,35176,36206,12,Fixed Deposit,Yes,No,No,No Debt,16473,3,Yes,Home Purchase,Low,Digital Wallet,West
+2,49,Male,Tier 1,Student,190458,138180,33,Fixed Deposit,Yes,Yes,No,Credit Card Debt,34019,6,Yes,Wealth Accumulation,Medium,Bank Account,South
+3,35,Male,Tier 3,Salaried,78972,10287,43,Cryptocurrency,Yes,No,Yes,Personal Loan,42062,10,Yes,Retirement,Medium,Investment Platform,Central
+4,28,Male,Tier 2,Salaried,135018,32337,32,Mutual Funds,Yes,Yes,Yes,No Debt,21087,1,Yes,Wealth Accumulation,Medium,Bank Account,North
+5,41,Male,Tier 2,Student,187075,142233,10,Fixed Deposit,Yes,Yes,No,Personal Loan,49500,6,Yes,Wealth Accumulation,Medium,Bank Account,West
+6,59,Male,Tier 2,Unemployed,34996,110667,20,Stocks,Yes,Yes,Yes,Credit Card Debt,28489,3,No,Wealth Accumulation,High,Bank Account,South
+7,39,Female,Tier 3,Salaried,115922,100071,24,Stocks,Yes,No,Yes,Home Loan,36820,4,Yes,Business,Low,Bank Account,Central
+8,43,Male,Tier 2,Salaried,101598,108064,20,Gold,Yes,Yes,Yes,Personal Loan,19325,9,Yes,Retirement,Low,Digital Wallet,South
+9,31,Female,Tier 1,Self-Employed,50931,116511,11,Fixed Deposit,Yes,Yes,No,Home Loan,271,3,No,Business,Medium,Cash,North
+10,31,Male,Tier 1,Unemployed,139168,13178,45,None,No,Yes,Yes,Credit Card Debt,18414,1,Yes,Home Purchase,Low,Investment Platform,Central
+11,44,Female,Tier 3,Salaried,181782,41831,18,Cryptocurrency,Yes,No,No,Home Loan,24220,3,Yes,Home Purchase,Medium,Investment Platform,South
+12,56,Female,Tier 1,Self-Employed,138099,143248,47,Mutual Funds,Yes,Yes,No,No Debt,44466,7,No,Education,Medium,Bank Account,East
+13,44,Male,Tier 1,Unemployed,49693,113306,30,None,Yes,No,Yes,Home Loan,48657,7,Yes,Education,High,Cash,Central
+14,23,Female,Tier 2,Student,181812,122025,30,Cryptocurrency,Yes,Yes,No,Personal Loan,42425,5,Yes,Home Purchase,High,Bank Account,Central
+15,42,Male,Tier 2,Student,123944,100417,18,Stocks,No,No,No,Personal Loan,9387,1,Yes,Home Purchase,High,Digital Wallet,Central
+16,22,Other,Tier 2,Self-Employed,32374,21984,11,None,Yes,No,No,Home Loan,49144,8,Yes,Business,Low,Cash,Central
+17,44,Male,Tier 3,Student,96471,99312,37,Cryptocurrency,Yes,Yes,Yes,No Debt,11279,10,Yes,Home Purchase,High,Cash,East
+18,50,Male,Tier 1,Salaried,60913,93291,30,Stocks,Yes,Yes,No,Credit Card Debt,27584,8,No,Retirement,Low,Cash,North
+19,58,Male,Tier 1,Unemployed,138683,17135,49,Stocks,No,Yes,Yes,Home Loan,44783,10,Yes,Business,Medium,Cash,East
+20,22,Other,Tier 1,Salaried,59516,10320,24,Stocks,Yes,Yes,No,Personal Loan,39809,10,Yes,Home Purchase,Medium,Bank Account,East
+21,41,Female,Tier 3,Salaried,102796,98774,7,Stocks,Yes,Yes,Yes,Personal Loan,41476,10,Yes,Business,Low,Digital Wallet,South
+22,53,Female,Tier 2,Student,41069,108071,8,Stocks,Yes,No,Yes,Home Loan,10857,2,No,Business,Medium,Cash,West
+23,32,Male,Tier 1,Salaried,133333,119863,30,Gold,Yes,Yes,No,Home Loan,42261,10,No,Travel,Low,Investment Platform,West
+24,42,Female,Tier 3,Student,99811,51777,15,None,Yes,No,No,Home Loan,8052,3,Yes,Education,Low,Investment Platform,South
+25,45,Male,Tier 3,Unemployed,133028,56250,6,Cryptocurrency,Yes,Yes,Yes,Credit Card Debt,16995,4,No,Business,High,Digital Wallet,East
+26,47,Female,Tier 3,Unemployed,54178,83034,18,Gold,No,No,Yes,Personal Loan,49901,1,No,Wealth Accumulation,Low,Investment Platform,South
+27,48,Male,Tier 3,Salaried,47821,114940,48,Gold,No,Yes,Yes,Personal Loan,13580,4,Yes,Business,Low,Bank Account,Central
+28,36,Male,Tier 1,Self-Employed,197799,50130,34,Fixed Deposit,Yes,Yes,No,Personal Loan,18240,5,Yes,Wealth Accumulation,Medium,Bank Account,South
+29,35,Male,Tier 3,Student,31999,143609,16,Fixed Deposit,Yes,Yes,No,Credit Card Debt,17910,3,Yes,Travel,High,Digital Wallet,South
+30,23,Male,Tier 2,Student,53712,25216,30,Fixed Deposit,Yes,Yes,No,No Debt,10216,10,No,Home Purchase,Low,Cash,Central
+31,57,Female,Tier 3,Salaried,186244,94149,48,Mutual Funds,No,Yes,Yes,Personal Loan,38997,2,No,Business,Low,Investment Platform,West
+32,27,Male,Tier 2,Student,48722,13009,37,Fixed Deposit,Yes,No,Yes,Personal Loan,46111,6,Yes,Travel,High,Investment Platform,Central
+33,41,Female,Tier 3,Student,25625,99904,17,Cryptocurrency,No,No,No,No Debt,24911,8,Yes,Retirement,Low,Digital Wallet,North
+34,29,Male,Tier 2,Self-Employed,21859,25029,18,Gold,Yes,Yes,No,Credit Card Debt,34866,7,Yes,Travel,Low,Digital Wallet,South
+35,59,Female,Tier 1,Self-Employed,187681,112171,28,Cryptocurrency,Yes,Yes,Yes,No Debt,15438,1,No,Education,Medium,Investment Platform,South
+36,38,Male,Tier 2,Salaried,189379,124456,38,None,Yes,Yes,No,No Debt,7865,4,No,Education,Medium,Cash,West
+37,24,Male,Tier 3,Self-Employed,125986,72559,48,Fixed Deposit,Yes,Yes,Yes,No Debt,16557,3,Yes,Home Purchase,High,Digital Wallet,East
+38,45,Female,Tier 3,Salaried,36839,74892,30,Mutual Funds,No,Yes,Yes,No Debt,12211,6,Yes,Wealth Accumulation,Low,Bank Account,Central
+39,34,Male,Tier 1,Unemployed,42216,80409,25,None,No,No,Yes,Credit Card Debt,33268,9,Yes,Home Purchase,High,Investment Platform,East
+40,29,Male,Tier 1,Salaried,67953,149707,32,Mutual Funds,Yes,No,Yes,Credit Card Debt,3646,9,No,Wealth Accumulation,High,Digital Wallet,North
+41,46,Female,Tier 1,Unemployed,64522,43065,40,None,Yes,No,Yes,No Debt,42816,7,Yes,Wealth Accumulation,Low,Digital Wallet,Central
+42,22,Female,Tier 2,Salaried,150958,130544,44,Gold,No,Yes,Yes,Home Loan,23924,9,Yes,Wealth Accumulation,Low,Digital Wallet,North
+43,40,Male,Tier 3,Student,126249,117340,6,Cryptocurrency,No,No,Yes,Home Loan,44112,8,No,Wealth Accumulation,High,Investment Platform,North
+44,48,Male,Tier 1,Self-Employed,22485,43783,46,Stocks,Yes,No,No,Home Loan,9910,5,Yes,Education,Medium,Bank Account,North
+45,27,Female,Tier 2,Unemployed,177527,44152,13,Cryptocurrency,Yes,Yes,Yes,Home Loan,1778,9,No,Education,Medium,Bank Account,Central
+46,28,Male,Tier 3,Salaried,162839,68741,27,Fixed Deposit,Yes,Yes,Yes,Personal Loan,45752,7,Yes,Business,Medium,Investment Platform,Central
+47,55,Male,Tier 2,Self-Employed,127701,117049,19,Stocks,Yes,No,Yes,Credit Card Debt,19441,5,Yes,Education,Medium,Digital Wallet,West
+48,34,Male,Tier 2,Salaried,174525,39092,17,Mutual Funds,Yes,Yes,Yes,Credit Card Debt,5190,8,No,Home Purchase,High,Investment Platform,South
+49,37,Female,Tier 2,Self-Employed,117638,96483,27,Gold,Yes,Yes,No,No Debt,15304,7,Yes,Education,Low,Investment Platform,East
+50,56,Female,Tier 2,Self-Employed,199514,131585,21,Gold,Yes,Yes,Yes,Personal Loan,39765,9,Yes,Home Purchase,Low,Digital Wallet,East
+51,24,Male,Tier 1,Salaried,197949,69754,6,Mutual Funds,Yes,No,No,No Debt,27289,10,Yes,Retirement,High,Investment Platform,North
+52,22,Male,Tier 2,Unemployed,27226,97592,24,Fixed Deposit,Yes,Yes,No,No Debt,44788,1,Yes,Education,High,Cash,Central
+53,26,Male,Tier 2,Unemployed,108405,104543,24,Mutual Funds,No,No,Yes,Credit Card Debt,4747,9,Yes,Home Purchase,Medium,Bank Account,Central
+54,24,Female,Tier 3,Student,37588,53169,7,None,No,No,Yes,Personal Loan,9286,7,No,Wealth Accumulation,High,Cash,North
+55,49,Male,Tier 2,Self-Employed,177781,64745,16,Fixed Deposit,Yes,No,Yes,Home Loan,45,1,No,Travel,Medium,Cash,South
+56,38,Male,Tier 3,Student,193860,120168,44,Stocks,No,Yes,Yes,Credit Card Debt,29742,1,No,Wealth Accumulation,Low,Cash,East
+57,46,Female,Tier 1,Student,52019,123985,6,Mutual Funds,No,No,No,Personal Loan,7758,5,Yes,Business,High,Investment Platform,West
+58,54,Male,Tier 2,Salaried,191020,15543,40,Fixed Deposit,Yes,Yes,Yes,Personal Loan,23437,8,No,Home Purchase,Medium,Digital Wallet,South
+59,30,Female,Tier 1,Salaried,80133,31067,18,Stocks,Yes,Yes,Yes,Credit Card Debt,19585,9,No,Wealth Accumulation,Low,Investment Platform,Central
+60,56,Male,Tier 1,Salaried,129444,61033,20,Mutual Funds,No,Yes,Yes,Credit Card Debt,33223,6,Yes,Education,Low,Bank Account,North
+61,34,Male,Tier 2,Self-Employed,132603,55256,23,Gold,No,Yes,Yes,No Debt,9854,10,Yes,Education,Medium,Investment Platform,East
+62,51,Male,Tier 3,Salaried,173598,96803,38,Mutual Funds,No,No,Yes,No Debt,17349,8,Yes,Retirement,High,Investment Platform,North
+63,35,Female,Tier 1,Salaried,143585,128843,48,Cryptocurrency,No,Yes,Yes,No Debt,30692,6,No,Travel,Low,Investment Platform,Central
+64,28,Female,Tier 2,Self-Employed,198270,38992,10,Mutual Funds,Yes,Yes,Yes,Home Loan,21348,6,Yes,Home Purchase,Low,Investment Platform,North
+65,34,Female,Tier 3,Self-Employed,58395,58803,17,Cryptocurrency,Yes,Yes,Yes,Credit Card Debt,34296,4,No,Wealth Accumulation,Medium,Cash,East
+66,43,Male,Tier 1,Unemployed,170103,119975,40,Stocks,Yes,No,No,Personal Loan,35744,5,Yes,Travel,High,Digital Wallet,North
+67,41,Female,Tier 2,Salaried,140814,36270,26,Mutual Funds,Yes,No,No,Credit Card Debt,19455,2,No,Retirement,Medium,Bank Account,East
+68,36,Male,Tier 2,Salaried,183773,146269,22,Stocks,Yes,No,Yes,Personal Loan,13288,3,Yes,Business,Medium,Bank Account,North
+69,38,Male,Tier 2,Salaried,127599,17452,16,Stocks,Yes,Yes,Yes,Home Loan,6387,3,Yes,Travel,Medium,Bank Account,North
+70,44,Female,Tier 1,Unemployed,40939,51486,34,Fixed Deposit,Yes,Yes,No,Credit Card Debt,35289,5,Yes,Retirement,Low,Investment Platform,East
+71,46,Male,Tier 1,Salaried,195217,24859,44,Stocks,No,No,Yes,Personal Loan,39293,5,Yes,Home Purchase,Medium,Bank Account,North
+72,45,Male,Tier 3,Unemployed,166396,42083,11,Stocks,Yes,Yes,Yes,Personal Loan,33894,6,No,Business,Low,Cash,South
+73,49,Male,Tier 2,Student,168939,77708,36,Mutual Funds,Yes,Yes,Yes,No Debt,23016,5,No,Education,High,Digital Wallet,West
+74,35,Male,Tier 1,Unemployed,15203,121462,23,Mutual Funds,Yes,No,No,Home Loan,46116,6,Yes,Retirement,Low,Investment Platform,South
+75,21,Male,Tier 3,Student,162616,103076,10,Gold,Yes,Yes,Yes,Credit Card Debt,40484,8,Yes,Education,Medium,Investment Platform,West
+76,45,Female,Tier 1,Salaried,161971,29053,24,Fixed Deposit,No,No,No,No Debt,30215,2,Yes,Business,Low,Cash,South
+77,27,Male,Tier 2,Student,44063,99745,31,Stocks,No,Yes,No,Home Loan,16102,4,Yes,Retirement,Medium,Bank Account,West
+78,29,Female,Tier 1,Unemployed,105880,79517,47,Fixed Deposit,No,Yes,No,No Debt,3404,6,Yes,Retirement,Low,Investment Platform,North
+79,44,Female,Tier 3,Self-Employed,18748,146319,41,Cryptocurrency,Yes,Yes,No,Credit Card Debt,37260,5,No,Business,Low,Investment Platform,East
+80,21,Male,Tier 1,Student,132269,147207,11,Stocks,Yes,Yes,Yes,Personal Loan,35111,1,No,Home Purchase,Low,Cash,East
+81,28,Male,Tier 1,Student,95764,146645,9,Fixed Deposit,Yes,No,Yes,Credit Card Debt,106,9,Yes,Retirement,Medium,Cash,Central
+82,44,Male,Tier 1,Salaried,166956,89267,15,Gold,Yes,No,No,Home Loan,15195,3,Yes,Business,Low,Bank Account,West
+83,31,Female,Tier 1,Unemployed,171255,148261,19,Gold,No,Yes,No,Credit Card Debt,46009,2,Yes,Travel,Medium,Digital Wallet,Central
+84,37,Male,Tier 3,Student,123036,90077,7,Stocks,No,Yes,Yes,Home Loan,27153,9,Yes,Education,Medium,Digital Wallet,Central
+85,28,Female,Tier 3,Student,165331,86623,9,Cryptocurrency,No,No,No,No Debt,29605,7,Yes,Retirement,Medium,Bank Account,West
+86,55,Male,Tier 1,Student,182031,141004,27,Gold,Yes,No,Yes,Home Loan,45343,5,Yes,Travel,Medium,Digital Wallet,East
+87,55,Female,Tier 2,Student,131525,63687,41,Gold,No,Yes,Yes,Personal Loan,37569,6,Yes,Retirement,High,Cash,West
+88,53,Male,Tier 2,Self-Employed,179529,78312,13,Cryptocurrency,Yes,Yes,Yes,Personal Loan,5580,4,Yes,Home Purchase,Low,Cash,North
+89,25,Male,Tier 3,Unemployed,100679,117615,19,Fixed Deposit,No,Yes,Yes,Personal Loan,49366,1,Yes,Business,Low,Cash,Central
+90,59,Female,Tier 2,Salaried,140829,140976,7,Gold,Yes,No,Yes,No Debt,5400,4,Yes,Retirement,High,Digital Wallet,Central
+91,48,Female,Tier 1,Salaried,143216,37564,33,Mutual Funds,Yes,No,Yes,Home Loan,39643,9,Yes,Business,Low,Digital Wallet,West
+92,27,Male,Tier 2,Self-Employed,148175,38835,10,None,Yes,Yes,Yes,No Debt,30649,1,No,Wealth Accumulation,High,Investment Platform,Central
+93,29,Female,Tier 2,Unemployed,80901,17697,21,None,No,No,Yes,Credit Card Debt,30496,10,No,Retirement,Low,Investment Platform,East
+94,28,Female,Tier 1,Student,190607,90165,30,Gold,Yes,Yes,Yes,Credit Card Debt,20637,3,No,Home Purchase,Medium,Investment Platform,Central
+95,32,Female,Tier 2,Self-Employed,162175,67823,25,Fixed Deposit,Yes,Yes,No,Credit Card Debt,41424,5,Yes,Home Purchase,Low,Digital Wallet,West
+96,54,Female,Tier 1,Unemployed,113046,19615,12,Fixed Deposit,No,Yes,Yes,Credit Card Debt,39015,7,Yes,Travel,High,Investment Platform,East
+97,53,Male,Tier 3,Student,105012,146132,25,Stocks,Yes,No,Yes,Personal Loan,6177,9,Yes,Home Purchase,Medium,Cash,East
+98,43,Male,Tier 1,Self-Employed,93278,140499,15,Mutual Funds,Yes,Yes,Yes,Home Loan,7269,6,Yes,Business,Low,Digital Wallet,Central
+99,44,Male,Tier 2,Unemployed,27391,86436,42,Fixed Deposit,Yes,Yes,Yes,Personal Loan,14974,3,No,Wealth Accumulation,Low,Bank Account,West
+100,57,Female,Tier 2,Salaried,117476,130562,12,Cryptocurrency,Yes,Yes,No,Home Loan,14037,7,Yes,Home Purchase,Low,Digital Wallet,Central
+101,55,Female,Tier 2,Salaried,174973,81117,46,Mutual Funds,No,Yes,Yes,Home Loan,18756,4,Yes,Retirement,Medium,Investment Platform,North
+102,42,Male,Tier 1,Unemployed,135721,44782,28,None,No,Yes,No,No Debt,16167,3,Yes,Home Purchase,Low,Digital Wallet,North
+103,47,Male,Tier 2,Salaried,112537,88533,39,Mutual Funds,Yes,No,Yes,Credit Card Debt,23218,7,Yes,Wealth Accumulation,Low,Investment Platform,East
+104,55,Female,Tier 2,Unemployed,96159,82684,18,Cryptocurrency,No,Yes,Yes,Home Loan,25167,7,No,Business,Medium,Investment Platform,Central
+105,21,Other,Tier 2,Student,146040,89558,18,Gold,Yes,No,Yes,Credit Card Debt,43148,4,Yes,Retirement,Medium,Bank Account,North
+106,55,Female,Tier 2,Unemployed,196429,91422,14,Cryptocurrency,Yes,Yes,Yes,Credit Card Debt,6617,7,Yes,Travel,Low,Bank Account,South
+107,57,Male,Tier 2,Student,184509,16638,16,Cryptocurrency,Yes,Yes,Yes,Credit Card Debt,21534,2,Yes,Travel,Low,Cash,North
+108,34,Male,Tier 3,Self-Employed,50503,47419,42,Gold,Yes,Yes,Yes,Personal Loan,25459,1,No,Travel,Medium,Investment Platform,Central
+109,23,Male,Tier 1,Unemployed,90403,43377,48,Gold,Yes,Yes,Yes,Credit Card Debt,20542,2,Yes,Retirement,High,Digital Wallet,Central
+110,21,Female,Tier 3,Self-Employed,187330,116244,38,Gold,No,Yes,Yes,Home Loan,303,4,Yes,Travel,Low,Bank Account,North
+111,25,Male,Tier 2,Salaried,179796,33382,45,Gold,No,Yes,No,Personal Loan,29756,8,Yes,Home Purchase,Medium,Bank Account,Central
+112,46,Female,Tier 1,Student,79286,77789,14,Gold,Yes,No,Yes,Credit Card Debt,12683,3,No,Retirement,Low,Investment Platform,Central
+113,34,Male,Tier 1,Unemployed,89842,120634,21,Cryptocurrency,Yes,No,Yes,No Debt,49485,10,Yes,Retirement,Low,Digital Wallet,South
+114,59,Female,Tier 1,Self-Employed,119927,141936,21,Stocks,No,Yes,Yes,Credit Card Debt,32695,6,Yes,Retirement,Medium,Bank Account,East
+115,47,Female,Tier 3,Student,29908,109572,7,Stocks,No,Yes,Yes,Credit Card Debt,11025,6,No,Education,Low,Bank Account,Central
+116,29,Female,Tier 2,Student,196698,133664,35,Fixed Deposit,No,Yes,Yes,Personal Loan,20890,9,No,Business,Medium,Digital Wallet,West
+117,35,Male,Tier 3,Salaried,52228,120674,5,Stocks,Yes,Yes,No,Home Loan,18715,9,Yes,Education,High,Bank Account,East
+118,35,Male,Tier 2,Salaried,38386,113533,16,None,No,Yes,No,Credit Card Debt,4561,4,No,Education,High,Digital Wallet,East
+119,46,Male,Tier 2,Student,192826,91845,43,Stocks,Yes,No,Yes,Personal Loan,32847,9,Yes,Education,Low,Investment Platform,West
+120,33,Female,Tier 1,Student,43302,79590,8,Cryptocurrency,Yes,Yes,Yes,Personal Loan,36531,6,No,Business,Low,Bank Account,North
+121,52,Female,Tier 1,Unemployed,75815,137775,46,Gold,Yes,Yes,Yes,Home Loan,27407,2,Yes,Education,High,Investment Platform,South
+122,59,Female,Tier 2,Student,78344,76471,17,Gold,Yes,Yes,No,Personal Loan,21580,10,Yes,Travel,Low,Digital Wallet,Central
+123,52,Female,Tier 1,Unemployed,181690,53298,38,Cryptocurrency,Yes,Yes,Yes,Home Loan,10169,6,No,Retirement,Medium,Investment Platform,North
+124,24,Female,Tier 1,Student,126603,58924,46,None,Yes,No,Yes,No Debt,17116,2,No,Retirement,Low,Investment Platform,West
+125,50,Male,Tier 2,Salaried,76114,19726,25,Stocks,Yes,Yes,Yes,Credit Card Debt,36744,8,Yes,Home Purchase,Low,Investment Platform,South
+126,57,Female,Tier 2,Unemployed,40525,50542,26,Cryptocurrency,No,Yes,No,Personal Loan,22043,4,No,Wealth Accumulation,Low,Cash,South
+127,43,Male,Tier 3,Self-Employed,94818,44753,8,Fixed Deposit,Yes,No,Yes,No Debt,2124,5,Yes,Travel,High,Digital Wallet,South
+128,59,Male,Tier 3,Salaried,129589,89788,22,Gold,Yes,Yes,Yes,Personal Loan,39420,8,No,Business,High,Digital Wallet,West
+129,35,Female,Tier 2,Unemployed,160406,31316,9,Mutual Funds,Yes,No,No,Personal Loan,38051,8,Yes,Wealth Accumulation,Low,Digital Wallet,North
+130,49,Male,Tier 2,Unemployed,109715,94698,23,Fixed Deposit,No,No,Yes,No Debt,7176,6,Yes,Retirement,High,Digital Wallet,Central
+131,56,Male,Tier 2,Self-Employed,21644,25960,6,None,Yes,Yes,No,Personal Loan,25774,4,Yes,Education,Low,Digital Wallet,South
+132,33,Female,Tier 3,Unemployed,116154,40791,16,Fixed Deposit,Yes,No,Yes,Personal Loan,18676,1,Yes,Home Purchase,Low,Bank Account,South
+133,52,Male,Tier 1,Student,179005,35216,21,Cryptocurrency,Yes,Yes,No,No Debt,45177,7,Yes,Home Purchase,Medium,Bank Account,North
+134,27,Female,Tier 2,Self-Employed,58469,74427,14,Stocks,No,Yes,No,Personal Loan,24760,8,Yes,Retirement,Medium,Bank Account,South
+135,42,Male,Tier 3,Salaried,179759,122470,38,Gold,No,Yes,Yes,Home Loan,45087,9,Yes,Travel,Low,Investment Platform,South
+136,48,Male,Tier 1,Salaried,121609,83290,10,None,Yes,Yes,No,Personal Loan,997,2,No,Wealth Accumulation,Low,Investment Platform,West
+137,22,Male,Tier 2,Student,198728,57014,12,None,Yes,No,Yes,Credit Card Debt,43769,1,Yes,Home Purchase,High,Digital Wallet,East
+138,26,Male,Tier 2,Salaried,163447,145150,15,Mutual Funds,No,No,No,Personal Loan,37432,4,Yes,Retirement,High,Cash,North
+139,48,Female,Tier 1,Unemployed,80206,60519,16,Fixed Deposit,Yes,No,Yes,Credit Card Debt,13117,5,Yes,Travel,High,Digital Wallet,North
+140,48,Male,Tier 1,Unemployed,111462,14042,13,Mutual Funds,Yes,No,No,Credit Card Debt,11231,10,Yes,Retirement,Low,Bank Account,North
+141,40,Female,Tier 1,Student,182679,59052,6,Stocks,Yes,Yes,Yes,Personal Loan,29751,1,Yes,Retirement,Medium,Digital Wallet,West
+142,50,Male,Tier 1,Salaried,98178,24389,12,Stocks,Yes,Yes,No,No Debt,7440,5,Yes,Travel,Low,Investment Platform,West
+143,31,Female,Tier 1,Salaried,170065,105961,15,Mutual Funds,Yes,Yes,Yes,Home Loan,19911,6,Yes,Travel,High,Digital Wallet,Central
+144,48,Female,Tier 3,Student,190458,78111,40,Gold,Yes,Yes,No,Home Loan,43986,3,Yes,Travel,Low,Bank Account,West
+145,45,Female,Tier 1,Self-Employed,192359,115058,14,Stocks,No,Yes,No,Personal Loan,15608,7,Yes,Retirement,Low,Digital Wallet,North
+146,59,Male,Tier 2,Salaried,101724,103715,25,Mutual Funds,No,No,Yes,No Debt,29665,6,Yes,Home Purchase,Medium,Investment Platform,Central
+147,53,Male,Tier 1,Self-Employed,111393,60733,24,Fixed Deposit,Yes,Yes,No,No Debt,27157,4,No,Business,High,Cash,East
+148,21,Male,Tier 3,Salaried,142314,44754,12,Mutual Funds,No,Yes,No,Home Loan,28779,3,Yes,Business,Medium,Bank Account,South
+149,47,Female,Tier 1,Salaried,91312,95886,40,Mutual Funds,Yes,Yes,Yes,No Debt,29968,5,No,Retirement,Low,Digital Wallet,South
+150,33,Male,Tier 2,Salaried,90324,99524,33,Cryptocurrency,Yes,No,Yes,Personal Loan,27387,3,Yes,Retirement,Medium,Investment Platform,Central
+151,23,Female,Tier 3,Salaried,86196,91006,46,Stocks,Yes,No,Yes,Personal Loan,4090,10,No,Home Purchase,High,Bank Account,East
+152,59,Female,Tier 3,Unemployed,85014,34704,16,Gold,No,No,Yes,No Debt,24945,9,Yes,Travel,Low,Bank Account,South
+153,26,Male,Tier 1,Self-Employed,154282,104913,18,Gold,No,Yes,Yes,Personal Loan,40239,9,Yes,Retirement,High,Investment Platform,Central
+154,28,Female,Tier 3,Self-Employed,156994,104108,25,Cryptocurrency,No,No,Yes,Credit Card Debt,3743,6,No,Education,High,Digital Wallet,West
+155,47,Male,Tier 2,Salaried,182361,17493,26,None,No,Yes,Yes,Home Loan,30924,6,Yes,Travel,Low,Digital Wallet,North
+156,29,Male,Tier 2,Salaried,48340,79639,25,Gold,Yes,No,Yes,Personal Loan,10196,4,Yes,Retirement,Low,Digital Wallet,East
+157,57,Female,Tier 1,Self-Employed,54850,64383,48,Mutual Funds,No,Yes,Yes,No Debt,26279,4,Yes,Education,Low,Bank Account,South
+158,53,Female,Tier 1,Unemployed,128711,144066,34,Cryptocurrency,No,Yes,No,Home Loan,39776,2,No,Wealth Accumulation,Low,Cash,North
+159,44,Female,Tier 2,Student,26094,57234,43,Fixed Deposit,No,Yes,No,Personal Loan,3324,10,Yes,Home Purchase,Medium,Bank Account,Central
+160,35,Male,Tier 2,Student,102959,138674,24,Stocks,Yes,No,Yes,Home Loan,41400,4,Yes,Education,Medium,Digital Wallet,South
+161,52,Male,Tier 2,Self-Employed,179490,15594,28,Stocks,Yes,Yes,No,No Debt,19641,8,No,Retirement,Medium,Bank Account,North
+162,52,Female,Tier 2,Salaried,20741,17371,27,Stocks,Yes,No,No,Credit Card Debt,27482,10,Yes,Business,Low,Cash,West
+163,44,Female,Tier 3,Salaried,126585,57315,11,Mutual Funds,Yes,Yes,No,Credit Card Debt,32994,2,No,Retirement,Medium,Bank Account,East
+164,32,Female,Tier 1,Unemployed,137564,137251,13,Fixed Deposit,Yes,Yes,Yes,Personal Loan,14863,9,Yes,Business,Medium,Investment Platform,Central
+165,59,Male,Tier 2,Student,83798,89526,5,Cryptocurrency,Yes,Yes,Yes,Credit Card Debt,48795,1,No,Home Purchase,High,Digital Wallet,South
+166,22,Female,Tier 1,Unemployed,131026,96005,30,Cryptocurrency,Yes,Yes,No,Personal Loan,37486,2,Yes,Home Purchase,Low,Digital Wallet,West
+167,23,Male,Tier 3,Student,125130,115573,42,Stocks,Yes,Yes,No,Home Loan,38440,2,Yes,Travel,Medium,Digital Wallet,East
+168,57,Male,Tier 2,Self-Employed,37164,148202,42,Fixed Deposit,Yes,Yes,No,Personal Loan,24111,6,Yes,Travel,High,Bank Account,East
+169,37,Female,Tier 3,Student,181667,147900,48,Fixed Deposit,Yes,No,No,Personal Loan,48030,7,Yes,Business,Medium,Bank Account,West
+170,22,Male,Tier 1,Unemployed,45257,67514,26,Fixed Deposit,No,Yes,Yes,Personal Loan,3199,3,Yes,Business,Low,Bank Account,South
+171,22,Female,Tier 1,Unemployed,160283,85986,48,Gold,Yes,No,Yes,Credit Card Debt,38038,9,Yes,Home Purchase,Low,Digital Wallet,East
+172,48,Male,Tier 1,Unemployed,110989,95959,14,Gold,Yes,No,Yes,Personal Loan,45518,5,Yes,Education,High,Bank Account,Central
+173,43,Male,Tier 1,Self-Employed,151304,12035,10,Stocks,No,No,Yes,No Debt,7897,5,Yes,Business,Low,Digital Wallet,North
+174,57,Female,Tier 1,Student,67691,119767,21,Fixed Deposit,Yes,Yes,No,Personal Loan,41432,4,Yes,Business,High,Bank Account,Central
+175,52,Female,Tier 3,Student,94768,27241,42,None,Yes,Yes,Yes,Home Loan,14892,9,Yes,Education,High,Digital Wallet,East
+176,53,Female,Tier 1,Unemployed,171685,62975,28,Fixed Deposit,Yes,Yes,Yes,No Debt,8271,8,Yes,Travel,Low,Investment Platform,North
+177,21,Female,Tier 1,Student,29026,66396,14,Cryptocurrency,Yes,No,No,Home Loan,37926,4,Yes,Travel,Medium,Bank Account,West
+178,39,Female,Tier 3,Salaried,199607,128920,12,Cryptocurrency,No,No,Yes,Home Loan,24815,4,Yes,Business,Low,Digital Wallet,North
+179,22,Female,Tier 2,Salaried,45908,96226,25,Stocks,Yes,Yes,No,Home Loan,45612,2,Yes,Travel,Low,Investment Platform,North
+180,46,Female,Tier 3,Salaried,198185,94719,10,None,Yes,Yes,No,No Debt,33357,9,No,Travel,Medium,Investment Platform,North
+181,52,Male,Tier 1,Student,34610,73014,25,Fixed Deposit,Yes,No,Yes,No Debt,9552,3,Yes,Wealth Accumulation,Medium,Cash,East
+182,26,Female,Tier 2,Self-Employed,192718,49346,43,None,Yes,Yes,Yes,Credit Card Debt,16267,4,Yes,Travel,Low,Bank Account,South
+183,52,Male,Tier 1,Self-Employed,78185,80411,28,Stocks,No,No,Yes,No Debt,18268,7,Yes,Home Purchase,High,Digital Wallet,East
+184,24,Other,Tier 1,Self-Employed,87567,86441,37,Cryptocurrency,Yes,Yes,Yes,Personal Loan,48927,10,No,Retirement,Low,Cash,South
+185,31,Female,Tier 3,Self-Employed,193646,56121,22,Cryptocurrency,Yes,No,Yes,Home Loan,14263,8,Yes,Business,Medium,Bank Account,West
+186,37,Male,Tier 1,Salaried,51182,70197,32,Gold,Yes,Yes,Yes,Credit Card Debt,5399,8,No,Business,Medium,Investment Platform,West
+187,58,Female,Tier 2,Salaried,131136,94577,36,Stocks,Yes,Yes,No,No Debt,29811,4,Yes,Home Purchase,Low,Bank Account,West
+188,44,Female,Tier 2,Unemployed,146642,104634,16,Stocks,Yes,No,Yes,Home Loan,29006,7,No,Retirement,High,Digital Wallet,West
+189,25,Male,Tier 1,Student,34288,110211,46,Fixed Deposit,No,No,No,No Debt,41271,10,Yes,Retirement,Medium,Investment Platform,West
+190,54,Female,Tier 3,Student,93824,145909,31,Fixed Deposit,No,Yes,Yes,Credit Card Debt,1076,1,Yes,Home Purchase,Medium,Cash,Central
+191,26,Female,Tier 1,Self-Employed,175949,11466,14,Gold,No,Yes,Yes,No Debt,7235,6,Yes,Education,Medium,Bank Account,East
+192,42,Male,Tier 2,Salaried,99425,40771,46,Mutual Funds,No,No,No,No Debt,23221,6,No,Education,Low,Bank Account,South
+193,31,Female,Tier 3,Self-Employed,15917,93886,36,None,No,No,Yes,Home Loan,16417,6,No,Retirement,Low,Cash,West
+194,36,Male,Tier 2,Unemployed,90602,75911,46,Mutual Funds,Yes,No,Yes,Personal Loan,32539,2,Yes,Education,Medium,Bank Account,Central
+195,53,Female,Tier 3,Student,79575,98422,30,Mutual Funds,No,No,No,No Debt,34609,8,Yes,Education,High,Bank Account,Central
+196,29,Other,Tier 1,Student,87518,83369,29,Stocks,No,Yes,No,Credit Card Debt,37249,5,Yes,Education,High,Bank Account,Central
+197,26,Female,Tier 2,Self-Employed,54104,11893,15,None,No,Yes,No,No Debt,33902,5,Yes,Retirement,Low,Investment Platform,East
+198,36,Male,Tier 1,Unemployed,164134,40573,27,Stocks,Yes,No,Yes,No Debt,23645,2,Yes,Education,Medium,Investment Platform,West
+199,49,Female,Tier 2,Student,31999,106907,38,None,Yes,No,Yes,Personal Loan,21682,4,Yes,Business,Low,Digital Wallet,Central
+200,23,Female,Tier 3,Unemployed,156013,109956,44,Cryptocurrency,No,Yes,No,Home Loan,45907,9,No,Wealth Accumulation,Low,Bank Account,Central
+201,40,Male,Tier 1,Unemployed,76169,128580,27,Stocks,No,Yes,No,Credit Card Debt,23401,9,Yes,Retirement,Medium,Digital Wallet,West
+202,56,Female,Tier 2,Self-Employed,169542,101404,33,Stocks,No,No,Yes,Home Loan,7771,6,Yes,Home Purchase,Medium,Investment Platform,East
+203,39,Male,Tier 1,Salaried,144744,67724,35,Stocks,Yes,Yes,No,Home Loan,41335,9,Yes,Education,Low,Bank Account,Central
+204,46,Female,Tier 2,Self-Employed,125684,96133,11,Gold,Yes,Yes,Yes,Home Loan,8915,4,No,Travel,Medium,Digital Wallet,South
+205,23,Male,Tier 2,Salaried,74821,25989,44,Stocks,Yes,Yes,Yes,No Debt,13898,1,No,Retirement,Medium,Bank Account,North
+206,39,Male,Tier 3,Unemployed,190507,38931,37,Fixed Deposit,No,No,Yes,Personal Loan,1913,2,Yes,Home Purchase,Low,Bank Account,North
+207,40,Male,Tier 2,Salaried,150601,19290,25,Fixed Deposit,Yes,No,Yes,No Debt,37065,1,No,Wealth Accumulation,Medium,Cash,North
+208,52,Female,Tier 1,Unemployed,27192,131136,6,None,Yes,Yes,Yes,Credit Card Debt,27068,8,No,Business,Low,Digital Wallet,East
+209,27,Male,Tier 1,Student,89102,89878,22,Cryptocurrency,No,No,Yes,Personal Loan,1942,9,Yes,Home Purchase,Medium,Investment Platform,Central
+210,53,Female,Tier 1,Student,129894,100477,37,Gold,Yes,No,Yes,Home Loan,20388,10,Yes,Education,High,Digital Wallet,North
+211,59,Male,Tier 1,Student,101795,136299,41,None,No,Yes,No,Personal Loan,17715,6,No,Travel,Medium,Digital Wallet,North
+212,38,Male,Tier 1,Self-Employed,180159,115686,38,Fixed Deposit,Yes,No,No,Credit Card Debt,337,2,Yes,Education,High,Digital Wallet,West
+213,21,Female,Tier 3,Self-Employed,81677,117286,24,Gold,No,Yes,No,No Debt,47024,6,Yes,Home Purchase,Low,Cash,Central
+214,31,Female,Tier 2,Unemployed,150699,50475,39,Gold,Yes,Yes,No,No Debt,23450,9,Yes,Retirement,Medium,Bank Account,Central
+215,48,Male,Tier 2,Student,149327,92666,22,Cryptocurrency,No,Yes,Yes,Home Loan,10057,3,Yes,Travel,Medium,Investment Platform,West
+216,45,Female,Tier 1,Self-Employed,151285,106622,28,Gold,No,Yes,Yes,No Debt,27713,9,No,Travel,Medium,Cash,Central
+217,43,Female,Tier 3,Student,117412,145705,12,Stocks,Yes,Yes,No,No Debt,8983,2,Yes,Home Purchase,High,Investment Platform,South
+218,51,Female,Tier 2,Self-Employed,34404,117573,34,Gold,Yes,No,Yes,Credit Card Debt,19995,5,Yes,Wealth Accumulation,Medium,Cash,East
+219,50,Male,Tier 1,Salaried,131545,56546,48,Cryptocurrency,Yes,No,Yes,Personal Loan,49051,2,No,Wealth Accumulation,Medium,Bank Account,West
+220,55,Male,Tier 2,Salaried,171452,17008,14,None,No,No,Yes,No Debt,36468,7,Yes,Education,Low,Investment Platform,North
+221,27,Female,Tier 2,Student,165245,58291,27,Cryptocurrency,No,Yes,No,Credit Card Debt,26092,10,Yes,Home Purchase,Low,Digital Wallet,Central
+222,36,Male,Tier 1,Unemployed,199099,46386,15,Cryptocurrency,Yes,Yes,Yes,Credit Card Debt,12145,9,No,Travel,Medium,Cash,South
+223,46,Female,Tier 2,Self-Employed,38989,100909,6,Fixed Deposit,Yes,Yes,No,Home Loan,38886,7,Yes,Home Purchase,Medium,Investment Platform,South
+224,22,Female,Tier 2,Self-Employed,123106,43040,30,Stocks,Yes,Yes,Yes,Credit Card Debt,23489,5,Yes,Travel,High,Bank Account,East
+225,21,Female,Tier 1,Salaried,39519,70354,40,Fixed Deposit,No,Yes,No,Home Loan,31036,4,Yes,Education,Low,Investment Platform,South
+226,32,Female,Tier 3,Salaried,37439,88543,37,None,No,No,No,No Debt,29613,4,Yes,Retirement,Low,Cash,Central
+227,25,Other,Tier 3,Unemployed,133570,28157,17,Mutual Funds,Yes,No,No,Home Loan,28484,10,No,Retirement,Medium,Bank Account,Central
+228,57,Male,Tier 2,Unemployed,29995,45315,44,None,Yes,Yes,Yes,Credit Card Debt,2673,8,Yes,Home Purchase,High,Digital Wallet,South
+229,52,Female,Tier 2,Unemployed,38559,45932,29,Stocks,Yes,Yes,Yes,Personal Loan,34890,10,Yes,Travel,High,Cash,Central
+230,29,Male,Tier 2,Student,104049,123880,8,Gold,Yes,No,No,Personal Loan,11977,10,Yes,Retirement,Low,Cash,Central
+231,55,Male,Tier 2,Salaried,151093,142018,46,Cryptocurrency,Yes,Yes,Yes,No Debt,23466,10,Yes,Travel,Low,Bank Account,North
+232,39,Female,Tier 2,Student,113000,24693,23,Mutual Funds,Yes,No,Yes,No Debt,41018,10,No,Education,Medium,Cash,West
+233,36,Female,Tier 1,Salaried,167191,37241,22,Stocks,Yes,No,Yes,Personal Loan,27009,10,No,Home Purchase,Low,Investment Platform,Central
+234,23,Other,Tier 2,Salaried,197611,125194,41,Fixed Deposit,Yes,No,No,Home Loan,3688,1,No,Travel,High,Digital Wallet,Central
+235,40,Female,Tier 3,Self-Employed,54350,105790,34,Cryptocurrency,Yes,Yes,Yes,No Debt,3748,5,Yes,Home Purchase,Medium,Investment Platform,East
+236,44,Male,Tier 2,Salaried,192295,82255,23,None,Yes,No,No,Credit Card Debt,39110,2,No,Travel,Low,Bank Account,West
+237,53,Male,Tier 1,Salaried,40517,21350,27,Fixed Deposit,Yes,Yes,Yes,No Debt,49043,9,Yes,Wealth Accumulation,Low,Cash,West
+238,44,Female,Tier 3,Student,168322,66809,20,Stocks,No,No,Yes,Home Loan,13665,7,No,Wealth Accumulation,Low,Digital Wallet,West
+239,31,Male,Tier 1,Salaried,104132,111894,5,Stocks,No,Yes,No,No Debt,36898,10,No,Travel,High,Bank Account,South
+240,28,Male,Tier 1,Student,74546,107557,16,None,Yes,Yes,Yes,Credit Card Debt,20641,8,Yes,Education,Low,Investment Platform,North
+241,56,Male,Tier 1,Unemployed,120686,41728,28,Mutual Funds,Yes,Yes,Yes,Credit Card Debt,32500,6,Yes,Home Purchase,Low,Cash,North
+242,58,Male,Tier 1,Salaried,103151,27576,38,None,No,Yes,No,Credit Card Debt,35797,9,Yes,Business,High,Cash,East
+243,40,Male,Tier 3,Salaried,18327,93384,12,Gold,No,No,No,Home Loan,19230,6,Yes,Travel,Low,Bank Account,West
+244,55,Male,Tier 2,Student,135318,10390,22,Fixed Deposit,Yes,No,Yes,Home Loan,45950,7,No,Travel,Medium,Investment Platform,West
+245,45,Male,Tier 1,Unemployed,175840,55436,9,Mutual Funds,Yes,No,No,Credit Card Debt,25046,7,Yes,Wealth Accumulation,Low,Cash,Central
+246,55,Male,Tier 3,Self-Employed,188860,21569,30,Cryptocurrency,Yes,Yes,No,Credit Card Debt,36803,9,Yes,Retirement,Medium,Investment Platform,South
+247,45,Other,Tier 3,Unemployed,130945,32490,34,Gold,Yes,No,No,Home Loan,47895,8,Yes,Wealth Accumulation,Low,Digital Wallet,South
+248,49,Male,Tier 3,Student,61830,55875,17,Mutual Funds,Yes,Yes,Yes,Home Loan,35667,1,No,Home Purchase,Low,Cash,East
+249,38,Male,Tier 1,Unemployed,67446,15867,23,Fixed Deposit,Yes,No,Yes,Home Loan,9638,4,Yes,Wealth Accumulation,Medium,Digital Wallet,North
+250,38,Female,Tier 2,Student,161232,90820,33,Stocks,No,No,No,Personal Loan,20827,7,Yes,Business,Low,Cash,West
+251,22,Male,Tier 3,Student,180070,109515,7,Cryptocurrency,Yes,Yes,No,Home Loan,21173,8,Yes,Education,Medium,Bank Account,East
+252,55,Female,Tier 3,Self-Employed,173302,19121,30,None,Yes,No,Yes,Credit Card Debt,13222,7,Yes,Business,Low,Cash,South
+253,36,Female,Tier 1,Salaried,155148,11539,44,Fixed Deposit,Yes,Yes,Yes,Personal Loan,37010,3,Yes,Education,Medium,Cash,South
+254,56,Male,Tier 1,Student,84341,137402,16,Gold,Yes,Yes,Yes,Home Loan,18095,4,No,Business,High,Investment Platform,South
+255,53,Male,Tier 2,Student,46085,84229,6,Gold,Yes,Yes,Yes,Credit Card Debt,1439,7,Yes,Wealth Accumulation,Low,Investment Platform,West
+256,24,Female,Tier 3,Self-Employed,70571,149993,15,Stocks,Yes,Yes,Yes,No Debt,38381,8,Yes,Business,Low,Digital Wallet,West
+257,53,Female,Tier 2,Student,160787,60435,48,Stocks,No,No,Yes,Personal Loan,20014,7,Yes,Wealth Accumulation,High,Digital Wallet,West
+258,34,Male,Tier 2,Salaried,143308,73965,32,Cryptocurrency,Yes,Yes,No,Credit Card Debt,5375,6,Yes,Wealth Accumulation,Medium,Digital Wallet,Central
+259,41,Female,Tier 1,Self-Employed,20750,121048,22,None,No,Yes,Yes,No Debt,23487,9,Yes,Home Purchase,Low,Cash,North
+260,40,Male,Tier 2,Salaried,128931,106444,17,Cryptocurrency,No,No,No,Credit Card Debt,41645,9,Yes,Wealth Accumulation,Medium,Cash,South
+261,28,Other,Tier 3,Salaried,93768,79922,41,Stocks,Yes,No,Yes,Home Loan,25702,7,Yes,Retirement,Low,Digital Wallet,South
+262,27,Male,Tier 1,Self-Employed,50903,107799,26,Stocks,Yes,No,Yes,Home Loan,20600,8,Yes,Business,Low,Bank Account,Central
+263,23,Female,Tier 3,Student,178165,103948,16,Gold,Yes,No,Yes,No Debt,2466,6,Yes,Travel,High,Bank Account,South
+264,37,Female,Tier 3,Salaried,106036,18947,6,Stocks,No,No,Yes,Home Loan,40592,1,No,Travel,Medium,Cash,South
+265,53,Female,Tier 1,Salaried,102954,58785,41,Mutual Funds,No,Yes,No,Credit Card Debt,45097,1,Yes,Travel,Medium,Bank Account,West
+266,32,Female,Tier 2,Salaried,180386,129963,11,Fixed Deposit,No,Yes,No,No Debt,44398,6,No,Retirement,Low,Bank Account,West
+267,42,Male,Tier 1,Salaried,194297,10507,30,Stocks,Yes,Yes,Yes,Credit Card Debt,46971,2,No,Wealth Accumulation,Low,Digital Wallet,North
+268,42,Male,Tier 3,Self-Employed,98014,21618,30,Cryptocurrency,No,Yes,Yes,Credit Card Debt,6928,8,Yes,Business,High,Bank Account,South
+269,50,Male,Tier 2,Self-Employed,181251,84286,28,None,Yes,No,Yes,Credit Card Debt,22480,1,No,Education,Low,Bank Account,East
+270,58,Male,Tier 2,Unemployed,132305,26122,16,None,Yes,Yes,No,Home Loan,9111,2,Yes,Education,Low,Cash,South
+271,58,Female,Tier 3,Unemployed,171410,148426,20,None,Yes,No,No,Home Loan,40888,8,Yes,Home Purchase,Low,Cash,South
+272,28,Male,Tier 1,Salaried,47101,119598,27,Mutual Funds,Yes,Yes,Yes,Credit Card Debt,29489,6,Yes,Retirement,Medium,Cash,North
+273,47,Male,Tier 3,Student,17775,96436,44,Cryptocurrency,No,Yes,No,Personal Loan,43832,10,Yes,Business,Low,Bank Account,East
+274,47,Other,Tier 2,Salaried,126497,146109,13,Mutual Funds,Yes,Yes,No,Credit Card Debt,9404,2,Yes,Wealth Accumulation,Low,Digital Wallet,South
+275,54,Female,Tier 1,Student,60619,38633,36,Stocks,Yes,No,Yes,Credit Card Debt,33639,2,Yes,Travel,High,Investment Platform,East
+276,41,Female,Tier 2,Salaried,191910,34495,19,Fixed Deposit,Yes,No,Yes,No Debt,12582,7,Yes,Retirement,Medium,Cash,West
+277,50,Other,Tier 3,Unemployed,165611,74550,41,None,No,No,No,Credit Card Debt,863,5,Yes,Retirement,Low,Cash,West
+278,53,Male,Tier 1,Unemployed,72124,46483,17,Cryptocurrency,No,Yes,No,Home Loan,47651,5,Yes,Business,Medium,Cash,East
+279,48,Male,Tier 3,Student,80149,123181,9,None,Yes,No,Yes,No Debt,44913,8,Yes,Wealth Accumulation,Low,Digital Wallet,South
+280,53,Female,Tier 3,Salaried,41616,44069,15,Mutual Funds,Yes,Yes,Yes,Personal Loan,27684,7,Yes,Home Purchase,Medium,Investment Platform,East
+281,25,Female,Tier 1,Student,183171,148442,14,Gold,Yes,Yes,Yes,No Debt,3055,9,Yes,Wealth Accumulation,Medium,Investment Platform,East
+282,39,Male,Tier 3,Unemployed,76799,129873,17,Stocks,No,No,Yes,Personal Loan,12186,4,Yes,Home Purchase,Low,Cash,West
+283,24,Female,Tier 1,Salaried,105221,126843,45,Fixed Deposit,Yes,Yes,No,No Debt,2682,10,Yes,Home Purchase,Low,Bank Account,East
+284,55,Male,Tier 1,Salaried,129879,81947,19,Stocks,Yes,No,Yes,No Debt,45650,4,No,Travel,Medium,Cash,Central
+285,37,Male,Tier 1,Student,40479,105761,46,Gold,Yes,Yes,No,Personal Loan,38046,2,No,Travel,High,Cash,Central
+286,48,Female,Tier 3,Self-Employed,192244,123753,11,Fixed Deposit,Yes,No,No,Home Loan,46573,3,Yes,Business,Medium,Bank Account,West
+287,50,Female,Tier 2,Student,114165,141764,44,Gold,No,No,Yes,Home Loan,21832,1,No,Wealth Accumulation,Low,Bank Account,South
+288,49,Female,Tier 1,Unemployed,70863,38926,32,Stocks,Yes,Yes,Yes,Home Loan,16997,1,Yes,Home Purchase,Low,Cash,South
+289,26,Male,Tier 2,Unemployed,188115,109782,36,Mutual Funds,Yes,No,Yes,No Debt,34640,7,Yes,Business,Low,Digital Wallet,West
+290,55,Female,Tier 2,Unemployed,97569,114700,39,Stocks,Yes,Yes,No,Credit Card Debt,11346,5,No,Home Purchase,Low,Digital Wallet,South
+291,57,Male,Tier 1,Unemployed,161480,83984,19,Stocks,Yes,No,Yes,No Debt,40491,3,Yes,Retirement,Medium,Bank Account,North
+292,44,Male,Tier 3,Unemployed,31351,59593,40,Stocks,No,Yes,No,Credit Card Debt,46639,7,No,Education,Medium,Cash,Central
+293,49,Female,Tier 3,Self-Employed,150203,85609,25,Cryptocurrency,Yes,Yes,No,Credit Card Debt,48714,2,Yes,Education,Low,Digital Wallet,North
+294,51,Female,Tier 2,Salaried,59825,15209,10,Gold,No,Yes,Yes,Home Loan,7189,3,Yes,Home Purchase,Low,Cash,North
+295,55,Female,Tier 3,Student,26349,136700,5,Gold,No,Yes,No,Credit Card Debt,45520,1,Yes,Business,Medium,Cash,North
+296,53,Female,Tier 2,Student,59254,147605,8,None,Yes,No,No,No Debt,44333,8,Yes,Travel,Low,Cash,West
+297,41,Female,Tier 3,Unemployed,53225,96597,15,Gold,Yes,Yes,Yes,No Debt,21770,2,Yes,Wealth Accumulation,High,Digital Wallet,North
+298,52,Female,Tier 2,Student,27453,17211,48,None,Yes,Yes,Yes,Home Loan,39710,7,Yes,Home Purchase,Medium,Investment Platform,East
+299,43,Male,Tier 2,Unemployed,164886,19927,30,Cryptocurrency,No,Yes,No,Personal Loan,47498,9,No,Home Purchase,High,Cash,South
+300,53,Male,Tier 1,Self-Employed,164335,127333,41,Mutual Funds,Yes,Yes,No,No Debt,44151,6,Yes,Wealth Accumulation,High,Digital Wallet,West
+301,23,Male,Tier 3,Self-Employed,92694,86382,27,None,Yes,No,Yes,Credit Card Debt,244,2,Yes,Travel,High,Investment Platform,East
+302,38,Male,Tier 2,Salaried,30735,149005,33,Stocks,Yes,No,Yes,No Debt,32788,2,Yes,Home Purchase,Low,Bank Account,East
+303,45,Female,Tier 1,Self-Employed,161902,113780,25,Mutual Funds,No,Yes,Yes,No Debt,29805,9,No,Retirement,High,Digital Wallet,Central
+304,51,Female,Tier 1,Self-Employed,62893,50696,49,Cryptocurrency,Yes,No,No,No Debt,13917,10,Yes,Travel,Low,Investment Platform,Central
+305,23,Male,Tier 2,Salaried,190745,77616,49,Gold,Yes,No,Yes,Personal Loan,46489,8,Yes,Retirement,Low,Digital Wallet,East
+306,44,Male,Tier 2,Student,142006,147161,31,None,Yes,Yes,Yes,Credit Card Debt,5767,9,No,Education,Medium,Investment Platform,Central
+307,52,Female,Tier 2,Unemployed,60066,148869,43,Stocks,Yes,No,No,Home Loan,28390,4,Yes,Wealth Accumulation,Low,Investment Platform,South
+308,42,Male,Tier 3,Unemployed,149445,60013,44,Fixed Deposit,No,Yes,Yes,No Debt,10247,4,Yes,Travel,Low,Digital Wallet,South
+309,43,Female,Tier 1,Student,156407,149418,17,Fixed Deposit,Yes,No,No,Credit Card Debt,3515,2,No,Travel,Low,Bank Account,Central
+310,22,Female,Tier 2,Salaried,169813,59556,27,Mutual Funds,No,No,Yes,Credit Card Debt,34678,10,No,Business,Low,Cash,North
+311,47,Female,Tier 1,Student,25692,133723,20,Gold,No,Yes,No,Home Loan,22266,1,Yes,Business,Medium,Investment Platform,East
+312,22,Female,Tier 3,Self-Employed,193367,36140,34,Fixed Deposit,Yes,No,Yes,No Debt,10750,10,Yes,Wealth Accumulation,Low,Cash,South
+313,46,Female,Tier 3,Salaried,60541,11184,8,Mutual Funds,No,No,No,Personal Loan,29583,4,No,Travel,Medium,Bank Account,Central
+314,37,Male,Tier 2,Salaried,180129,121361,44,Cryptocurrency,Yes,Yes,No,Credit Card Debt,8076,10,Yes,Education,High,Cash,Central
+315,53,Female,Tier 2,Salaried,81983,15606,20,Mutual Funds,Yes,No,Yes,Home Loan,18006,10,No,Home Purchase,Medium,Cash,South
+316,29,Female,Tier 1,Unemployed,165655,145028,35,Mutual Funds,No,Yes,Yes,Personal Loan,15051,8,Yes,Wealth Accumulation,Medium,Digital Wallet,South
+317,59,Male,Tier 2,Student,168837,26555,46,Mutual Funds,Yes,No,Yes,Credit Card Debt,4314,2,Yes,Wealth Accumulation,High,Digital Wallet,North
+318,49,Female,Tier 3,Salaried,169978,100385,29,Stocks,Yes,No,Yes,No Debt,28670,8,Yes,Business,Low,Bank Account,Central
+319,46,Female,Tier 2,Salaried,135747,68502,48,Mutual Funds,Yes,Yes,No,Credit Card Debt,35221,1,No,Education,Medium,Digital Wallet,Central
+320,55,Female,Tier 1,Salaried,100103,113844,16,None,No,Yes,No,Personal Loan,2015,1,No,Wealth Accumulation,High,Investment Platform,West
+321,45,Female,Tier 2,Student,192597,101321,30,Mutual Funds,Yes,No,Yes,Personal Loan,10236,4,Yes,Education,High,Bank Account,North
+322,44,Female,Tier 3,Unemployed,184302,59056,41,Stocks,Yes,Yes,No,No Debt,35568,7,No,Wealth Accumulation,Medium,Digital Wallet,South
+323,33,Female,Tier 1,Self-Employed,165592,108234,37,Stocks,Yes,Yes,No,No Debt,41791,9,Yes,Business,Low,Digital Wallet,South
+324,27,Female,Tier 1,Unemployed,198006,51850,32,Cryptocurrency,No,Yes,No,Home Loan,44652,5,Yes,Home Purchase,High,Bank Account,East
+325,56,Female,Tier 2,Salaried,40566,37843,13,Gold,No,Yes,Yes,No Debt,26367,2,No,Business,Low,Investment Platform,South
+326,40,Female,Tier 3,Unemployed,88193,72320,16,Fixed Deposit,Yes,Yes,Yes,Home Loan,16352,7,No,Wealth Accumulation,Low,Bank Account,Central
+327,21,Female,Tier 1,Unemployed,176206,39793,9,Fixed Deposit,No,Yes,Yes,Personal Loan,45650,2,No,Education,Low,Digital Wallet,South
+328,28,Female,Tier 1,Self-Employed,156417,29627,32,Mutual Funds,Yes,Yes,Yes,Personal Loan,10346,9,No,Retirement,Medium,Digital Wallet,Central
+329,36,Male,Tier 1,Student,136015,71822,39,Cryptocurrency,Yes,No,Yes,Credit Card Debt,25156,9,Yes,Business,Medium,Bank Account,Central
+330,34,Female,Tier 1,Student,187257,65798,9,Mutual Funds,No,Yes,Yes,Credit Card Debt,14035,3,Yes,Education,High,Investment Platform,North
+331,32,Female,Tier 2,Unemployed,145956,85318,38,Fixed Deposit,No,Yes,Yes,Home Loan,16108,8,No,Business,Medium,Investment Platform,South
+332,43,Male,Tier 2,Unemployed,85744,114186,38,Stocks,No,Yes,No,No Debt,2853,4,Yes,Wealth Accumulation,Low,Cash,North
+333,35,Female,Tier 2,Student,48455,97902,17,Gold,No,No,Yes,No Debt,18620,3,Yes,Education,Medium,Investment Platform,Central
+334,48,Male,Tier 2,Student,174090,81334,43,Cryptocurrency,Yes,Yes,Yes,Credit Card Debt,4176,1,Yes,Home Purchase,Medium,Bank Account,South
+335,54,Male,Tier 1,Self-Employed,69219,116719,46,Stocks,No,Yes,Yes,Personal Loan,34923,5,Yes,Education,Medium,Investment Platform,South
+336,22,Female,Tier 3,Salaried,60991,133099,49,Gold,Yes,Yes,Yes,Home Loan,25920,4,No,Travel,High,Investment Platform,North
+337,52,Male,Tier 2,Unemployed,88616,22720,18,Cryptocurrency,Yes,No,Yes,Personal Loan,6829,1,Yes,Retirement,High,Cash,North
+338,43,Female,Tier 3,Student,102438,67608,15,Cryptocurrency,Yes,No,Yes,Personal Loan,34654,10,No,Wealth Accumulation,Medium,Investment Platform,Central
+339,42,Female,Tier 2,Unemployed,131841,117449,46,Fixed Deposit,Yes,No,Yes,No Debt,39239,8,Yes,Education,Low,Cash,Central
+340,45,Female,Tier 1,Unemployed,155558,112828,42,Stocks,Yes,No,Yes,Home Loan,25130,8,Yes,Wealth Accumulation,Medium,Cash,South
+341,42,Male,Tier 2,Student,184934,136613,8,Cryptocurrency,Yes,No,Yes,Personal Loan,45357,8,Yes,Business,High,Investment Platform,South
+342,42,Male,Tier 1,Self-Employed,73870,82095,37,None,Yes,Yes,Yes,Credit Card Debt,8391,3,Yes,Business,Low,Digital Wallet,West
+343,26,Female,Tier 2,Unemployed,101694,115924,11,Cryptocurrency,Yes,No,No,Credit Card Debt,19324,6,Yes,Education,High,Bank Account,West
+344,35,Other,Tier 1,Self-Employed,58856,106452,45,Gold,Yes,Yes,Yes,No Debt,46118,7,Yes,Travel,Low,Bank Account,East
+345,57,Female,Tier 1,Student,116407,97593,12,Fixed Deposit,Yes,No,Yes,Credit Card Debt,40667,9,Yes,Education,Medium,Investment Platform,Central
+346,53,Male,Tier 3,Salaried,46379,116975,41,Mutual Funds,Yes,No,Yes,Credit Card Debt,306,5,Yes,Home Purchase,Medium,Bank Account,East
+347,28,Female,Tier 1,Salaried,79729,87242,14,Fixed Deposit,No,Yes,Yes,Personal Loan,35843,9,Yes,Travel,Medium,Bank Account,East
+348,25,Female,Tier 3,Unemployed,174450,126041,47,Mutual Funds,No,Yes,Yes,Credit Card Debt,30543,6,Yes,Wealth Accumulation,High,Cash,North
+349,59,Female,Tier 1,Student,69353,136202,19,Stocks,No,Yes,Yes,Credit Card Debt,7244,10,Yes,Education,Low,Digital Wallet,North
+350,24,Male,Tier 2,Self-Employed,196068,87606,42,Stocks,Yes,No,No,Personal Loan,6611,10,Yes,Wealth Accumulation,Low,Bank Account,West
+351,26,Female,Tier 2,Unemployed,29031,133769,19,Cryptocurrency,No,No,Yes,No Debt,22706,10,No,Retirement,Medium,Digital Wallet,East
+352,52,Female,Tier 2,Student,80982,128542,9,None,Yes,No,Yes,No Debt,19076,4,Yes,Travel,Low,Bank Account,West
+353,50,Other,Tier 1,Student,51683,116438,33,Stocks,Yes,Yes,No,Home Loan,46902,1,No,Education,Medium,Digital Wallet,Central
+354,55,Male,Tier 1,Self-Employed,129091,10924,23,Cryptocurrency,Yes,No,No,Credit Card Debt,33043,1,No,Retirement,Low,Digital Wallet,South
+355,36,Female,Tier 1,Unemployed,132797,61322,14,Fixed Deposit,No,No,Yes,Personal Loan,5271,10,Yes,Education,Low,Bank Account,North
+356,33,Female,Tier 1,Student,163690,81042,16,Stocks,Yes,No,Yes,Home Loan,7331,5,No,Home Purchase,Medium,Cash,Central
+357,50,Male,Tier 2,Student,21587,56418,8,Fixed Deposit,Yes,Yes,Yes,No Debt,11553,3,Yes,Business,Medium,Digital Wallet,Central
+358,39,Female,Tier 3,Student,77790,110699,35,Fixed Deposit,Yes,Yes,Yes,No Debt,31340,5,No,Wealth Accumulation,Low,Digital Wallet,North
+359,37,Female,Tier 3,Self-Employed,46480,100140,22,None,No,No,Yes,Personal Loan,11573,5,No,Education,Low,Bank Account,North
+360,39,Male,Tier 3,Unemployed,166599,21781,20,Stocks,Yes,No,Yes,Home Loan,21409,1,Yes,Travel,Low,Digital Wallet,East
+361,48,Male,Tier 3,Unemployed,38569,146587,44,Fixed Deposit,Yes,No,No,Home Loan,20434,8,Yes,Education,Medium,Digital Wallet,West
+362,46,Female,Tier 2,Unemployed,26151,127358,40,None,Yes,Yes,Yes,Personal Loan,24464,5,Yes,Education,Low,Cash,Central
+363,57,Male,Tier 1,Unemployed,59739,46133,29,None,Yes,Yes,Yes,Personal Loan,42840,5,Yes,Education,Medium,Digital Wallet,East
+364,46,Female,Tier 3,Salaried,47954,107628,27,Stocks,No,No,Yes,Home Loan,48785,9,Yes,Education,Medium,Cash,East
+365,43,Male,Tier 2,Salaried,124373,86946,16,None,Yes,Yes,No,No Debt,20662,8,Yes,Travel,Medium,Digital Wallet,Central
+366,29,Female,Tier 2,Unemployed,181375,95058,38,Stocks,No,No,Yes,Credit Card Debt,18228,1,Yes,Travel,Low,Digital Wallet,Central
+367,32,Male,Tier 1,Self-Employed,49700,53129,40,Stocks,Yes,Yes,No,No Debt,49223,3,Yes,Education,Medium,Cash,South
+368,21,Female,Tier 2,Salaried,138728,18531,41,Mutual Funds,No,Yes,Yes,Personal Loan,7386,7,No,Business,High,Cash,West
+369,21,Other,Tier 2,Student,81788,47038,7,Fixed Deposit,Yes,No,Yes,Home Loan,6862,1,No,Education,Low,Investment Platform,Central
+370,54,Other,Tier 3,Salaried,86045,97939,13,Gold,Yes,No,Yes,Home Loan,40108,1,Yes,Wealth Accumulation,Low,Digital Wallet,North
+371,52,Female,Tier 2,Student,183914,52674,22,Stocks,Yes,Yes,Yes,Credit Card Debt,26252,5,Yes,Wealth Accumulation,Medium,Cash,South
+372,45,Male,Tier 1,Unemployed,159972,137572,47,Fixed Deposit,Yes,Yes,Yes,Home Loan,9487,9,Yes,Travel,Low,Digital Wallet,West
+373,21,Female,Tier 3,Salaried,142992,39831,39,None,Yes,No,Yes,Credit Card Debt,47829,6,Yes,Wealth Accumulation,Medium,Digital Wallet,North
+374,36,Male,Tier 1,Self-Employed,95059,67174,38,Cryptocurrency,No,Yes,Yes,No Debt,40403,10,No,Wealth Accumulation,High,Digital Wallet,North
+375,59,Male,Tier 2,Salaried,16881,21279,45,Stocks,Yes,No,No,No Debt,14604,2,Yes,Home Purchase,Medium,Bank Account,West
+376,25,Male,Tier 1,Salaried,179109,70610,18,None,No,Yes,Yes,Home Loan,17427,9,Yes,Education,Medium,Investment Platform,South
+377,42,Female,Tier 2,Salaried,147702,63051,8,None,No,No,Yes,Home Loan,27201,6,No,Education,Medium,Bank Account,North
+378,49,Female,Tier 3,Unemployed,35789,66652,33,None,Yes,No,Yes,Personal Loan,3042,5,No,Education,Low,Investment Platform,East
+379,23,Female,Tier 1,Self-Employed,141083,75524,45,None,No,No,No,Personal Loan,49966,5,Yes,Education,Low,Digital Wallet,West
+380,32,Male,Tier 3,Salaried,103059,16470,49,None,No,Yes,No,Home Loan,10386,3,Yes,Retirement,High,Digital Wallet,West
+381,46,Male,Tier 1,Self-Employed,61151,63473,19,Stocks,Yes,No,Yes,Home Loan,11692,6,Yes,Education,High,Cash,Central
+382,36,Other,Tier 3,Unemployed,194992,54439,32,Gold,No,Yes,Yes,No Debt,15225,4,Yes,Travel,Medium,Investment Platform,South
+383,57,Male,Tier 3,Student,124388,24308,46,Mutual Funds,Yes,Yes,Yes,Home Loan,16693,10,No,Travel,High,Investment Platform,East
+384,42,Male,Tier 3,Salaried,18262,101563,20,None,Yes,No,No,Personal Loan,6661,2,Yes,Retirement,Low,Bank Account,East
+385,49,Male,Tier 1,Self-Employed,81981,45081,16,None,No,No,No,No Debt,43021,3,Yes,Education,Low,Investment Platform,Central
+386,34,Female,Tier 3,Self-Employed,135951,19837,9,Mutual Funds,Yes,No,Yes,Credit Card Debt,18261,9,No,Business,Low,Digital Wallet,North
+387,48,Female,Tier 2,Unemployed,138099,128128,38,Stocks,Yes,Yes,Yes,Personal Loan,27378,9,No,Education,Low,Cash,North
+388,25,Male,Tier 1,Salaried,96972,122651,46,Fixed Deposit,Yes,Yes,Yes,Personal Loan,21219,6,No,Travel,High,Bank Account,East
+389,50,Male,Tier 3,Student,90485,107624,5,Cryptocurrency,No,Yes,Yes,No Debt,11937,10,Yes,Home Purchase,High,Cash,South
+390,25,Female,Tier 1,Self-Employed,69722,40063,43,Cryptocurrency,No,No,No,Credit Card Debt,794,10,Yes,Wealth Accumulation,High,Investment Platform,North
+391,32,Female,Tier 3,Salaried,104499,79453,36,Fixed Deposit,Yes,No,Yes,Personal Loan,47366,9,Yes,Home Purchase,Medium,Investment Platform,West
+392,36,Male,Tier 1,Student,196890,112166,30,Stocks,No,Yes,Yes,Home Loan,6786,4,Yes,Business,Low,Bank Account,Central
+393,46,Female,Tier 2,Self-Employed,176004,24506,21,Cryptocurrency,No,No,No,Personal Loan,36782,5,Yes,Education,Low,Investment Platform,South
+394,46,Male,Tier 2,Self-Employed,21901,123604,31,Mutual Funds,Yes,Yes,No,No Debt,40160,10,Yes,Retirement,Low,Cash,North
+395,41,Male,Tier 1,Student,132473,36026,28,Fixed Deposit,Yes,Yes,Yes,No Debt,45313,6,Yes,Education,Medium,Digital Wallet,East
+396,59,Female,Tier 1,Student,23597,62413,39,Gold,No,Yes,No,No Debt,38121,9,No,Business,Medium,Bank Account,Central
+397,56,Male,Tier 1,Unemployed,144631,75066,46,Stocks,No,Yes,Yes,Personal Loan,36175,5,Yes,Business,High,Investment Platform,North
+398,53,Female,Tier 2,Salaried,78909,60971,43,Fixed Deposit,No,Yes,No,Credit Card Debt,27032,8,No,Wealth Accumulation,High,Cash,East
+399,50,Male,Tier 1,Salaried,87391,123978,30,Cryptocurrency,Yes,No,No,Home Loan,26427,1,Yes,Business,Low,Digital Wallet,North
+400,57,Male,Tier 2,Unemployed,154335,60494,42,Stocks,Yes,Yes,Yes,No Debt,17358,5,No,Home Purchase,Low,Investment Platform,Central
+401,43,Other,Tier 1,Self-Employed,78293,113864,27,Mutual Funds,Yes,No,No,Credit Card Debt,29790,10,Yes,Wealth Accumulation,Medium,Bank Account,West
+402,30,Male,Tier 1,Student,171877,142151,26,Stocks,Yes,Yes,No,Home Loan,20621,1,No,Education,Low,Investment Platform,West
+403,25,Female,Tier 2,Student,26874,105386,8,Stocks,Yes,No,Yes,No Debt,48821,10,Yes,Education,Medium,Investment Platform,East
+404,56,Male,Tier 1,Student,101402,96126,13,Mutual Funds,No,No,Yes,Home Loan,28365,6,Yes,Retirement,Medium,Investment Platform,West
+405,54,Male,Tier 3,Self-Employed,29079,90863,8,None,Yes,No,No,Home Loan,13189,7,No,Business,Low,Digital Wallet,Central
+406,51,Male,Tier 3,Student,195922,88291,11,Mutual Funds,No,Yes,Yes,Credit Card Debt,11213,5,Yes,Business,Medium,Digital Wallet,East
+407,30,Female,Tier 2,Student,87779,135659,27,Stocks,Yes,No,Yes,Home Loan,7248,1,Yes,Travel,Medium,Investment Platform,North
+408,39,Male,Tier 2,Unemployed,110408,17235,6,Mutual Funds,Yes,No,No,No Debt,4369,6,No,Wealth Accumulation,High,Investment Platform,South
+409,52,Female,Tier 3,Self-Employed,155090,92733,28,None,Yes,Yes,No,Credit Card Debt,8050,10,No,Travel,Low,Bank Account,North
+410,21,Male,Tier 1,Salaried,135606,72712,44,Fixed Deposit,Yes,Yes,Yes,Personal Loan,28605,5,Yes,Wealth Accumulation,High,Investment Platform,Central
+411,25,Other,Tier 1,Unemployed,195572,135849,35,Mutual Funds,Yes,Yes,Yes,Personal Loan,49616,6,Yes,Home Purchase,Medium,Cash,East
+412,24,Male,Tier 1,Unemployed,135062,89823,35,Mutual Funds,No,No,Yes,Credit Card Debt,38183,10,Yes,Wealth Accumulation,Medium,Cash,North
+413,36,Female,Tier 3,Salaried,27100,114215,44,Stocks,No,Yes,Yes,Personal Loan,15398,7,Yes,Education,Low,Bank Account,East
+414,44,Female,Tier 1,Unemployed,72021,42230,47,Fixed Deposit,Yes,Yes,Yes,Home Loan,40883,7,No,Retirement,Medium,Digital Wallet,West
+415,36,Female,Tier 2,Self-Employed,165872,94573,38,Gold,Yes,Yes,No,No Debt,33055,2,Yes,Wealth Accumulation,Medium,Investment Platform,South
+416,22,Female,Tier 3,Student,143126,50644,28,Gold,No,Yes,Yes,Home Loan,3195,3,Yes,Wealth Accumulation,Medium,Bank Account,Central
+417,48,Female,Tier 3,Self-Employed,107446,55203,30,Cryptocurrency,Yes,No,Yes,Credit Card Debt,25451,6,No,Wealth Accumulation,Medium,Digital Wallet,North
+418,52,Female,Tier 2,Salaried,44437,76677,20,Mutual Funds,Yes,Yes,Yes,No Debt,7450,3,Yes,Retirement,Medium,Bank Account,South
+419,47,Male,Tier 1,Salaried,192747,133246,17,Mutual Funds,Yes,No,No,Credit Card Debt,2925,2,Yes,Business,High,Digital Wallet,Central
+420,40,Male,Tier 3,Unemployed,166014,94817,19,Fixed Deposit,No,No,Yes,Credit Card Debt,14515,4,Yes,Retirement,Low,Investment Platform,Central
+421,44,Female,Tier 2,Self-Employed,35862,79806,31,None,Yes,Yes,Yes,Credit Card Debt,5310,5,Yes,Business,High,Bank Account,West
+422,32,Female,Tier 1,Self-Employed,26669,52814,8,Gold,Yes,No,Yes,Home Loan,31817,10,Yes,Education,Low,Investment Platform,East
+423,55,Female,Tier 1,Salaried,136219,80219,20,Cryptocurrency,No,Yes,Yes,No Debt,49598,9,Yes,Retirement,High,Bank Account,East
+424,53,Female,Tier 3,Self-Employed,199844,105345,34,Fixed Deposit,Yes,No,Yes,No Debt,27408,3,Yes,Business,High,Digital Wallet,South
+425,53,Male,Tier 2,Salaried,30916,110088,48,Mutual Funds,Yes,Yes,Yes,No Debt,44528,3,Yes,Education,Low,Bank Account,West
+426,57,Male,Tier 3,Self-Employed,25878,79322,34,Gold,Yes,No,Yes,Home Loan,47664,6,Yes,Education,Medium,Cash,Central
+427,32,Female,Tier 3,Self-Employed,17985,31650,40,Cryptocurrency,No,Yes,Yes,Personal Loan,19280,5,Yes,Business,Medium,Cash,West
+428,23,Male,Tier 2,Self-Employed,56235,104242,7,Stocks,Yes,Yes,Yes,Home Loan,17105,6,Yes,Business,Low,Bank Account,West
+429,21,Male,Tier 2,Salaried,33931,48196,26,Gold,No,No,Yes,Home Loan,18547,7,Yes,Home Purchase,Medium,Cash,South
+430,53,Female,Tier 2,Unemployed,107876,39709,26,Cryptocurrency,No,Yes,Yes,Credit Card Debt,10774,3,Yes,Education,Low,Investment Platform,East
+431,30,Male,Tier 1,Self-Employed,15336,90428,16,Fixed Deposit,Yes,No,Yes,No Debt,15457,5,Yes,Business,High,Cash,West
+432,49,Female,Tier 2,Salaried,57933,19943,25,Stocks,No,Yes,Yes,No Debt,42311,8,Yes,Education,High,Cash,West
+433,33,Male,Tier 3,Salaried,60536,31042,8,Cryptocurrency,Yes,No,Yes,Personal Loan,3980,4,Yes,Retirement,Medium,Investment Platform,West
+434,32,Female,Tier 2,Self-Employed,84504,53894,35,Cryptocurrency,Yes,Yes,No,Personal Loan,20886,10,No,Travel,Medium,Investment Platform,North
+435,51,Male,Tier 3,Self-Employed,114214,147941,48,Mutual Funds,Yes,No,Yes,Credit Card Debt,11576,2,Yes,Travel,Medium,Digital Wallet,West
+436,22,Male,Tier 2,Unemployed,197220,66759,35,None,Yes,Yes,Yes,No Debt,31891,4,No,Wealth Accumulation,Low,Investment Platform,West
+437,55,Male,Tier 2,Salaried,128936,115973,27,Gold,Yes,Yes,Yes,Personal Loan,36181,2,No,Business,Medium,Bank Account,Central
+438,43,Male,Tier 2,Salaried,31279,54306,24,Mutual Funds,Yes,Yes,No,Personal Loan,33262,3,Yes,Business,Medium,Cash,North
+439,37,Male,Tier 2,Student,118751,118369,19,Stocks,Yes,No,No,No Debt,947,4,Yes,Education,High,Digital Wallet,West
+440,46,Male,Tier 2,Salaried,119433,38379,27,None,No,Yes,Yes,Home Loan,22,4,No,Wealth Accumulation,Medium,Investment Platform,West
+441,28,Female,Tier 1,Unemployed,86386,130667,32,Cryptocurrency,Yes,No,Yes,Personal Loan,1128,10,Yes,Business,Medium,Cash,South
+442,49,Male,Tier 2,Student,101124,144034,20,Mutual Funds,No,No,Yes,No Debt,13986,9,No,Education,Medium,Bank Account,South
+443,46,Female,Tier 1,Student,120750,127626,41,None,Yes,Yes,Yes,Personal Loan,32322,10,Yes,Business,Low,Bank Account,North
+444,30,Female,Tier 1,Student,92485,135180,25,Gold,Yes,No,Yes,Credit Card Debt,48929,6,Yes,Education,Medium,Digital Wallet,Central
+445,46,Female,Tier 2,Self-Employed,89055,62349,19,Stocks,Yes,Yes,No,Personal Loan,16160,9,Yes,Business,Medium,Bank Account,North
+446,54,Male,Tier 2,Self-Employed,106911,15730,21,Fixed Deposit,Yes,Yes,Yes,No Debt,49709,4,Yes,Home Purchase,Low,Cash,North
+447,27,Female,Tier 3,Salaried,113618,29023,41,Mutual Funds,Yes,No,No,Personal Loan,9808,9,Yes,Education,Medium,Investment Platform,South
+448,24,Male,Tier 2,Student,128892,136796,17,Stocks,No,No,Yes,Credit Card Debt,29612,9,Yes,Home Purchase,Medium,Bank Account,South
+449,31,Male,Tier 2,Unemployed,86128,91533,23,Fixed Deposit,No,No,No,Credit Card Debt,21725,6,No,Home Purchase,Medium,Investment Platform,Central
+450,49,Other,Tier 2,Self-Employed,164180,93286,34,Mutual Funds,No,Yes,No,Personal Loan,6998,5,No,Home Purchase,Medium,Cash,West
+451,56,Male,Tier 2,Unemployed,67495,51979,49,Stocks,Yes,Yes,Yes,Personal Loan,39950,3,Yes,Home Purchase,Medium,Cash,Central
+452,45,Female,Tier 1,Unemployed,97806,32837,22,Stocks,No,Yes,Yes,Credit Card Debt,23418,5,No,Retirement,Medium,Investment Platform,West
+453,41,Female,Tier 1,Self-Employed,108185,114975,18,None,Yes,No,Yes,Credit Card Debt,18040,3,No,Wealth Accumulation,High,Cash,East
+454,56,Female,Tier 1,Self-Employed,198581,30923,40,Mutual Funds,Yes,Yes,Yes,Home Loan,20557,5,No,Travel,Low,Digital Wallet,South
+455,30,Female,Tier 2,Self-Employed,185591,18876,40,Stocks,No,No,Yes,Home Loan,21825,5,Yes,Retirement,High,Bank Account,East
+456,57,Male,Tier 1,Self-Employed,64649,70973,24,Cryptocurrency,Yes,Yes,Yes,Credit Card Debt,8998,2,No,Business,Medium,Digital Wallet,East
+457,29,Male,Tier 1,Student,180596,143959,23,Mutual Funds,Yes,Yes,Yes,Personal Loan,36080,9,Yes,Business,Medium,Digital Wallet,South
+458,44,Female,Tier 1,Student,179957,52422,49,Stocks,Yes,Yes,No,No Debt,46097,7,Yes,Wealth Accumulation,Medium,Digital Wallet,East
+459,55,Male,Tier 3,Student,190441,61413,48,None,Yes,Yes,Yes,Personal Loan,15802,6,No,Travel,Low,Investment Platform,North
+460,55,Male,Tier 1,Student,110402,112484,11,Fixed Deposit,No,Yes,No,Personal Loan,11167,5,Yes,Travel,Low,Investment Platform,West
+461,56,Male,Tier 2,Salaried,45676,143913,48,Fixed Deposit,Yes,No,Yes,Home Loan,35092,4,Yes,Travel,Medium,Cash,Central
+462,38,Male,Tier 1,Student,79093,38756,8,Cryptocurrency,No,No,No,Home Loan,42407,8,No,Home Purchase,Medium,Investment Platform,South
+463,59,Male,Tier 2,Self-Employed,193836,81576,38,Mutual Funds,Yes,Yes,Yes,Home Loan,13338,2,Yes,Retirement,Medium,Cash,North
+464,52,Male,Tier 1,Unemployed,196871,128248,6,None,Yes,Yes,Yes,Credit Card Debt,10753,8,No,Business,Medium,Investment Platform,Central
+465,44,Female,Tier 1,Student,94414,20304,9,Stocks,Yes,Yes,No,Credit Card Debt,5984,1,No,Retirement,Low,Cash,Central
+466,43,Female,Tier 2,Salaried,108095,40341,14,Stocks,Yes,No,Yes,Personal Loan,18895,10,Yes,Retirement,Low,Bank Account,Central
+467,52,Female,Tier 1,Self-Employed,87307,145830,36,Fixed Deposit,Yes,Yes,No,Personal Loan,47910,1,Yes,Retirement,Medium,Cash,East
+468,57,Male,Tier 1,Unemployed,110432,137039,46,None,No,No,Yes,No Debt,43831,3,No,Travel,Low,Bank Account,East
+469,32,Male,Tier 1,Unemployed,46923,142447,45,Cryptocurrency,No,Yes,Yes,Personal Loan,362,5,Yes,Wealth Accumulation,Medium,Cash,East
+470,33,Male,Tier 1,Student,132449,109485,17,Fixed Deposit,No,Yes,Yes,Personal Loan,3454,6,No,Wealth Accumulation,Low,Investment Platform,East
+471,43,Female,Tier 1,Unemployed,62574,32092,43,Fixed Deposit,No,No,No,Home Loan,21004,4,No,Travel,Medium,Investment Platform,North
+472,45,Female,Tier 1,Student,189463,141562,9,Cryptocurrency,No,Yes,Yes,Home Loan,36023,7,Yes,Business,Low,Bank Account,East
+473,55,Male,Tier 3,Student,136757,13729,14,Mutual Funds,Yes,No,No,Home Loan,17601,7,Yes,Business,Low,Digital Wallet,South
+474,50,Female,Tier 2,Self-Employed,68664,147046,14,Stocks,No,Yes,No,Home Loan,5349,2,No,Business,Medium,Digital Wallet,Central
+475,37,Male,Tier 2,Self-Employed,82384,128222,42,Mutual Funds,Yes,Yes,Yes,Home Loan,39963,2,Yes,Wealth Accumulation,Medium,Cash,North
+476,40,Female,Tier 1,Salaried,46027,95216,31,None,Yes,Yes,Yes,No Debt,10047,2,Yes,Wealth Accumulation,Low,Investment Platform,East
+477,45,Female,Tier 3,Self-Employed,181536,93860,25,Gold,Yes,No,No,No Debt,7750,2,No,Retirement,High,Digital Wallet,Central
+478,42,Female,Tier 1,Self-Employed,49485,106870,12,Gold,Yes,No,Yes,No Debt,29393,9,No,Travel,Low,Investment Platform,North
+479,33,Female,Tier 1,Student,165528,31398,5,Gold,Yes,Yes,Yes,Home Loan,22463,5,Yes,Home Purchase,Medium,Investment Platform,Central
+480,39,Female,Tier 2,Self-Employed,50554,44650,32,Cryptocurrency,No,No,Yes,Credit Card Debt,9399,8,Yes,Retirement,Low,Investment Platform,North
+481,56,Male,Tier 1,Student,61922,113889,43,Fixed Deposit,Yes,Yes,Yes,Home Loan,13686,5,Yes,Education,Low,Cash,West
+482,32,Female,Tier 1,Student,28409,13159,18,Mutual Funds,Yes,Yes,Yes,Home Loan,40803,5,No,Wealth Accumulation,Medium,Bank Account,North
+483,39,Male,Tier 2,Self-Employed,51639,108162,25,Stocks,Yes,Yes,Yes,No Debt,34275,1,No,Retirement,Low,Cash,East
+484,32,Female,Tier 3,Salaried,34692,112834,34,Gold,Yes,Yes,No,Home Loan,22787,6,No,Travel,Medium,Digital Wallet,Central
+485,29,Female,Tier 2,Salaried,104037,31638,25,Mutual Funds,Yes,Yes,Yes,No Debt,14776,4,Yes,Education,Low,Bank Account,Central
+486,27,Female,Tier 2,Unemployed,33074,11073,13,Gold,Yes,No,Yes,Home Loan,29527,3,No,Retirement,Medium,Digital Wallet,Central
+487,48,Male,Tier 3,Unemployed,161621,39320,21,Gold,Yes,Yes,No,Personal Loan,39351,6,No,Travel,Low,Bank Account,South
+488,34,Female,Tier 1,Self-Employed,44963,44924,9,Stocks,Yes,Yes,No,Credit Card Debt,36695,2,Yes,Travel,Low,Bank Account,South
+489,51,Female,Tier 1,Salaried,67265,78116,35,None,No,Yes,No,Credit Card Debt,15797,8,Yes,Wealth Accumulation,Low,Cash,East
+490,39,Female,Tier 1,Student,31061,12159,44,None,No,No,Yes,No Debt,36999,1,No,Home Purchase,Medium,Investment Platform,West
+491,36,Male,Tier 2,Unemployed,174882,58940,42,None,Yes,No,No,Personal Loan,5302,9,Yes,Retirement,Medium,Investment Platform,South
+492,25,Male,Tier 2,Student,128502,89436,47,Cryptocurrency,Yes,Yes,Yes,Credit Card Debt,38059,8,Yes,Travel,High,Bank Account,North
+493,55,Male,Tier 3,Unemployed,37800,24678,23,Fixed Deposit,Yes,Yes,Yes,No Debt,908,1,Yes,Business,Medium,Cash,East
+494,32,Male,Tier 2,Self-Employed,131192,147844,40,Cryptocurrency,No,Yes,Yes,Home Loan,15123,10,Yes,Travel,Medium,Digital Wallet,West
+495,45,Female,Tier 2,Salaried,122228,77163,37,Mutual Funds,Yes,Yes,Yes,Home Loan,12877,9,Yes,Home Purchase,Medium,Digital Wallet,North
+496,41,Male,Tier 1,Unemployed,43054,61137,17,Cryptocurrency,Yes,Yes,No,Personal Loan,14239,2,Yes,Travel,Low,Investment Platform,Central
+497,56,Other,Tier 3,Salaried,191469,71497,18,Mutual Funds,No,Yes,Yes,Credit Card Debt,21435,3,No,Wealth Accumulation,Low,Investment Platform,South
+498,43,Male,Tier 3,Student,28233,110485,37,Mutual Funds,Yes,Yes,No,Home Loan,27313,2,No,Retirement,Medium,Digital Wallet,North
+499,36,Male,Tier 3,Self-Employed,171140,115468,33,Fixed Deposit,Yes,Yes,No,No Debt,35354,8,No,Wealth Accumulation,Medium,Digital Wallet,West
+500,59,Female,Tier 1,Salaried,80727,10901,47,Stocks,Yes,Yes,Yes,Home Loan,42103,2,Yes,Retirement,Low,Cash,East
+501,59,Female,Tier 2,Self-Employed,105610,97980,40,Fixed Deposit,No,No,Yes,Home Loan,48408,10,No,Education,Medium,Digital Wallet,North
+502,34,Female,Tier 1,Salaried,85453,117594,48,None,No,No,Yes,Credit Card Debt,17715,2,No,Retirement,Medium,Cash,East
+503,51,Female,Tier 1,Student,119135,12881,14,None,No,No,Yes,Credit Card Debt,23235,1,Yes,Education,Medium,Investment Platform,Central
+504,25,Female,Tier 1,Student,171904,39863,35,Cryptocurrency,Yes,Yes,Yes,No Debt,26129,7,Yes,Wealth Accumulation,Low,Digital Wallet,West
+505,55,Male,Tier 2,Self-Employed,123464,146694,10,Mutual Funds,Yes,Yes,No,Personal Loan,10534,2,Yes,Business,Medium,Investment Platform,West
+506,43,Other,Tier 2,Student,28682,142450,5,Gold,No,Yes,Yes,Personal Loan,34574,10,No,Home Purchase,Low,Bank Account,South
+507,49,Other,Tier 1,Unemployed,169455,55201,11,Gold,No,No,Yes,Home Loan,43060,5,Yes,Business,Low,Bank Account,West
+508,31,Female,Tier 1,Salaried,73160,69251,31,Mutual Funds,Yes,Yes,No,No Debt,17189,5,No,Education,Medium,Bank Account,North
+509,38,Male,Tier 2,Student,38666,82572,25,Fixed Deposit,No,No,Yes,Personal Loan,20531,3,Yes,Travel,Low,Digital Wallet,North
+510,32,Female,Tier 1,Unemployed,73817,49255,32,Stocks,Yes,No,No,Personal Loan,10967,3,Yes,Travel,Low,Investment Platform,North
+511,29,Male,Tier 1,Self-Employed,106198,73212,20,Fixed Deposit,Yes,Yes,Yes,Home Loan,16455,3,No,Business,Low,Digital Wallet,Central
+512,30,Male,Tier 2,Unemployed,180714,60210,27,Mutual Funds,No,No,Yes,No Debt,27,6,Yes,Travel,Medium,Investment Platform,West
+513,37,Male,Tier 3,Self-Employed,56830,135629,24,Mutual Funds,Yes,Yes,Yes,Personal Loan,8660,4,Yes,Education,Low,Cash,West
+514,58,Male,Tier 1,Self-Employed,25234,32499,42,Stocks,No,Yes,Yes,Credit Card Debt,25339,3,No,Wealth Accumulation,Low,Digital Wallet,North
+515,27,Female,Tier 1,Salaried,72616,112552,29,Cryptocurrency,Yes,Yes,Yes,Credit Card Debt,39823,2,No,Home Purchase,Medium,Bank Account,South
+516,33,Female,Tier 1,Salaried,24221,71360,32,Cryptocurrency,Yes,Yes,No,Home Loan,9616,3,Yes,Retirement,Medium,Cash,South
+517,29,Female,Tier 3,Unemployed,157482,145675,9,Stocks,No,No,Yes,Home Loan,10440,4,Yes,Education,High,Investment Platform,West
+518,47,Male,Tier 2,Salaried,16051,137466,25,Cryptocurrency,No,Yes,No,Home Loan,36600,6,Yes,Education,Low,Digital Wallet,West
+519,22,Male,Tier 2,Salaried,125529,95473,22,Gold,Yes,Yes,Yes,Home Loan,48738,4,No,Retirement,Low,Investment Platform,East
+520,25,Male,Tier 1,Salaried,91918,101873,10,Cryptocurrency,Yes,No,Yes,Personal Loan,13107,8,Yes,Retirement,Medium,Investment Platform,West
+521,49,Other,Tier 2,Unemployed,93116,75756,33,Cryptocurrency,Yes,No,Yes,No Debt,28646,3,Yes,Home Purchase,Low,Digital Wallet,North
+522,57,Male,Tier 1,Student,137226,66344,23,Cryptocurrency,Yes,Yes,No,Home Loan,46545,3,Yes,Home Purchase,High,Digital Wallet,Central
+523,58,Female,Tier 2,Salaried,59757,148421,37,Gold,No,No,Yes,Home Loan,26251,3,No,Home Purchase,Medium,Investment Platform,West
+524,39,Female,Tier 3,Salaried,136008,81154,5,Cryptocurrency,No,No,Yes,Personal Loan,15954,8,No,Travel,Low,Investment Platform,West
+525,28,Male,Tier 2,Unemployed,197329,37464,49,None,Yes,Yes,No,Home Loan,16943,4,No,Education,Medium,Cash,North
+526,21,Female,Tier 3,Student,146379,131897,7,Gold,Yes,Yes,Yes,Home Loan,40725,1,Yes,Wealth Accumulation,Low,Bank Account,East
+527,42,Female,Tier 2,Salaried,71889,47344,46,Stocks,Yes,Yes,No,No Debt,45434,2,No,Retirement,High,Investment Platform,West
+528,37,Female,Tier 1,Self-Employed,50944,93791,25,Fixed Deposit,No,No,Yes,Credit Card Debt,20215,10,Yes,Education,High,Bank Account,South
+529,27,Female,Tier 3,Unemployed,114555,142534,39,Stocks,Yes,No,No,Home Loan,10110,2,Yes,Education,Medium,Cash,South
+530,45,Male,Tier 1,Salaried,53134,130209,45,Fixed Deposit,Yes,No,No,Personal Loan,40112,3,No,Home Purchase,Low,Bank Account,South
+531,24,Male,Tier 2,Salaried,173395,91441,44,Stocks,Yes,Yes,No,No Debt,21555,6,Yes,Home Purchase,Low,Bank Account,Central
+532,56,Female,Tier 1,Self-Employed,40954,100456,7,None,Yes,Yes,Yes,Personal Loan,16462,8,Yes,Education,Low,Cash,Central
+533,26,Female,Tier 1,Self-Employed,104959,91788,29,Fixed Deposit,Yes,Yes,Yes,No Debt,13696,1,No,Home Purchase,Low,Investment Platform,West
+534,51,Male,Tier 2,Unemployed,19992,24175,49,Fixed Deposit,Yes,Yes,No,No Debt,1031,9,Yes,Travel,Medium,Bank Account,West
+535,39,Female,Tier 1,Unemployed,16961,147263,42,Mutual Funds,No,No,Yes,Home Loan,23765,1,Yes,Retirement,High,Investment Platform,West
+536,59,Female,Tier 2,Self-Employed,27497,93434,49,Fixed Deposit,No,No,Yes,Home Loan,47858,10,Yes,Education,Medium,Investment Platform,Central
+537,47,Female,Tier 2,Unemployed,178623,94518,24,Fixed Deposit,No,Yes,No,Home Loan,15816,2,Yes,Retirement,Medium,Digital Wallet,West
+538,30,Male,Tier 1,Self-Employed,28255,76537,48,Mutual Funds,Yes,Yes,Yes,Credit Card Debt,17868,3,No,Travel,Medium,Investment Platform,North
+539,46,Female,Tier 1,Salaried,150639,125721,49,Cryptocurrency,Yes,Yes,Yes,Credit Card Debt,10437,7,Yes,Home Purchase,High,Investment Platform,East
+540,39,Female,Tier 2,Self-Employed,63847,57645,38,Cryptocurrency,Yes,Yes,Yes,Personal Loan,15453,9,No,Business,Low,Bank Account,South
+541,59,Male,Tier 1,Self-Employed,194075,33283,25,Mutual Funds,Yes,Yes,Yes,Home Loan,22222,3,Yes,Travel,Medium,Investment Platform,South
+542,23,Male,Tier 2,Student,35389,96971,27,Gold,No,Yes,Yes,Credit Card Debt,14258,8,Yes,Business,Medium,Investment Platform,North
+543,33,Other,Tier 2,Self-Employed,190595,102759,10,Fixed Deposit,Yes,Yes,No,Home Loan,34318,9,Yes,Retirement,High,Digital Wallet,West
+544,48,Male,Tier 3,Self-Employed,138802,112780,17,Fixed Deposit,Yes,Yes,Yes,Credit Card Debt,12977,10,No,Education,High,Digital Wallet,Central
+545,40,Female,Tier 2,Student,76576,40734,27,Mutual Funds,No,Yes,No,Credit Card Debt,37450,7,Yes,Home Purchase,Medium,Bank Account,West
+546,48,Female,Tier 2,Unemployed,58919,10515,13,Mutual Funds,No,Yes,No,No Debt,47207,4,No,Travel,Low,Bank Account,West
+547,28,Male,Tier 2,Student,18358,120782,21,Gold,Yes,No,No,Home Loan,18213,4,Yes,Home Purchase,Medium,Digital Wallet,South
+548,59,Female,Tier 1,Salaried,103535,76727,6,None,Yes,Yes,Yes,Home Loan,36519,4,No,Business,Low,Digital Wallet,South
+549,21,Male,Tier 1,Student,120982,119164,23,Cryptocurrency,Yes,No,No,Credit Card Debt,45682,6,No,Business,Medium,Cash,Central
+550,23,Female,Tier 3,Salaried,20698,56216,23,Stocks,Yes,Yes,Yes,Home Loan,10223,4,No,Wealth Accumulation,Medium,Investment Platform,South
+551,33,Male,Tier 2,Unemployed,81809,81833,11,None,Yes,Yes,Yes,Credit Card Debt,48166,5,No,Education,Medium,Bank Account,West
+552,48,Female,Tier 3,Student,108079,68755,46,Cryptocurrency,Yes,Yes,No,Home Loan,39369,9,Yes,Business,High,Bank Account,North
+553,45,Male,Tier 3,Student,70805,37856,46,Fixed Deposit,No,Yes,Yes,No Debt,20843,7,No,Education,Medium,Investment Platform,Central
+554,53,Male,Tier 3,Unemployed,177421,83870,24,None,Yes,No,No,Home Loan,3856,8,Yes,Wealth Accumulation,Low,Investment Platform,North
+555,58,Other,Tier 3,Salaried,196320,147080,13,Mutual Funds,Yes,Yes,Yes,No Debt,12661,5,Yes,Travel,Low,Bank Account,West
+556,26,Male,Tier 2,Student,90033,17987,21,Gold,Yes,No,No,Personal Loan,15591,5,Yes,Wealth Accumulation,High,Digital Wallet,Central
+557,52,Female,Tier 1,Salaried,113239,106502,31,Cryptocurrency,Yes,No,Yes,Home Loan,6182,7,Yes,Education,Low,Digital Wallet,North
+558,41,Male,Tier 2,Student,145407,144404,6,Gold,No,Yes,No,Home Loan,7970,8,Yes,Business,Low,Investment Platform,Central
+559,36,Female,Tier 1,Self-Employed,59041,76323,40,Cryptocurrency,Yes,Yes,Yes,Home Loan,47922,9,Yes,Retirement,Low,Bank Account,West
+560,41,Male,Tier 2,Student,46954,19873,23,None,Yes,No,Yes,No Debt,34862,2,Yes,Education,Medium,Investment Platform,Central
+561,31,Other,Tier 2,Unemployed,23002,115219,21,Fixed Deposit,Yes,Yes,Yes,Home Loan,30755,3,Yes,Home Purchase,Low,Digital Wallet,West
+562,57,Male,Tier 2,Unemployed,84783,15033,9,Stocks,No,No,Yes,Home Loan,44863,2,Yes,Retirement,High,Cash,Central
+563,56,Male,Tier 1,Salaried,122524,83324,43,Gold,Yes,Yes,Yes,Credit Card Debt,19416,10,No,Education,High,Cash,Central
+564,55,Male,Tier 1,Student,139857,25689,22,Gold,No,Yes,Yes,Personal Loan,13672,7,No,Home Purchase,High,Digital Wallet,South
+565,39,Male,Tier 2,Salaried,34738,119756,11,Stocks,Yes,Yes,Yes,No Debt,17932,2,No,Wealth Accumulation,Low,Investment Platform,West
+566,40,Female,Tier 1,Salaried,25703,10066,21,Gold,Yes,Yes,Yes,Credit Card Debt,46996,2,Yes,Retirement,High,Cash,East
+567,38,Male,Tier 3,Self-Employed,128776,124159,43,Gold,Yes,No,Yes,No Debt,8559,2,Yes,Education,High,Digital Wallet,Central
+568,34,Female,Tier 1,Self-Employed,195494,17533,40,Cryptocurrency,No,Yes,No,Credit Card Debt,64,4,No,Travel,High,Bank Account,North
+569,35,Male,Tier 1,Unemployed,158464,125828,44,Cryptocurrency,No,No,No,Personal Loan,3299,1,No,Wealth Accumulation,Medium,Investment Platform,South
+570,51,Male,Tier 1,Salaried,59724,69658,49,Stocks,Yes,Yes,No,Credit Card Debt,4849,2,No,Home Purchase,Medium,Investment Platform,South
+571,21,Female,Tier 2,Unemployed,47299,48498,8,Fixed Deposit,Yes,Yes,No,No Debt,5639,3,Yes,Travel,Low,Cash,Central
+572,23,Female,Tier 2,Student,30641,119028,42,None,Yes,Yes,Yes,Home Loan,11055,7,Yes,Business,High,Investment Platform,East
+573,36,Male,Tier 1,Salaried,94534,21772,29,None,Yes,Yes,Yes,Home Loan,22058,10,No,Wealth Accumulation,Low,Cash,South
+574,43,Male,Tier 1,Salaried,21305,99385,9,Gold,Yes,Yes,Yes,Personal Loan,29427,1,Yes,Wealth Accumulation,Low,Cash,West
+575,31,Male,Tier 2,Student,33782,22940,34,Fixed Deposit,No,Yes,No,No Debt,16980,6,Yes,Education,High,Digital Wallet,Central
+576,32,Female,Tier 1,Student,93257,128027,16,Stocks,No,No,No,No Debt,10866,3,No,Education,Medium,Cash,Central
+577,30,Female,Tier 2,Unemployed,92963,26932,8,Stocks,Yes,Yes,Yes,No Debt,3889,3,No,Home Purchase,Low,Bank Account,East
+578,52,Male,Tier 2,Unemployed,136987,34648,28,Cryptocurrency,Yes,Yes,Yes,Personal Loan,48226,4,Yes,Wealth Accumulation,High,Investment Platform,West
+579,36,Female,Tier 1,Student,166638,42966,33,Gold,No,No,Yes,Home Loan,31335,4,Yes,Education,High,Cash,West
+580,28,Female,Tier 1,Unemployed,139591,52598,13,Mutual Funds,No,No,Yes,Credit Card Debt,26162,7,No,Business,Low,Investment Platform,East
+581,58,Female,Tier 3,Student,82766,71084,8,Stocks,Yes,Yes,Yes,Personal Loan,23913,3,Yes,Education,High,Cash,North
+582,32,Female,Tier 2,Salaried,21511,141250,28,Gold,Yes,Yes,Yes,Credit Card Debt,24687,8,No,Wealth Accumulation,Low,Digital Wallet,West
+583,44,Male,Tier 2,Salaried,129816,27118,18,Fixed Deposit,Yes,No,No,Home Loan,33220,8,No,Retirement,Low,Bank Account,North
+584,48,Male,Tier 1,Self-Employed,172249,32616,9,Cryptocurrency,Yes,No,Yes,Personal Loan,10995,7,No,Travel,Low,Investment Platform,North
+585,28,Male,Tier 2,Salaried,19765,141870,22,None,Yes,Yes,No,Home Loan,2631,2,No,Wealth Accumulation,Low,Digital Wallet,Central
+586,48,Male,Tier 1,Student,166426,17601,46,Fixed Deposit,Yes,Yes,No,Credit Card Debt,34954,5,Yes,Business,Low,Investment Platform,Central
+587,56,Female,Tier 2,Unemployed,38929,35363,23,Stocks,Yes,No,No,No Debt,5967,6,Yes,Wealth Accumulation,Low,Digital Wallet,South
+588,46,Female,Tier 3,Self-Employed,174892,12795,16,Stocks,Yes,Yes,No,No Debt,22758,10,Yes,Business,High,Bank Account,Central
+589,28,Male,Tier 1,Unemployed,126576,107462,22,Fixed Deposit,Yes,No,No,Credit Card Debt,21742,4,Yes,Wealth Accumulation,Medium,Cash,West
+590,48,Male,Tier 1,Student,175595,112892,21,Stocks,Yes,Yes,No,No Debt,37116,10,Yes,Travel,High,Digital Wallet,West
+591,48,Male,Tier 1,Salaried,86088,82833,34,Gold,No,No,No,Credit Card Debt,26580,5,Yes,Travel,Medium,Investment Platform,North
+592,57,Female,Tier 1,Self-Employed,92525,13084,28,Stocks,No,Yes,Yes,Personal Loan,34227,9,No,Business,Low,Investment Platform,West
+593,56,Male,Tier 1,Student,28780,105865,15,Cryptocurrency,Yes,Yes,No,Personal Loan,1942,7,Yes,Wealth Accumulation,High,Digital Wallet,Central
+594,47,Female,Tier 1,Self-Employed,21589,10731,39,Gold,Yes,No,No,Personal Loan,47664,2,Yes,Travel,High,Bank Account,Central
+595,37,Male,Tier 3,Self-Employed,180884,142201,27,Mutual Funds,No,Yes,No,No Debt,28069,1,Yes,Home Purchase,Low,Bank Account,Central
+596,29,Male,Tier 2,Salaried,108664,11605,21,Stocks,Yes,Yes,No,Home Loan,21806,2,Yes,Wealth Accumulation,Low,Cash,East
+597,53,Other,Tier 1,Student,192011,87506,5,Stocks,Yes,Yes,Yes,No Debt,14407,3,Yes,Travel,Medium,Cash,West
+598,40,Other,Tier 3,Unemployed,197565,54130,19,Cryptocurrency,Yes,Yes,Yes,No Debt,48390,2,Yes,Retirement,Medium,Investment Platform,South
+599,33,Male,Tier 1,Self-Employed,119188,78469,36,Cryptocurrency,Yes,Yes,Yes,Home Loan,14557,3,Yes,Retirement,High,Investment Platform,West
+600,48,Female,Tier 3,Self-Employed,108326,100436,13,None,Yes,No,Yes,Home Loan,16445,10,No,Home Purchase,Low,Cash,West
+601,49,Female,Tier 1,Unemployed,55953,122341,19,Fixed Deposit,No,Yes,No,Home Loan,17878,9,No,Travel,Low,Cash,East
+602,33,Female,Tier 3,Student,80785,141965,32,Fixed Deposit,Yes,Yes,Yes,Home Loan,17564,4,No,Retirement,Medium,Cash,West
+603,55,Male,Tier 2,Self-Employed,34309,109694,28,Fixed Deposit,Yes,Yes,Yes,No Debt,13093,9,Yes,Wealth Accumulation,Medium,Digital Wallet,North
+604,26,Female,Tier 3,Self-Employed,69195,29773,39,Cryptocurrency,No,No,Yes,Credit Card Debt,35556,3,Yes,Education,Low,Cash,Central
+605,38,Female,Tier 3,Self-Employed,40901,14239,26,Fixed Deposit,Yes,No,Yes,Personal Loan,26451,1,Yes,Travel,Low,Digital Wallet,Central
+606,25,Female,Tier 1,Student,169648,30863,31,Fixed Deposit,Yes,Yes,No,Credit Card Debt,43168,5,Yes,Home Purchase,Medium,Digital Wallet,East
+607,45,Male,Tier 3,Student,177580,61415,23,Mutual Funds,Yes,Yes,No,No Debt,24086,10,Yes,Travel,Medium,Cash,Central
+608,22,Male,Tier 1,Unemployed,40464,78968,49,Fixed Deposit,Yes,No,Yes,Home Loan,16489,10,Yes,Business,Low,Bank Account,North
+609,30,Male,Tier 1,Student,31260,70430,16,Stocks,Yes,Yes,Yes,Personal Loan,28004,2,No,Business,Medium,Bank Account,East
+610,50,Female,Tier 1,Student,139997,11515,24,None,Yes,No,Yes,Personal Loan,20471,4,Yes,Retirement,High,Investment Platform,South
+611,25,Male,Tier 2,Salaried,50440,107206,5,Cryptocurrency,Yes,No,Yes,Credit Card Debt,26284,2,Yes,Business,High,Cash,Central
+612,53,Female,Tier 1,Unemployed,110082,66240,25,Gold,No,No,Yes,No Debt,36693,2,Yes,Home Purchase,Low,Investment Platform,West
+613,21,Other,Tier 2,Self-Employed,120583,15586,49,None,Yes,Yes,No,No Debt,18292,3,Yes,Retirement,Low,Cash,North
+614,38,Male,Tier 2,Student,71683,130419,5,Mutual Funds,Yes,No,Yes,No Debt,18433,5,No,Home Purchase,High,Investment Platform,North
+615,52,Female,Tier 3,Self-Employed,139206,132374,14,Cryptocurrency,Yes,No,Yes,Personal Loan,14568,4,Yes,Wealth Accumulation,Low,Digital Wallet,Central
+616,31,Male,Tier 3,Self-Employed,187502,41186,36,Cryptocurrency,Yes,No,Yes,Credit Card Debt,45424,2,Yes,Home Purchase,Medium,Cash,South
+617,41,Female,Tier 2,Salaried,148059,36928,43,Stocks,Yes,Yes,No,Personal Loan,9466,10,Yes,Business,Medium,Bank Account,West
+618,46,Male,Tier 1,Student,171177,132990,26,None,No,Yes,No,Personal Loan,25521,2,Yes,Wealth Accumulation,Low,Cash,South
+619,45,Female,Tier 1,Unemployed,93484,97029,22,None,Yes,Yes,No,Home Loan,36672,6,Yes,Business,Medium,Investment Platform,South
+620,42,Female,Tier 1,Student,159098,30711,36,Fixed Deposit,Yes,Yes,Yes,Credit Card Debt,15467,7,No,Home Purchase,Medium,Investment Platform,Central
+621,47,Female,Tier 1,Self-Employed,83309,64962,31,Stocks,No,No,No,Home Loan,32019,10,No,Business,Medium,Investment Platform,West
+622,33,Female,Tier 1,Unemployed,60927,30039,32,Fixed Deposit,Yes,Yes,Yes,No Debt,10419,6,No,Business,Low,Investment Platform,Central
+623,53,Female,Tier 1,Student,57946,46561,22,Fixed Deposit,Yes,Yes,Yes,Personal Loan,16676,7,Yes,Business,High,Investment Platform,Central
+624,54,Female,Tier 3,Self-Employed,141503,11577,43,Cryptocurrency,No,Yes,Yes,Credit Card Debt,29255,1,Yes,Travel,Medium,Investment Platform,North
+625,55,Female,Tier 2,Self-Employed,156449,117792,33,None,No,No,Yes,No Debt,31514,6,Yes,Wealth Accumulation,Medium,Bank Account,Central
+626,21,Female,Tier 1,Salaried,68592,20785,22,Fixed Deposit,No,No,No,Credit Card Debt,43182,3,No,Wealth Accumulation,High,Investment Platform,East
+627,41,Male,Tier 2,Salaried,153419,82227,48,Mutual Funds,Yes,Yes,No,Personal Loan,22650,1,No,Wealth Accumulation,Medium,Bank Account,West
+628,26,Female,Tier 1,Salaried,48776,128680,12,Mutual Funds,Yes,Yes,Yes,Credit Card Debt,22754,8,No,Home Purchase,Medium,Cash,North
+629,48,Female,Tier 2,Self-Employed,149855,71957,35,None,No,Yes,No,No Debt,12165,4,Yes,Education,High,Digital Wallet,West
+630,37,Female,Tier 2,Student,70798,75431,38,Mutual Funds,Yes,No,No,Home Loan,10683,10,Yes,Home Purchase,Low,Bank Account,North
+631,25,Male,Tier 2,Salaried,150370,81894,11,Cryptocurrency,Yes,No,No,Personal Loan,32556,8,Yes,Wealth Accumulation,Medium,Cash,East
+632,51,Female,Tier 2,Student,85204,65192,40,Stocks,No,No,Yes,Home Loan,15442,10,Yes,Retirement,High,Digital Wallet,Central
+633,25,Male,Tier 3,Salaried,101207,11462,22,Gold,Yes,Yes,Yes,Personal Loan,4860,4,Yes,Business,Low,Bank Account,North
+634,58,Female,Tier 3,Unemployed,115356,138848,42,Fixed Deposit,No,No,Yes,No Debt,3729,4,Yes,Business,Low,Bank Account,North
+635,23,Male,Tier 2,Unemployed,75652,86106,13,Gold,Yes,Yes,No,Personal Loan,31351,10,No,Education,High,Cash,North
+636,43,Female,Tier 2,Salaried,180556,58665,13,Stocks,Yes,No,Yes,Home Loan,47168,4,Yes,Retirement,High,Investment Platform,East
+637,57,Other,Tier 2,Self-Employed,144572,91010,12,Stocks,Yes,Yes,Yes,Personal Loan,24346,6,Yes,Travel,High,Bank Account,West
+638,57,Male,Tier 1,Salaried,35922,82573,39,Cryptocurrency,No,No,Yes,No Debt,8619,9,Yes,Home Purchase,Low,Bank Account,East
+639,30,Other,Tier 1,Salaried,180100,117803,22,Mutual Funds,Yes,Yes,Yes,Personal Loan,11164,5,Yes,Travel,Low,Cash,North
+640,30,Male,Tier 1,Self-Employed,166388,129682,9,Mutual Funds,Yes,No,No,Home Loan,38878,10,No,Retirement,Low,Investment Platform,North
+641,39,Female,Tier 2,Unemployed,91996,23386,18,Stocks,No,No,No,No Debt,6955,8,Yes,Education,Medium,Digital Wallet,Central
+642,37,Female,Tier 2,Student,163040,134069,32,Cryptocurrency,No,Yes,No,Home Loan,106,8,Yes,Retirement,Medium,Investment Platform,East
+643,41,Female,Tier 1,Salaried,45266,64460,34,Cryptocurrency,No,Yes,No,Personal Loan,4754,4,No,Education,Low,Investment Platform,East
+644,34,Female,Tier 3,Self-Employed,170072,147293,8,None,Yes,No,Yes,Credit Card Debt,44293,10,Yes,Travel,Low,Cash,South
+645,29,Female,Tier 3,Salaried,160083,125375,43,Fixed Deposit,Yes,Yes,Yes,Home Loan,21662,9,Yes,Travel,Medium,Investment Platform,West
+646,21,Male,Tier 2,Self-Employed,17866,122660,24,Mutual Funds,No,Yes,Yes,Personal Loan,6408,9,No,Retirement,Medium,Cash,South
+647,33,Male,Tier 2,Student,127669,101319,29,Stocks,Yes,Yes,Yes,Credit Card Debt,40403,5,No,Retirement,Low,Digital Wallet,South
+648,24,Female,Tier 3,Student,20898,126582,32,None,Yes,No,Yes,Credit Card Debt,1225,6,Yes,Business,High,Bank Account,West
+649,21,Female,Tier 1,Unemployed,33395,145994,16,Gold,Yes,Yes,No,No Debt,12196,5,Yes,Education,Low,Bank Account,Central
+650,52,Female,Tier 3,Self-Employed,185091,52771,6,Mutual Funds,No,Yes,Yes,Credit Card Debt,4250,3,Yes,Business,Medium,Cash,Central
+651,54,Female,Tier 1,Self-Employed,19006,62335,47,Fixed Deposit,Yes,Yes,No,Home Loan,15372,8,No,Home Purchase,High,Cash,West
+652,48,Male,Tier 3,Unemployed,180465,62949,18,Cryptocurrency,No,Yes,Yes,Home Loan,17279,9,Yes,Home Purchase,Medium,Investment Platform,West
+653,51,Female,Tier 1,Unemployed,25956,105558,26,Stocks,Yes,No,Yes,Credit Card Debt,44865,4,No,Retirement,Low,Investment Platform,East
+654,28,Male,Tier 3,Self-Employed,196114,112272,35,Mutual Funds,Yes,No,Yes,Personal Loan,30193,9,No,Travel,Low,Bank Account,East
+655,59,Female,Tier 3,Unemployed,152150,12716,27,Gold,Yes,No,Yes,Home Loan,44823,9,No,Home Purchase,High,Bank Account,East
+656,46,Male,Tier 1,Student,175703,81916,24,Fixed Deposit,Yes,Yes,Yes,Home Loan,26868,7,Yes,Home Purchase,Low,Bank Account,East
+657,54,Male,Tier 2,Salaried,110676,60906,42,Fixed Deposit,Yes,No,Yes,No Debt,38187,8,Yes,Business,Medium,Cash,North
+658,23,Male,Tier 3,Student,136724,10463,8,None,Yes,Yes,Yes,Personal Loan,48481,3,Yes,Business,High,Digital Wallet,North
+659,32,Male,Tier 2,Unemployed,77901,84694,19,Mutual Funds,Yes,Yes,Yes,Credit Card Debt,28475,5,No,Home Purchase,High,Digital Wallet,Central
+660,21,Female,Tier 3,Self-Employed,122227,78694,28,Gold,No,No,Yes,Personal Loan,44552,3,Yes,Retirement,Medium,Cash,North
+661,25,Male,Tier 2,Self-Employed,132192,30008,29,Fixed Deposit,No,No,No,No Debt,2433,7,Yes,Business,High,Investment Platform,North
+662,50,Male,Tier 1,Student,187646,80474,5,Stocks,No,No,No,No Debt,10998,6,Yes,Home Purchase,High,Digital Wallet,East
+663,50,Male,Tier 1,Self-Employed,46417,48185,11,Fixed Deposit,Yes,No,Yes,Personal Loan,44343,3,Yes,Travel,Low,Investment Platform,East
+664,37,Male,Tier 1,Unemployed,103020,97924,35,Gold,Yes,Yes,No,No Debt,31133,9,Yes,Business,Low,Bank Account,West
+665,43,Male,Tier 3,Student,98639,44980,16,Cryptocurrency,Yes,Yes,No,No Debt,34069,1,Yes,Home Purchase,Low,Bank Account,East
+666,35,Male,Tier 1,Self-Employed,109881,32504,46,Cryptocurrency,No,No,No,No Debt,6858,10,Yes,Education,Low,Investment Platform,West
+667,57,Female,Tier 2,Salaried,185526,64970,9,None,No,Yes,Yes,Personal Loan,8950,3,Yes,Business,High,Bank Account,West
+668,41,Female,Tier 2,Salaried,147659,26766,48,Mutual Funds,No,Yes,Yes,No Debt,8938,10,Yes,Education,Medium,Cash,North
+669,34,Female,Tier 2,Unemployed,136688,126944,46,Gold,Yes,No,No,Credit Card Debt,25168,7,No,Business,High,Investment Platform,East
+670,22,Male,Tier 3,Self-Employed,130584,103922,42,None,Yes,No,Yes,Credit Card Debt,32099,3,No,Business,Medium,Investment Platform,North
+671,31,Male,Tier 3,Unemployed,101567,130494,16,Fixed Deposit,Yes,Yes,No,Home Loan,5644,3,Yes,Wealth Accumulation,Medium,Investment Platform,East
+672,59,Female,Tier 2,Student,90886,18802,43,Fixed Deposit,Yes,No,No,Credit Card Debt,43846,2,Yes,Wealth Accumulation,Medium,Digital Wallet,North
+673,58,Female,Tier 3,Salaried,164888,44159,22,Cryptocurrency,Yes,No,Yes,Home Loan,9260,9,No,Education,Low,Investment Platform,North
+674,54,Male,Tier 3,Student,44432,21516,6,None,No,No,Yes,Personal Loan,47458,4,Yes,Retirement,High,Investment Platform,North
+675,58,Male,Tier 2,Self-Employed,194689,60492,14,Cryptocurrency,Yes,Yes,Yes,No Debt,36075,10,Yes,Home Purchase,Medium,Investment Platform,Central
+676,54,Male,Tier 3,Unemployed,87373,39086,19,Stocks,Yes,Yes,Yes,Credit Card Debt,16488,6,Yes,Retirement,Medium,Digital Wallet,North
+677,38,Male,Tier 1,Unemployed,180289,123758,34,Cryptocurrency,Yes,Yes,Yes,Home Loan,395,2,Yes,Retirement,Low,Bank Account,South
+678,50,Male,Tier 1,Unemployed,35884,40480,48,Stocks,No,Yes,Yes,Personal Loan,10845,9,Yes,Wealth Accumulation,High,Digital Wallet,South
+679,35,Female,Tier 3,Student,20454,138023,21,Fixed Deposit,Yes,Yes,Yes,Home Loan,36059,7,No,Home Purchase,High,Cash,South
+680,47,Female,Tier 2,Salaried,89960,120195,8,None,No,Yes,Yes,No Debt,18394,10,No,Wealth Accumulation,Medium,Investment Platform,West
+681,54,Female,Tier 3,Student,117421,48737,11,Stocks,No,Yes,No,Credit Card Debt,28457,5,Yes,Wealth Accumulation,Medium,Cash,North
+682,58,Female,Tier 3,Student,58618,19265,45,None,Yes,No,Yes,Personal Loan,45906,7,Yes,Wealth Accumulation,Medium,Digital Wallet,South
+683,53,Female,Tier 1,Self-Employed,62111,124165,35,None,Yes,Yes,No,Home Loan,37305,4,Yes,Travel,Low,Bank Account,West
+684,44,Female,Tier 3,Self-Employed,185685,129501,43,Stocks,Yes,No,No,Personal Loan,42628,10,Yes,Retirement,Low,Bank Account,South
+685,35,Female,Tier 2,Self-Employed,135592,80990,38,Mutual Funds,Yes,No,Yes,Home Loan,21352,7,Yes,Retirement,Medium,Investment Platform,East
+686,50,Male,Tier 2,Salaried,74993,25386,10,Cryptocurrency,No,Yes,No,Home Loan,21146,2,Yes,Retirement,Low,Bank Account,Central
+687,37,Male,Tier 2,Salaried,143652,114718,42,Stocks,No,No,Yes,No Debt,17435,7,No,Travel,Medium,Digital Wallet,North
+688,25,Male,Tier 3,Self-Employed,154920,47425,49,Fixed Deposit,Yes,No,No,No Debt,39386,4,Yes,Business,Medium,Digital Wallet,Central
+689,49,Female,Tier 1,Self-Employed,93672,131635,38,None,Yes,Yes,Yes,Home Loan,37491,4,No,Education,Low,Bank Account,Central
+690,24,Female,Tier 2,Salaried,81125,63634,48,Gold,Yes,No,Yes,Credit Card Debt,19968,1,Yes,Education,Low,Investment Platform,East
+691,30,Male,Tier 2,Unemployed,132509,96988,19,Stocks,Yes,Yes,Yes,Personal Loan,47605,3,Yes,Travel,Low,Investment Platform,East
+692,37,Female,Tier 2,Salaried,76602,116337,18,Cryptocurrency,Yes,No,Yes,Personal Loan,8539,5,Yes,Retirement,Low,Digital Wallet,East
+693,30,Male,Tier 2,Salaried,57222,77443,10,None,Yes,Yes,Yes,No Debt,1263,5,Yes,Education,Medium,Bank Account,West
+694,37,Female,Tier 1,Salaried,64223,39424,41,Mutual Funds,Yes,No,Yes,Credit Card Debt,13305,2,No,Travel,Medium,Digital Wallet,South
+695,40,Male,Tier 1,Self-Employed,80333,98844,36,Fixed Deposit,No,Yes,Yes,Home Loan,24398,4,Yes,Wealth Accumulation,High,Digital Wallet,North
+696,44,Male,Tier 1,Unemployed,198804,51984,7,Mutual Funds,Yes,No,Yes,No Debt,43702,1,Yes,Home Purchase,Low,Cash,East
+697,25,Female,Tier 3,Salaried,137650,51505,7,Gold,Yes,Yes,Yes,Home Loan,32080,9,Yes,Education,High,Digital Wallet,North
+698,54,Male,Tier 1,Self-Employed,64420,112478,26,Stocks,Yes,No,Yes,Home Loan,10265,1,Yes,Home Purchase,Low,Investment Platform,North
+699,26,Male,Tier 1,Student,90504,72699,26,None,No,No,Yes,No Debt,49107,6,Yes,Retirement,Medium,Bank Account,North
+700,22,Male,Tier 3,Student,17462,124012,14,Stocks,Yes,Yes,Yes,Credit Card Debt,32152,7,Yes,Education,Medium,Bank Account,East
+701,33,Female,Tier 1,Salaried,24460,44758,7,Cryptocurrency,Yes,No,No,Personal Loan,27724,3,No,Travel,Medium,Cash,East
+702,31,Female,Tier 3,Student,114319,146668,16,Stocks,Yes,Yes,Yes,No Debt,30624,1,No,Business,Medium,Cash,South
+703,43,Male,Tier 2,Unemployed,155347,26374,33,Fixed Deposit,No,No,No,Credit Card Debt,34119,7,Yes,Education,Low,Investment Platform,East
+704,36,Female,Tier 3,Student,159341,128686,21,Gold,Yes,Yes,Yes,Home Loan,39958,3,Yes,Education,Low,Cash,East
+705,51,Female,Tier 1,Student,144593,13775,11,Mutual Funds,No,No,No,No Debt,29389,10,Yes,Education,High,Digital Wallet,North
+706,31,Male,Tier 1,Unemployed,137672,37388,17,Gold,No,No,Yes,Personal Loan,16650,6,Yes,Education,Low,Digital Wallet,South
+707,36,Male,Tier 2,Salaried,87920,133800,6,None,No,Yes,Yes,Personal Loan,26014,6,No,Travel,Low,Investment Platform,Central
+708,28,Male,Tier 3,Salaried,37553,31029,8,Stocks,Yes,Yes,Yes,Home Loan,10885,4,No,Travel,Low,Bank Account,East
+709,24,Male,Tier 2,Unemployed,170438,93981,14,None,Yes,Yes,Yes,No Debt,7434,6,Yes,Business,Low,Investment Platform,East
+710,24,Female,Tier 1,Unemployed,59036,63639,43,Mutual Funds,Yes,No,Yes,Personal Loan,30028,10,Yes,Travel,Medium,Cash,Central
+711,45,Male,Tier 3,Unemployed,163441,124010,28,None,No,Yes,Yes,No Debt,1022,4,No,Travel,Medium,Bank Account,North
+712,23,Female,Tier 3,Student,157867,41105,21,Cryptocurrency,Yes,Yes,No,Personal Loan,24331,8,No,Retirement,Low,Bank Account,South
+713,52,Female,Tier 2,Unemployed,85021,136519,10,Gold,Yes,No,Yes,Home Loan,2037,9,Yes,Retirement,Low,Bank Account,North
+714,23,Male,Tier 3,Self-Employed,122205,112739,23,Mutual Funds,No,Yes,Yes,Home Loan,8756,2,Yes,Home Purchase,Medium,Cash,West
+715,47,Female,Tier 3,Student,176215,61796,9,Mutual Funds,Yes,No,No,No Debt,46326,7,Yes,Business,Medium,Digital Wallet,East
+716,49,Male,Tier 2,Salaried,175497,25804,36,Mutual Funds,Yes,Yes,Yes,Credit Card Debt,17443,9,No,Retirement,High,Digital Wallet,West
+717,52,Other,Tier 1,Salaried,103209,137732,14,Fixed Deposit,Yes,Yes,No,Credit Card Debt,34192,9,Yes,Business,High,Cash,East
+718,39,Female,Tier 2,Salaried,90139,17951,13,Gold,Yes,No,Yes,Home Loan,4123,5,No,Business,High,Cash,West
+719,41,Female,Tier 1,Student,20368,147521,31,None,No,Yes,No,Personal Loan,16603,1,Yes,Education,Medium,Investment Platform,Central
+720,25,Female,Tier 2,Self-Employed,150693,29065,17,Mutual Funds,Yes,Yes,Yes,Credit Card Debt,405,6,Yes,Wealth Accumulation,Medium,Investment Platform,East
+721,38,Male,Tier 2,Unemployed,73829,111503,23,Gold,Yes,No,No,Home Loan,42597,8,Yes,Wealth Accumulation,Low,Digital Wallet,East
+722,48,Female,Tier 1,Unemployed,144036,115072,25,Mutual Funds,Yes,Yes,No,Personal Loan,18702,1,No,Wealth Accumulation,Medium,Cash,West
+723,42,Female,Tier 1,Salaried,29719,99360,28,Cryptocurrency,No,No,Yes,Personal Loan,42719,2,Yes,Business,Low,Investment Platform,South
+724,41,Female,Tier 1,Salaried,44227,72287,42,Cryptocurrency,No,No,Yes,Credit Card Debt,26250,1,No,Education,High,Cash,West
+725,26,Female,Tier 3,Student,124430,147126,8,Cryptocurrency,Yes,Yes,Yes,Home Loan,41751,5,Yes,Home Purchase,Medium,Cash,East
+726,21,Female,Tier 3,Self-Employed,153638,117357,28,Stocks,Yes,Yes,No,Personal Loan,21442,2,No,Home Purchase,Medium,Digital Wallet,East
+727,25,Male,Tier 1,Unemployed,27306,39670,39,Mutual Funds,Yes,No,Yes,Personal Loan,17693,10,No,Wealth Accumulation,Low,Digital Wallet,South
+728,32,Male,Tier 3,Student,68822,59112,7,Stocks,No,Yes,Yes,No Debt,24005,10,Yes,Home Purchase,Medium,Cash,North
+729,46,Female,Tier 2,Unemployed,39042,98388,8,Gold,Yes,Yes,Yes,No Debt,44793,4,No,Education,Low,Bank Account,South
+730,54,Male,Tier 1,Salaried,161158,99156,41,Stocks,No,No,Yes,Credit Card Debt,37697,1,Yes,Wealth Accumulation,Low,Bank Account,North
+731,34,Female,Tier 1,Unemployed,163459,57922,44,Gold,Yes,Yes,Yes,No Debt,28988,7,Yes,Education,Low,Cash,East
+732,46,Female,Tier 2,Self-Employed,173114,103348,39,Gold,Yes,No,No,Home Loan,32333,8,Yes,Home Purchase,Low,Digital Wallet,Central
+733,47,Male,Tier 3,Self-Employed,104424,89335,35,Gold,Yes,Yes,Yes,Credit Card Debt,29992,5,No,Wealth Accumulation,Medium,Bank Account,Central
+734,29,Male,Tier 2,Salaried,197690,36312,48,None,No,Yes,No,Credit Card Debt,9522,2,No,Education,Medium,Digital Wallet,West
+735,46,Female,Tier 1,Self-Employed,164395,76985,29,Stocks,Yes,Yes,Yes,No Debt,45406,8,Yes,Travel,High,Bank Account,South
+736,42,Male,Tier 1,Self-Employed,33019,140744,44,None,No,No,Yes,Personal Loan,41470,1,No,Travel,Medium,Cash,South
+737,50,Female,Tier 2,Student,90426,110963,17,Mutual Funds,Yes,No,Yes,Home Loan,43532,7,Yes,Education,Low,Investment Platform,Central
+738,37,Male,Tier 1,Unemployed,55863,41551,8,Stocks,Yes,No,Yes,Home Loan,12121,1,No,Education,High,Investment Platform,North
+739,46,Female,Tier 1,Salaried,126023,99813,18,Mutual Funds,Yes,Yes,No,Home Loan,14219,6,Yes,Retirement,Medium,Digital Wallet,South
+740,56,Male,Tier 1,Salaried,156355,111025,17,Mutual Funds,No,Yes,No,Credit Card Debt,1617,6,Yes,Retirement,Medium,Digital Wallet,North
+741,21,Female,Tier 3,Salaried,164351,134342,31,Gold,Yes,Yes,Yes,Home Loan,43016,5,Yes,Business,Medium,Bank Account,North
+742,28,Male,Tier 3,Salaried,61999,19637,10,Stocks,No,Yes,Yes,Personal Loan,24276,2,Yes,Wealth Accumulation,High,Cash,North
+743,55,Female,Tier 2,Salaried,77780,53258,21,Mutual Funds,No,No,Yes,Personal Loan,34351,2,Yes,Business,Low,Bank Account,North
+744,35,Male,Tier 3,Self-Employed,37908,139553,40,Cryptocurrency,No,No,No,No Debt,6704,9,Yes,Business,Low,Cash,West
+745,42,Female,Tier 1,Student,141278,36950,44,Mutual Funds,Yes,Yes,No,Home Loan,40756,5,Yes,Home Purchase,Medium,Cash,West
+746,34,Female,Tier 2,Salaried,128002,137870,39,Cryptocurrency,No,No,No,Credit Card Debt,17959,5,No,Travel,Low,Digital Wallet,Central
+747,46,Male,Tier 1,Student,196297,10215,21,Stocks,No,Yes,Yes,No Debt,28522,7,Yes,Home Purchase,High,Investment Platform,West
+748,48,Male,Tier 2,Student,184024,115603,45,None,Yes,No,Yes,Personal Loan,9953,6,No,Wealth Accumulation,Medium,Investment Platform,South
+749,43,Male,Tier 3,Self-Employed,115706,21523,6,Stocks,Yes,Yes,Yes,Home Loan,26567,2,Yes,Education,Medium,Digital Wallet,West
+750,34,Female,Tier 2,Salaried,183735,78689,17,None,Yes,Yes,Yes,Personal Loan,22560,1,Yes,Retirement,Medium,Investment Platform,South
+751,44,Female,Tier 1,Self-Employed,137019,33834,6,None,Yes,Yes,Yes,No Debt,2613,5,Yes,Wealth Accumulation,Low,Digital Wallet,South
+752,22,Female,Tier 2,Salaried,124708,44474,32,Stocks,Yes,Yes,Yes,Personal Loan,36660,4,No,Education,High,Bank Account,North
+753,46,Male,Tier 1,Self-Employed,194001,53066,47,Mutual Funds,Yes,No,Yes,Home Loan,45104,3,No,Wealth Accumulation,High,Cash,Central
+754,34,Male,Tier 3,Student,24343,20400,30,Fixed Deposit,Yes,Yes,No,Home Loan,39501,2,Yes,Education,Medium,Investment Platform,North
+755,27,Female,Tier 2,Salaried,91173,135211,26,Mutual Funds,Yes,Yes,No,No Debt,37199,10,Yes,Retirement,High,Investment Platform,North
+756,23,Female,Tier 2,Unemployed,115260,20345,47,Mutual Funds,Yes,No,Yes,Home Loan,24496,2,Yes,Education,Low,Bank Account,West
+757,43,Other,Tier 2,Student,185863,43896,7,Gold,Yes,No,Yes,Personal Loan,17765,4,Yes,Business,High,Bank Account,West
+758,38,Male,Tier 2,Unemployed,175206,38899,39,Gold,Yes,No,Yes,Personal Loan,25721,2,No,Wealth Accumulation,Low,Investment Platform,South
+759,58,Female,Tier 1,Student,193173,38229,16,Mutual Funds,Yes,Yes,No,Credit Card Debt,3515,4,Yes,Retirement,Low,Investment Platform,West
+760,55,Male,Tier 2,Self-Employed,84443,15583,28,Cryptocurrency,Yes,No,No,Credit Card Debt,4454,3,Yes,Education,Low,Digital Wallet,West
+761,35,Male,Tier 1,Salaried,72530,145969,9,None,Yes,No,No,Credit Card Debt,40537,9,No,Business,Low,Digital Wallet,East
+762,45,Female,Tier 2,Student,192871,81537,24,Gold,Yes,Yes,No,Personal Loan,22873,7,No,Business,Low,Investment Platform,South
+763,57,Female,Tier 3,Self-Employed,150899,145639,43,Mutual Funds,No,Yes,Yes,Personal Loan,8384,3,Yes,Travel,High,Digital Wallet,South
+764,48,Other,Tier 3,Salaried,111143,84807,43,Fixed Deposit,Yes,Yes,Yes,No Debt,13727,8,Yes,Business,High,Bank Account,East
+765,30,Male,Tier 2,Salaried,159771,139648,17,Cryptocurrency,No,Yes,Yes,Credit Card Debt,3534,9,Yes,Home Purchase,Low,Cash,South
+766,59,Male,Tier 2,Student,129527,122652,45,Stocks,Yes,Yes,Yes,Personal Loan,33523,7,Yes,Retirement,Low,Digital Wallet,Central
+767,37,Female,Tier 1,Salaried,151385,81792,49,Mutual Funds,Yes,Yes,No,No Debt,31889,6,Yes,Retirement,High,Cash,Central
+768,59,Female,Tier 3,Student,159670,141300,16,Mutual Funds,Yes,No,Yes,Personal Loan,49979,4,No,Retirement,Low,Digital Wallet,East
+769,42,Male,Tier 1,Salaried,126362,47052,17,None,Yes,No,Yes,No Debt,25465,5,No,Education,Low,Investment Platform,West
+770,46,Male,Tier 2,Unemployed,43807,56032,14,Cryptocurrency,No,No,Yes,Credit Card Debt,30593,8,Yes,Wealth Accumulation,Medium,Digital Wallet,Central
+771,45,Male,Tier 1,Self-Employed,191298,43686,37,Gold,Yes,No,No,Credit Card Debt,21330,3,Yes,Education,Medium,Cash,East
+772,37,Female,Tier 1,Unemployed,74550,86981,44,Gold,Yes,Yes,Yes,Credit Card Debt,8302,2,Yes,Home Purchase,Low,Cash,Central
+773,33,Male,Tier 2,Student,18558,108802,20,Gold,Yes,No,No,Personal Loan,12907,3,Yes,Wealth Accumulation,Medium,Investment Platform,North
+774,40,Male,Tier 1,Unemployed,65113,143881,49,Stocks,Yes,No,Yes,Personal Loan,24430,7,Yes,Business,Medium,Cash,East
+775,45,Male,Tier 2,Student,67999,52818,39,Cryptocurrency,No,Yes,Yes,No Debt,41752,8,Yes,Education,Low,Investment Platform,South
+776,24,Male,Tier 1,Salaried,182415,110422,7,Cryptocurrency,No,No,Yes,Home Loan,47153,1,Yes,Wealth Accumulation,High,Investment Platform,Central
+777,30,Male,Tier 1,Salaried,73219,81927,9,Gold,Yes,No,No,Home Loan,7181,7,Yes,Business,Medium,Cash,South
+778,23,Female,Tier 2,Student,181258,89465,30,Gold,Yes,Yes,Yes,Credit Card Debt,46213,9,Yes,Wealth Accumulation,Low,Bank Account,East
+779,38,Male,Tier 1,Unemployed,183038,123221,15,None,Yes,No,No,Home Loan,12875,3,Yes,Business,Low,Cash,Central
+780,56,Female,Tier 1,Salaried,179841,47333,11,Fixed Deposit,No,Yes,Yes,Credit Card Debt,27219,3,Yes,Wealth Accumulation,Low,Cash,South
+781,42,Male,Tier 2,Self-Employed,68218,136457,14,Fixed Deposit,Yes,Yes,Yes,No Debt,36182,8,Yes,Education,Medium,Digital Wallet,West
+782,54,Female,Tier 1,Salaried,34229,26576,46,Mutual Funds,Yes,Yes,No,Home Loan,15005,4,Yes,Education,Low,Cash,West
+783,28,Female,Tier 3,Self-Employed,90209,129875,38,Mutual Funds,No,No,Yes,Home Loan,42269,8,Yes,Home Purchase,Medium,Digital Wallet,North
+784,39,Female,Tier 1,Unemployed,42877,49405,7,Cryptocurrency,Yes,No,Yes,Credit Card Debt,14245,5,Yes,Travel,Low,Digital Wallet,East
+785,57,Female,Tier 1,Self-Employed,112137,104000,12,Cryptocurrency,Yes,No,No,No Debt,6457,3,No,Retirement,Medium,Cash,South
+786,26,Male,Tier 2,Self-Employed,53084,41601,35,Stocks,No,Yes,Yes,Home Loan,6749,4,Yes,Education,Medium,Investment Platform,North
+787,46,Male,Tier 1,Self-Employed,96780,77946,15,Stocks,Yes,Yes,No,Home Loan,33064,4,Yes,Education,Medium,Bank Account,East
+788,54,Female,Tier 1,Self-Employed,162878,62116,49,Fixed Deposit,Yes,No,Yes,Home Loan,9821,8,Yes,Business,Medium,Cash,West
+789,26,Other,Tier 1,Salaried,52034,114186,11,Mutual Funds,Yes,No,Yes,No Debt,49720,6,Yes,Travel,High,Cash,South
+790,57,Female,Tier 1,Self-Employed,186389,72894,49,Fixed Deposit,Yes,Yes,Yes,No Debt,32761,7,No,Education,Medium,Investment Platform,Central
+791,53,Female,Tier 3,Salaried,70468,17465,6,Fixed Deposit,Yes,Yes,No,Home Loan,38051,9,No,Wealth Accumulation,Low,Digital Wallet,West
+792,42,Female,Tier 1,Self-Employed,165166,66754,10,Mutual Funds,No,No,Yes,Credit Card Debt,13119,6,Yes,Travel,Medium,Investment Platform,Central
+793,41,Male,Tier 3,Student,25589,102850,45,Stocks,Yes,No,No,Credit Card Debt,7664,3,Yes,Retirement,High,Investment Platform,Central
+794,26,Male,Tier 3,Unemployed,72221,119765,36,None,No,Yes,No,Home Loan,29281,3,Yes,Wealth Accumulation,Low,Digital Wallet,South
+795,26,Female,Tier 2,Self-Employed,16657,102691,24,None,No,Yes,Yes,No Debt,40279,3,Yes,Business,Low,Cash,South
+796,24,Female,Tier 3,Student,113300,48871,38,None,Yes,No,Yes,Home Loan,31821,10,Yes,Home Purchase,Medium,Investment Platform,Central
+797,50,Male,Tier 1,Self-Employed,132229,39511,20,Mutual Funds,Yes,No,Yes,No Debt,38233,2,Yes,Wealth Accumulation,Medium,Investment Platform,North
+798,31,Female,Tier 3,Self-Employed,54531,90960,29,Gold,Yes,Yes,Yes,Home Loan,24647,1,Yes,Retirement,Medium,Cash,Central
+799,50,Male,Tier 1,Self-Employed,67227,75776,16,Gold,No,Yes,Yes,No Debt,45325,10,Yes,Wealth Accumulation,Low,Cash,Central
+800,51,Female,Tier 2,Student,18164,54462,11,Gold,No,No,No,Personal Loan,4382,1,No,Travel,Low,Bank Account,South
+801,44,Male,Tier 2,Unemployed,108078,42574,43,Cryptocurrency,Yes,Yes,No,Credit Card Debt,16449,4,Yes,Travel,High,Investment Platform,East
+802,29,Male,Tier 1,Student,56247,112072,21,Stocks,No,Yes,No,Personal Loan,17263,3,Yes,Retirement,Low,Bank Account,West
+803,23,Female,Tier 2,Unemployed,165673,88282,49,Stocks,Yes,Yes,No,Credit Card Debt,24643,5,Yes,Travel,Low,Digital Wallet,South
+804,51,Male,Tier 2,Self-Employed,65599,119779,15,Cryptocurrency,No,Yes,No,No Debt,9408,9,Yes,Wealth Accumulation,Medium,Cash,North
+805,57,Female,Tier 1,Salaried,150624,28557,10,Fixed Deposit,Yes,No,Yes,Personal Loan,23606,8,No,Home Purchase,High,Cash,West
+806,56,Female,Tier 1,Self-Employed,155489,82104,27,None,Yes,Yes,No,Credit Card Debt,27603,9,Yes,Wealth Accumulation,Medium,Bank Account,South
+807,44,Female,Tier 2,Unemployed,83207,147152,31,Gold,No,No,No,Home Loan,46458,5,No,Home Purchase,High,Investment Platform,South
+808,51,Male,Tier 2,Student,87055,132013,10,None,Yes,Yes,Yes,No Debt,5069,8,Yes,Travel,Low,Digital Wallet,East
+809,26,Male,Tier 3,Self-Employed,117266,51081,42,Gold,Yes,Yes,No,No Debt,19623,4,No,Wealth Accumulation,Low,Investment Platform,North
+810,22,Male,Tier 3,Student,93270,145440,6,None,Yes,Yes,Yes,Home Loan,44440,5,No,Travel,Low,Investment Platform,North
+811,40,Other,Tier 3,Student,126426,129181,26,Fixed Deposit,Yes,No,No,Home Loan,16891,3,Yes,Home Purchase,High,Bank Account,South
+812,48,Female,Tier 2,Student,149794,37094,24,None,Yes,No,No,Credit Card Debt,7704,5,Yes,Travel,Medium,Investment Platform,East
+813,31,Female,Tier 1,Self-Employed,85442,76766,29,None,No,Yes,No,No Debt,28290,3,No,Education,Low,Bank Account,South
+814,24,Female,Tier 1,Student,110632,93053,19,Mutual Funds,Yes,No,Yes,Credit Card Debt,27460,5,Yes,Business,Medium,Cash,Central
+815,35,Female,Tier 3,Student,186103,11301,33,None,Yes,No,No,Home Loan,17509,5,Yes,Wealth Accumulation,Low,Cash,Central
+816,26,Female,Tier 2,Self-Employed,36438,91463,12,Mutual Funds,No,No,Yes,No Debt,17269,6,Yes,Education,Medium,Cash,East
+817,50,Male,Tier 1,Student,73819,34466,41,Stocks,Yes,Yes,Yes,Home Loan,7975,9,Yes,Travel,High,Digital Wallet,South
+818,58,Female,Tier 1,Self-Employed,58856,36081,37,Cryptocurrency,Yes,No,No,Credit Card Debt,44837,1,Yes,Travel,Low,Digital Wallet,East
+819,22,Male,Tier 3,Unemployed,179648,34354,26,None,No,Yes,Yes,Credit Card Debt,6565,10,Yes,Business,Low,Investment Platform,South
+820,35,Female,Tier 2,Unemployed,56938,103297,9,Stocks,No,Yes,No,Credit Card Debt,22467,6,Yes,Travel,Low,Bank Account,South
+821,31,Female,Tier 2,Unemployed,195100,28300,43,Mutual Funds,Yes,No,Yes,No Debt,4870,1,Yes,Business,Low,Investment Platform,Central
+822,28,Female,Tier 2,Student,74807,74384,22,None,No,Yes,Yes,Home Loan,18909,6,No,Wealth Accumulation,Low,Cash,West
+823,46,Male,Tier 1,Salaried,64877,105027,42,None,Yes,Yes,No,Home Loan,9117,2,Yes,Home Purchase,Medium,Investment Platform,North
+824,25,Male,Tier 1,Salaried,58461,131684,41,Fixed Deposit,No,Yes,Yes,Credit Card Debt,1938,8,No,Business,Low,Investment Platform,North
+825,26,Male,Tier 1,Student,108474,70892,34,Stocks,Yes,No,Yes,Credit Card Debt,28390,3,No,Business,High,Investment Platform,East
+826,46,Male,Tier 1,Salaried,186541,45525,35,Gold,No,No,No,Credit Card Debt,44322,10,No,Education,Low,Cash,North
+827,24,Male,Tier 3,Self-Employed,98136,16464,14,Gold,Yes,Yes,Yes,Credit Card Debt,36000,6,No,Travel,Low,Bank Account,Central
+828,39,Female,Tier 2,Salaried,35435,26562,19,Fixed Deposit,No,No,No,Personal Loan,20128,6,No,Wealth Accumulation,Low,Investment Platform,West
+829,40,Female,Tier 3,Student,160263,117392,46,Mutual Funds,No,Yes,Yes,Personal Loan,31781,4,No,Home Purchase,Medium,Cash,South
+830,53,Male,Tier 3,Student,99726,65514,48,Gold,No,Yes,Yes,Personal Loan,3465,5,Yes,Retirement,Medium,Digital Wallet,South
+831,40,Male,Tier 1,Self-Employed,173458,123428,22,Gold,Yes,No,Yes,Credit Card Debt,440,2,Yes,Business,High,Bank Account,Central
+832,32,Male,Tier 2,Unemployed,177793,122564,27,Cryptocurrency,Yes,Yes,Yes,Credit Card Debt,49613,10,No,Retirement,Medium,Cash,North
+833,21,Female,Tier 2,Student,69786,118047,37,Stocks,Yes,Yes,Yes,Home Loan,5413,10,Yes,Travel,High,Investment Platform,South
+834,46,Female,Tier 3,Self-Employed,28704,42634,20,Mutual Funds,No,Yes,Yes,No Debt,11663,8,No,Business,Medium,Cash,North
+835,34,Female,Tier 1,Salaried,71635,10060,42,None,Yes,No,Yes,Home Loan,38523,10,No,Retirement,Low,Bank Account,Central
+836,58,Female,Tier 2,Salaried,148195,19269,39,Stocks,No,Yes,Yes,Personal Loan,37780,7,Yes,Education,High,Investment Platform,South
+837,57,Other,Tier 2,Self-Employed,105710,33065,38,Mutual Funds,No,No,Yes,Home Loan,19547,10,No,Retirement,High,Digital Wallet,East
+838,31,Female,Tier 1,Self-Employed,77993,12895,32,Gold,Yes,No,Yes,Credit Card Debt,16126,6,Yes,Education,High,Digital Wallet,West
+839,56,Male,Tier 1,Student,127752,90859,6,Cryptocurrency,No,Yes,Yes,Personal Loan,39520,7,Yes,Home Purchase,Low,Digital Wallet,North
+840,33,Female,Tier 2,Salaried,171488,114127,34,Stocks,Yes,No,No,Personal Loan,5,1,Yes,Travel,Medium,Cash,North
+841,23,Male,Tier 2,Self-Employed,147886,106426,17,Gold,Yes,Yes,No,No Debt,37544,5,Yes,Wealth Accumulation,Low,Bank Account,North
+842,53,Female,Tier 1,Salaried,93537,21962,45,Mutual Funds,Yes,Yes,No,No Debt,7038,7,Yes,Retirement,Low,Digital Wallet,North
+843,26,Male,Tier 2,Self-Employed,65258,43302,20,Stocks,Yes,No,Yes,Personal Loan,6414,1,Yes,Business,Medium,Investment Platform,Central
+844,30,Female,Tier 1,Salaried,162580,95382,9,None,No,No,No,Personal Loan,22123,2,Yes,Travel,High,Investment Platform,Central
+845,25,Female,Tier 2,Unemployed,100166,14011,32,Stocks,Yes,Yes,No,Home Loan,3970,9,No,Retirement,Medium,Investment Platform,Central
+846,43,Female,Tier 1,Student,128710,139716,43,Gold,Yes,Yes,No,Personal Loan,11050,3,Yes,Business,High,Cash,Central
+847,30,Female,Tier 3,Salaried,50699,29782,49,Stocks,No,Yes,Yes,Credit Card Debt,2606,6,Yes,Business,Low,Bank Account,South
+848,22,Male,Tier 1,Unemployed,61335,130654,24,None,No,Yes,No,Home Loan,16482,7,Yes,Wealth Accumulation,Low,Bank Account,Central
+849,33,Male,Tier 1,Salaried,61806,19196,28,Cryptocurrency,Yes,Yes,No,Credit Card Debt,33293,9,No,Wealth Accumulation,Medium,Digital Wallet,South
+850,22,Male,Tier 1,Salaried,92853,53459,31,Cryptocurrency,No,Yes,No,Credit Card Debt,6337,5,No,Business,Low,Bank Account,East
+851,40,Male,Tier 1,Unemployed,50739,97245,34,Gold,Yes,No,Yes,Credit Card Debt,33948,4,Yes,Wealth Accumulation,High,Investment Platform,Central
+852,21,Female,Tier 2,Salaried,49785,88863,49,Mutual Funds,Yes,Yes,Yes,Personal Loan,24451,2,Yes,Business,Low,Investment Platform,East
+853,57,Male,Tier 1,Salaried,178052,133206,31,Gold,Yes,Yes,Yes,No Debt,26265,3,No,Retirement,Medium,Cash,Central
+854,29,Other,Tier 3,Student,100016,111010,30,Cryptocurrency,Yes,No,Yes,No Debt,25714,5,Yes,Home Purchase,Medium,Investment Platform,East
+855,37,Female,Tier 1,Unemployed,147681,42769,11,Fixed Deposit,No,No,No,Credit Card Debt,20875,2,Yes,Wealth Accumulation,Low,Bank Account,West
+856,29,Female,Tier 1,Unemployed,81253,117529,46,Fixed Deposit,Yes,Yes,Yes,Personal Loan,13057,4,Yes,Education,High,Investment Platform,East
+857,31,Male,Tier 1,Self-Employed,106128,34700,42,Stocks,No,Yes,Yes,Home Loan,32400,1,Yes,Education,Medium,Digital Wallet,South
+858,35,Female,Tier 1,Salaried,174213,15269,9,None,Yes,No,Yes,Credit Card Debt,5922,4,No,Education,Medium,Cash,North
+859,44,Female,Tier 1,Student,176081,131631,27,Stocks,Yes,Yes,Yes,Home Loan,3071,7,Yes,Home Purchase,High,Cash,East
+860,58,Female,Tier 2,Salaried,142581,53880,32,Fixed Deposit,No,Yes,Yes,Home Loan,22025,3,Yes,Business,Low,Bank Account,North
+861,55,Female,Tier 2,Salaried,125966,124003,38,Cryptocurrency,No,No,No,Personal Loan,27503,10,Yes,Business,High,Investment Platform,West
+862,50,Female,Tier 2,Self-Employed,152854,149392,19,Stocks,Yes,Yes,Yes,Personal Loan,23765,8,No,Travel,Low,Investment Platform,West
+863,51,Male,Tier 2,Salaried,114352,59589,36,Gold,Yes,Yes,Yes,No Debt,35560,6,No,Education,Low,Bank Account,South
+864,25,Female,Tier 2,Student,172005,45897,30,None,Yes,Yes,Yes,No Debt,46612,6,No,Education,High,Bank Account,South
+865,34,Male,Tier 1,Student,92154,24380,35,Gold,Yes,Yes,Yes,Personal Loan,32782,1,Yes,Business,High,Digital Wallet,East
+866,31,Male,Tier 2,Self-Employed,154379,80934,23,None,No,Yes,Yes,Credit Card Debt,18799,5,Yes,Education,Low,Bank Account,Central
+867,29,Male,Tier 3,Salaried,123297,65830,13,Cryptocurrency,No,No,No,No Debt,35453,3,No,Business,Medium,Investment Platform,West
+868,54,Male,Tier 2,Student,53346,15529,33,Stocks,Yes,Yes,No,Home Loan,27476,10,Yes,Business,High,Digital Wallet,North
+869,32,Male,Tier 2,Salaried,127138,104598,43,None,No,Yes,No,Credit Card Debt,16212,1,No,Wealth Accumulation,Low,Cash,Central
+870,55,Male,Tier 1,Salaried,65772,92987,8,Gold,Yes,Yes,No,Home Loan,9428,8,Yes,Business,Low,Investment Platform,West
+871,55,Other,Tier 3,Salaried,55149,59178,7,Stocks,Yes,No,Yes,Personal Loan,31419,7,Yes,Retirement,Medium,Cash,East
+872,21,Female,Tier 3,Self-Employed,101700,148009,33,Stocks,Yes,Yes,No,Home Loan,8159,7,Yes,Retirement,Low,Cash,West
+873,42,Other,Tier 2,Salaried,173598,131952,15,Gold,Yes,Yes,No,Credit Card Debt,24310,10,No,Retirement,Low,Cash,South
+874,49,Male,Tier 3,Student,111758,49886,37,Fixed Deposit,Yes,No,No,Personal Loan,36868,10,No,Retirement,High,Investment Platform,North
+875,28,Male,Tier 1,Salaried,143447,59699,42,None,Yes,Yes,Yes,Credit Card Debt,39142,10,Yes,Home Purchase,Low,Cash,North
+876,31,Female,Tier 1,Student,20695,86396,15,Gold,Yes,Yes,No,Home Loan,6004,4,Yes,Travel,High,Investment Platform,South
+877,57,Male,Tier 3,Salaried,54169,100678,31,Cryptocurrency,Yes,Yes,No,Credit Card Debt,38289,6,No,Travel,Medium,Cash,Central
+878,34,Male,Tier 3,Student,62947,35279,37,Mutual Funds,No,Yes,No,Personal Loan,11412,9,Yes,Business,Medium,Bank Account,South
+879,50,Female,Tier 1,Student,193296,120776,25,Gold,Yes,Yes,Yes,Home Loan,11755,3,No,Education,Medium,Bank Account,North
+880,55,Male,Tier 1,Salaried,60865,111444,43,Stocks,Yes,No,No,Home Loan,19017,9,Yes,Retirement,Medium,Investment Platform,East
+881,41,Female,Tier 1,Salaried,171625,116300,35,Stocks,No,Yes,No,No Debt,3890,4,Yes,Travel,Low,Cash,Central
+882,57,Female,Tier 1,Student,119501,123793,42,Gold,No,No,No,No Debt,28840,5,Yes,Travel,Low,Cash,West
+883,25,Male,Tier 3,Unemployed,75410,126278,6,Mutual Funds,No,Yes,Yes,Credit Card Debt,17175,7,Yes,Retirement,Medium,Cash,East
+884,39,Male,Tier 2,Self-Employed,118754,113247,31,Gold,Yes,Yes,No,No Debt,9191,6,Yes,Home Purchase,Low,Bank Account,Central
+885,34,Female,Tier 1,Unemployed,105895,18997,40,Mutual Funds,Yes,Yes,Yes,No Debt,151,10,Yes,Home Purchase,Low,Cash,North
+886,46,Male,Tier 1,Unemployed,170888,116102,15,Mutual Funds,Yes,No,Yes,No Debt,19447,8,Yes,Travel,High,Cash,North
+887,24,Male,Tier 1,Salaried,65705,95711,22,Cryptocurrency,Yes,Yes,Yes,No Debt,22751,8,Yes,Home Purchase,High,Investment Platform,East
+888,45,Other,Tier 1,Self-Employed,130700,126045,5,None,No,No,No,Personal Loan,29175,8,Yes,Wealth Accumulation,Low,Cash,Central
+889,45,Male,Tier 2,Unemployed,88914,50860,39,Stocks,Yes,Yes,Yes,Personal Loan,24288,3,No,Retirement,Low,Bank Account,West
+890,38,Female,Tier 3,Salaried,16881,13225,39,Stocks,Yes,Yes,Yes,No Debt,46629,10,Yes,Travel,Medium,Cash,West
+891,28,Other,Tier 3,Unemployed,185639,120114,35,Mutual Funds,Yes,Yes,No,Credit Card Debt,47800,6,Yes,Retirement,High,Bank Account,South
+892,59,Male,Tier 1,Unemployed,62365,123218,32,Stocks,Yes,Yes,No,Personal Loan,37367,7,Yes,Home Purchase,Low,Bank Account,East
+893,34,Male,Tier 3,Salaried,94211,110764,43,Fixed Deposit,No,Yes,Yes,No Debt,12274,9,Yes,Retirement,Low,Digital Wallet,Central
+894,52,Male,Tier 3,Salaried,171078,117041,5,Mutual Funds,Yes,Yes,No,Personal Loan,12218,10,No,Home Purchase,High,Bank Account,East
+895,58,Male,Tier 3,Salaried,56198,122224,29,Stocks,Yes,No,No,Home Loan,23792,10,Yes,Home Purchase,High,Digital Wallet,West
+896,53,Male,Tier 2,Self-Employed,168903,73656,47,Fixed Deposit,Yes,Yes,Yes,Personal Loan,2977,4,No,Retirement,Medium,Digital Wallet,Central
+897,43,Female,Tier 1,Unemployed,115649,86290,42,Cryptocurrency,Yes,No,Yes,Personal Loan,17226,5,Yes,Home Purchase,Low,Cash,North
+898,35,Male,Tier 1,Salaried,162531,66633,24,Stocks,Yes,Yes,Yes,Credit Card Debt,29022,8,Yes,Wealth Accumulation,Medium,Digital Wallet,North
+899,53,Female,Tier 1,Student,178515,36655,7,Fixed Deposit,Yes,Yes,Yes,Personal Loan,3793,1,Yes,Business,Medium,Investment Platform,Central
+900,45,Other,Tier 1,Unemployed,188388,131118,6,Gold,Yes,No,Yes,Credit Card Debt,1659,6,No,Retirement,Low,Bank Account,East
+901,37,Female,Tier 1,Student,151949,13114,22,None,No,Yes,No,Home Loan,37930,4,No,Business,Low,Investment Platform,East
+902,53,Female,Tier 2,Self-Employed,54553,36502,48,Gold,No,Yes,No,No Debt,43473,5,Yes,Retirement,Low,Digital Wallet,North
+903,22,Male,Tier 2,Salaried,150994,59768,14,Fixed Deposit,No,No,Yes,Credit Card Debt,16040,5,No,Home Purchase,Medium,Cash,North
+904,34,Female,Tier 2,Student,137778,58128,9,Mutual Funds,No,No,Yes,Personal Loan,4270,2,Yes,Home Purchase,Medium,Bank Account,West
+905,59,Female,Tier 1,Self-Employed,132018,93123,13,Mutual Funds,Yes,Yes,Yes,Personal Loan,13286,8,No,Travel,High,Investment Platform,Central
+906,26,Male,Tier 3,Salaried,150758,118255,6,Stocks,Yes,Yes,Yes,Credit Card Debt,3603,2,Yes,Wealth Accumulation,Medium,Cash,East
+907,26,Male,Tier 3,Student,47766,13174,38,Gold,Yes,No,Yes,Home Loan,46540,4,Yes,Travel,High,Digital Wallet,West
+908,23,Female,Tier 3,Student,47006,127769,42,Mutual Funds,No,Yes,No,No Debt,17600,5,Yes,Business,High,Cash,East
+909,27,Male,Tier 3,Self-Employed,46422,45398,35,Mutual Funds,No,No,No,Personal Loan,2291,1,No,Home Purchase,Low,Investment Platform,North
+910,28,Male,Tier 2,Salaried,131590,145393,14,Gold,No,Yes,Yes,Home Loan,13123,6,No,Travel,Low,Cash,Central
+911,35,Male,Tier 3,Salaried,27205,133549,16,Cryptocurrency,Yes,Yes,No,No Debt,3811,2,No,Home Purchase,Medium,Investment Platform,South
+912,49,Male,Tier 1,Student,169599,82635,40,Mutual Funds,No,No,Yes,No Debt,13347,5,No,Retirement,Low,Cash,Central
+913,53,Female,Tier 1,Student,164515,33760,25,None,Yes,Yes,No,Personal Loan,31276,6,Yes,Travel,High,Bank Account,South
+914,50,Female,Tier 1,Student,162596,140674,10,Fixed Deposit,Yes,Yes,Yes,Credit Card Debt,46619,8,No,Business,Low,Cash,West
+915,59,Female,Tier 1,Salaried,131477,146873,7,Stocks,Yes,Yes,Yes,Personal Loan,15513,9,No,Travel,Low,Bank Account,South
+916,47,Male,Tier 1,Self-Employed,43202,24130,14,Mutual Funds,Yes,No,No,Personal Loan,5142,6,Yes,Home Purchase,Medium,Investment Platform,South
+917,56,Male,Tier 2,Self-Employed,192214,117215,9,None,Yes,No,Yes,Personal Loan,23246,5,Yes,Education,Medium,Bank Account,West
+918,49,Female,Tier 3,Salaried,76692,98095,30,None,Yes,Yes,No,Home Loan,25507,4,Yes,Education,Medium,Cash,Central
+919,58,Male,Tier 2,Unemployed,35855,70942,25,Mutual Funds,Yes,Yes,Yes,Credit Card Debt,26714,2,No,Wealth Accumulation,Medium,Bank Account,West
+920,53,Male,Tier 1,Self-Employed,40095,108970,49,Cryptocurrency,Yes,No,Yes,Home Loan,12194,2,No,Home Purchase,Low,Investment Platform,North
+921,57,Female,Tier 3,Student,184796,92203,30,Fixed Deposit,No,No,Yes,Personal Loan,7526,7,No,Retirement,Low,Cash,North
+922,47,Male,Tier 2,Unemployed,64241,98177,42,Stocks,No,No,Yes,Credit Card Debt,19362,5,No,Travel,High,Bank Account,South
+923,53,Female,Tier 1,Unemployed,118119,82902,48,Mutual Funds,Yes,Yes,No,No Debt,46281,7,No,Education,Low,Bank Account,West
+924,24,Male,Tier 2,Self-Employed,67003,102172,30,Stocks,No,No,Yes,Credit Card Debt,44852,1,No,Retirement,Low,Digital Wallet,West
+925,42,Male,Tier 1,Unemployed,109837,30056,12,Gold,No,No,No,Personal Loan,46117,1,No,Home Purchase,Medium,Bank Account,West
+926,22,Male,Tier 1,Unemployed,109283,148454,9,None,Yes,Yes,No,Credit Card Debt,47836,5,Yes,Retirement,Low,Digital Wallet,Central
+927,30,Other,Tier 3,Self-Employed,162044,65739,19,None,Yes,Yes,No,No Debt,4595,2,Yes,Home Purchase,Medium,Investment Platform,East
+928,25,Female,Tier 1,Self-Employed,138805,91685,20,Mutual Funds,Yes,Yes,Yes,No Debt,30394,8,Yes,Wealth Accumulation,Medium,Digital Wallet,East
+929,30,Female,Tier 2,Unemployed,108846,58639,5,Mutual Funds,Yes,No,No,Credit Card Debt,15402,3,No,Travel,Medium,Investment Platform,East
+930,53,Female,Tier 3,Student,37927,10992,20,Gold,No,Yes,Yes,No Debt,27140,1,Yes,Retirement,Medium,Bank Account,Central
+931,58,Male,Tier 2,Salaried,135589,82394,41,Cryptocurrency,No,No,Yes,Home Loan,22595,2,Yes,Travel,Low,Bank Account,West
+932,33,Female,Tier 1,Unemployed,130657,77657,7,Mutual Funds,Yes,No,Yes,Credit Card Debt,42723,10,Yes,Retirement,Medium,Digital Wallet,East
+933,51,Male,Tier 1,Unemployed,81630,37160,35,None,No,No,Yes,No Debt,46764,10,Yes,Home Purchase,Low,Investment Platform,West
+934,56,Female,Tier 1,Student,119428,55156,17,Stocks,No,No,Yes,No Debt,24911,7,Yes,Home Purchase,Low,Bank Account,South
+935,44,Male,Tier 2,Unemployed,137035,96442,20,Fixed Deposit,No,No,No,Credit Card Debt,25752,6,Yes,Retirement,Medium,Digital Wallet,East
+936,35,Female,Tier 2,Unemployed,198419,127925,47,Stocks,Yes,Yes,Yes,Home Loan,19405,8,Yes,Wealth Accumulation,Low,Digital Wallet,South
+937,49,Male,Tier 1,Salaried,141244,14136,25,Cryptocurrency,No,No,Yes,Credit Card Debt,24220,7,Yes,Home Purchase,Medium,Digital Wallet,Central
+938,28,Male,Tier 3,Salaried,84518,71868,6,Fixed Deposit,Yes,Yes,No,No Debt,33953,10,Yes,Business,Medium,Bank Account,North
+939,25,Female,Tier 2,Salaried,191355,92263,31,Stocks,Yes,No,Yes,Credit Card Debt,36053,8,Yes,Business,High,Investment Platform,Central
+940,49,Male,Tier 1,Self-Employed,96326,42167,42,Stocks,Yes,Yes,Yes,No Debt,3447,3,Yes,Travel,Medium,Bank Account,Central
+941,24,Male,Tier 2,Self-Employed,158277,120957,30,Gold,Yes,No,Yes,Personal Loan,10662,6,Yes,Business,Low,Cash,Central
+942,32,Male,Tier 2,Salaried,135243,25479,42,Cryptocurrency,No,No,No,Credit Card Debt,4899,7,Yes,Business,Low,Cash,East
+943,22,Male,Tier 1,Salaried,27748,129392,29,None,Yes,No,Yes,Credit Card Debt,28582,10,Yes,Wealth Accumulation,Low,Bank Account,South
+944,47,Female,Tier 1,Self-Employed,167169,145895,15,Gold,Yes,Yes,Yes,No Debt,48828,1,No,Wealth Accumulation,Low,Investment Platform,East
+945,51,Female,Tier 3,Student,149164,29585,12,Fixed Deposit,Yes,Yes,Yes,No Debt,1935,1,Yes,Education,Low,Digital Wallet,North
+946,56,Female,Tier 2,Unemployed,68311,36619,12,None,No,No,No,No Debt,42213,7,Yes,Education,Low,Cash,Central
+947,56,Female,Tier 2,Unemployed,37692,85069,37,Gold,Yes,Yes,No,No Debt,42042,3,Yes,Wealth Accumulation,Medium,Cash,West
+948,46,Male,Tier 2,Salaried,139954,49895,11,Cryptocurrency,No,No,No,Credit Card Debt,10335,3,Yes,Education,Medium,Bank Account,North
+949,47,Female,Tier 1,Student,169934,13720,42,Mutual Funds,Yes,Yes,Yes,No Debt,17669,5,Yes,Wealth Accumulation,Medium,Cash,South
+950,25,Male,Tier 1,Self-Employed,145035,29267,25,Mutual Funds,Yes,No,Yes,Credit Card Debt,8545,6,Yes,Education,Medium,Cash,North
+951,40,Male,Tier 2,Salaried,94507,63364,12,Fixed Deposit,Yes,Yes,Yes,Home Loan,40247,2,Yes,Home Purchase,Medium,Digital Wallet,East
+952,31,Female,Tier 1,Student,95152,61567,25,Mutual Funds,Yes,No,Yes,Credit Card Debt,38023,3,Yes,Wealth Accumulation,Medium,Digital Wallet,West
+953,30,Male,Tier 1,Student,19926,101229,24,Gold,Yes,No,Yes,No Debt,18269,6,Yes,Travel,Medium,Investment Platform,East
+954,58,Female,Tier 3,Student,18969,88518,12,Fixed Deposit,Yes,Yes,Yes,No Debt,37830,3,No,Travel,Low,Cash,Central
+955,26,Male,Tier 3,Self-Employed,50733,92844,35,None,No,Yes,Yes,Home Loan,7066,5,Yes,Wealth Accumulation,Medium,Investment Platform,Central
+956,28,Female,Tier 3,Self-Employed,84855,100697,33,Cryptocurrency,Yes,Yes,No,Credit Card Debt,10712,9,No,Business,Medium,Investment Platform,North
+957,43,Female,Tier 3,Unemployed,56743,67196,13,Fixed Deposit,Yes,No,Yes,Home Loan,15991,3,Yes,Travel,Low,Digital Wallet,Central
+958,46,Female,Tier 1,Unemployed,145193,125600,19,None,Yes,Yes,No,Credit Card Debt,35790,6,Yes,Business,Low,Digital Wallet,Central
+959,32,Female,Tier 3,Student,185948,110625,34,Fixed Deposit,No,No,Yes,No Debt,21649,5,Yes,Travel,Low,Bank Account,South
+960,46,Female,Tier 1,Student,122445,141567,30,Stocks,Yes,Yes,Yes,Credit Card Debt,34315,5,No,Retirement,Medium,Digital Wallet,South
+961,33,Male,Tier 3,Self-Employed,35323,54755,14,Stocks,Yes,Yes,Yes,No Debt,30806,6,Yes,Retirement,Medium,Investment Platform,East
+962,38,Female,Tier 3,Unemployed,31428,43324,33,Fixed Deposit,No,Yes,Yes,No Debt,12210,6,Yes,Wealth Accumulation,Low,Cash,East
+963,45,Male,Tier 2,Student,49578,88929,20,Mutual Funds,Yes,Yes,Yes,Personal Loan,36972,1,Yes,Travel,Low,Investment Platform,South
+964,53,Female,Tier 3,Unemployed,101486,142624,40,Stocks,Yes,Yes,Yes,Personal Loan,40358,9,Yes,Home Purchase,High,Investment Platform,North
+965,32,Female,Tier 2,Unemployed,79140,61272,24,Cryptocurrency,Yes,No,No,Credit Card Debt,34136,5,No,Business,Low,Investment Platform,South
+966,56,Female,Tier 1,Student,122325,84462,49,None,Yes,No,No,No Debt,44297,1,Yes,Travel,Low,Digital Wallet,East
+967,24,Male,Tier 2,Self-Employed,98829,64675,41,Gold,Yes,Yes,Yes,Home Loan,15945,8,Yes,Wealth Accumulation,Low,Investment Platform,West
+968,25,Male,Tier 2,Student,21364,83591,26,Stocks,Yes,No,No,No Debt,29665,7,Yes,Business,Medium,Bank Account,Central
+969,57,Female,Tier 1,Student,143867,42363,11,Fixed Deposit,Yes,No,No,Home Loan,42477,7,Yes,Education,Medium,Cash,West
+970,28,Male,Tier 2,Unemployed,181421,87004,27,Mutual Funds,Yes,Yes,No,Credit Card Debt,13644,5,Yes,Wealth Accumulation,Medium,Digital Wallet,West
+971,48,Male,Tier 3,Student,146763,50718,45,Gold,Yes,Yes,No,Credit Card Debt,4917,1,Yes,Travel,High,Investment Platform,Central
+972,51,Male,Tier 1,Self-Employed,110598,123627,44,None,No,Yes,Yes,Home Loan,19868,9,Yes,Home Purchase,Medium,Bank Account,South
+973,29,Female,Tier 3,Student,191968,36870,33,None,No,Yes,Yes,Home Loan,11877,9,No,Education,Low,Cash,North
+974,49,Female,Tier 3,Self-Employed,72062,47394,20,Stocks,No,No,Yes,No Debt,13224,8,Yes,Wealth Accumulation,Medium,Investment Platform,West
+975,34,Male,Tier 3,Self-Employed,159933,62057,42,None,Yes,No,Yes,Credit Card Debt,3052,5,No,Travel,Low,Cash,North
+976,42,Male,Tier 3,Unemployed,103302,89795,32,None,Yes,Yes,Yes,No Debt,27272,3,Yes,Retirement,Medium,Digital Wallet,East
+977,31,Male,Tier 2,Salaried,78928,90409,42,Mutual Funds,Yes,Yes,Yes,Home Loan,41150,8,Yes,Travel,Low,Digital Wallet,West
+978,43,Female,Tier 3,Salaried,56347,23016,35,Mutual Funds,Yes,No,No,Personal Loan,30668,1,Yes,Retirement,Medium,Bank Account,East
+979,21,Female,Tier 3,Unemployed,18121,52137,18,Mutual Funds,No,No,No,Personal Loan,17316,3,No,Retirement,Low,Digital Wallet,South
+980,57,Male,Tier 1,Student,98793,141225,37,Fixed Deposit,Yes,No,No,Personal Loan,7240,7,Yes,Wealth Accumulation,High,Bank Account,West
+981,41,Male,Tier 2,Unemployed,43164,148925,13,None,Yes,No,No,Home Loan,31559,4,Yes,Travel,Low,Investment Platform,East
+982,46,Male,Tier 2,Self-Employed,40491,22379,31,None,Yes,Yes,No,No Debt,3238,7,Yes,Travel,Medium,Cash,East
+983,56,Female,Tier 1,Salaried,74222,131169,28,None,Yes,No,Yes,Credit Card Debt,43175,5,No,Retirement,Low,Digital Wallet,South
+984,43,Female,Tier 2,Unemployed,169237,136082,17,Cryptocurrency,Yes,No,Yes,Home Loan,565,6,Yes,Business,High,Cash,North
+985,21,Male,Tier 2,Student,18748,123089,30,Mutual Funds,Yes,Yes,Yes,Personal Loan,21762,7,Yes,Education,Medium,Cash,North
+986,35,Male,Tier 1,Unemployed,41553,21049,33,Gold,Yes,No,No,No Debt,5558,10,Yes,Home Purchase,Low,Investment Platform,West
+987,41,Male,Tier 2,Salaried,131547,141858,47,Stocks,No,Yes,Yes,Credit Card Debt,16375,7,No,Travel,High,Investment Platform,South
+988,29,Other,Tier 3,Unemployed,75380,132784,32,Gold,Yes,Yes,No,Credit Card Debt,25710,7,No,Education,Low,Digital Wallet,West
+989,29,Male,Tier 2,Unemployed,59331,57691,32,Fixed Deposit,No,Yes,Yes,Home Loan,49895,7,Yes,Education,Medium,Investment Platform,North
+990,30,Female,Tier 1,Salaried,135617,67986,12,Fixed Deposit,No,Yes,Yes,Home Loan,11103,7,Yes,Business,Medium,Cash,South
+991,46,Female,Tier 1,Self-Employed,54560,104774,27,None,Yes,Yes,No,Credit Card Debt,15174,3,No,Education,Low,Bank Account,Central
+992,55,Male,Tier 1,Self-Employed,68865,115315,33,Gold,No,Yes,Yes,Credit Card Debt,41490,3,No,Travel,High,Bank Account,South
+993,45,Male,Tier 3,Salaried,192758,67204,9,None,Yes,Yes,Yes,Personal Loan,21793,7,Yes,Wealth Accumulation,Low,Bank Account,South
+994,46,Male,Tier 1,Unemployed,90910,30085,46,Cryptocurrency,No,Yes,Yes,Credit Card Debt,27597,2,No,Wealth Accumulation,Low,Digital Wallet,Central
+995,31,Female,Tier 2,Salaried,150747,43980,11,Fixed Deposit,Yes,Yes,Yes,Home Loan,8753,2,Yes,Education,High,Investment Platform,East
+996,58,Female,Tier 1,Self-Employed,92986,66117,46,Fixed Deposit,Yes,Yes,No,No Debt,38397,3,Yes,Travel,Medium,Investment Platform,East
+997,22,Female,Tier 1,Student,25068,25896,40,Gold,Yes,No,Yes,Personal Loan,6318,4,No,Travel,Low,Investment Platform,East
+998,27,Female,Tier 3,Unemployed,69460,99353,45,Fixed Deposit,Yes,Yes,Yes,Personal Loan,33069,6,Yes,Retirement,Low,Investment Platform,North
+999,38,Male,Tier 2,Self-Employed,115766,39813,31,Cryptocurrency,No,Yes,Yes,Credit Card Debt,20151,8,No,Business,Medium,Cash,South
+1000,47,Other,Tier 1,Unemployed,61418,75679,6,Cryptocurrency,Yes,No,No,No Debt,40274,10,Yes,Home Purchase,Low,Bank Account,Central

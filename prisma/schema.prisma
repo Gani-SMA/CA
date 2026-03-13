@@ -1,0 +1,60 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model User {
+  id             String           @id @default(uuid())
+  clerkId        String           @unique
+  email          String           @unique
+  firstName      String?
+  lastName       String?
+  createdAt      DateTime         @default(now())
+  updatedAt      DateTime         @updatedAt
+  transactions   Transaction[]
+  budgets        Budget[]
+  investmentPlan InvestmentPlan?
+}
+
+model Transaction {
+  id          String   @id @default(uuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id])
+  amount      Float
+  category    String   // 'food', 'transport', 'bills', 'shopping', 'entertainment', 'healthcare', 'investment'
+  type        String   // 'expense' | 'income'
+  date        DateTime @default(now())
+  description String
+  upiRef      String?  @unique // For duplicate transaction checking
+  isAnomaly   Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Budget {
+  id       String   @id @default(uuid())
+  userId   String
+  user     User     @relation(fields: [userId], references: [id])
+  category String   // Category ID
+  amount   Float
+  month    String   // Format: 'YYYY-MM'
+  @@unique([userId, category, month])
+}
+
+model InvestmentPlan {
+  id           String   @id @default(uuid())
+  userId       String   @unique
+  user         User     @relation(fields: [userId], references: [id])
+  profileType  String   // 'student' | 'employee' | 'business'
+  riskLevel    String   // 'low' | 'medium' | 'high'
+  recommendations String // JSON stringified recommendations from Gemini
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}

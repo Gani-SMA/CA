@@ -1,0 +1,185 @@
+/* ═══════════════════════════════
+   EXPENSE GALAXY — Professional
+   ═══════════════════════════════ */
+
+.galaxy {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.galaxy__header h2 {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.galaxy__header p {
+  font-size: 0.82rem;
+  color: var(--text-tertiary);
+  line-height: 1.5;
+}
+
+.galaxy__canvas-wrapper {
+  position: relative;
+  height: 500px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.galaxy__canvas-wrapper canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.galaxy__legend {
+  position: absolute;
+  bottom: var(--space-md);
+  left: 50%; transform: translateX(-50%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  padding: var(--space-sm) var(--space-md);
+  background: rgba(10, 14, 26, 0.8);
+  backdrop-filter: blur(12px);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--glass-border);
+}
+
+.galaxy__legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  background: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-normal);
+  transform: translateZ(0);
+  will-change: transform, box-shadow, backdrop-filter;
+}
+
+.galaxy__legend-item:hover {
+  background: rgba(255,255,255,0.08);
+  color: var(--text-primary);
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.15), inset 0 1px 1px rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(24px) brightness(1.1);
+  -webkit-backdrop-filter: blur(24px) brightness(1.1);
+  transform: translateY(-2px) scale(1.05);
+  z-index: 10;
+}
+
+.galaxy__legend-dot {
+  width: 8px; height: 8px;
+  border-radius: var(--radius-full);
+}
+
+/* Detail Overlay */
+.galaxy__detail-overlay {
+  position: fixed; inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 500;
+  animation: fadeIn 200ms ease;
+  padding: var(--space-lg);
+}
+
+.galaxy__detail {
+  position: relative;
+  width: 100%; max-width: 480px;
+  padding: var(--space-xl);
+  animation: slideUp 400ms var(--liquid-easing) both;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 20px 40px rgba(255, 255, 255, 0.05);
+  border-color: rgba(148, 163, 184, 0.35);
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
+}
+
+.galaxy__detail-close {
+  position: absolute;
+  top: var(--space-md); right: var(--space-md);
+  width: 32px; height: 32px;
+  border-radius: var(--radius-md);
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--glass-border);
+  color: var(--text-secondary);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.galaxy__detail-close:hover {
+  background: rgba(255,255,255,0.08);
+  color: var(--text-primary);
+}
+
+.galaxy__detail-close:focus-visible {
+  outline: 2px solid var(--accent-purple);
+  outline-offset: 2px;
+}
+
+.galaxy__detail-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+.galaxy__detail-icon {
+  width: 44px; height: 44px;
+  border-radius: var(--radius-lg);
+  display: flex; align-items: center; justify-content: center;
+}
+
+.galaxy__detail-header h3 {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.galaxy__detail-amount {
+  font-size: 0.8rem;
+  color: var(--text-tertiary);
+}
+
+.galaxy__detail-budget {
+  margin-bottom: var(--space-lg);
+}
+
+.galaxy__detail-progress-bar {
+  height: 6px;
+  background: rgba(255,255,255,0.06);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+
+.galaxy__detail-progress-fill {
+  height: 100%;
+  border-radius: var(--radius-full);
+  transition: width 500ms ease;
+}
+
+.galaxy__detail-budget-text {
+  font-size: 0.72rem;
+  color: var(--text-tertiary);
+  font-variant-numeric: tabular-nums;
+}
+
+.galaxy__detail-chart {
+  height: 200px;
+}
+
+@media (max-width: 768px) {
+  .galaxy__canvas-wrapper { height: 400px; }
+  .galaxy__detail { max-width: 100%; }
+}
