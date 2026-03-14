@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Search, Globe, Bell, Sun, Moon } from 'lucide-react';
+import { Search, Globe, Bell, Sun, Moon, User } from 'lucide-react';
 import { UserButton, useUser } from '@clerk/clerk-react';
+import { IS_CLERK_BYPASS } from '../data/constants';
 import './Header.css';
 
 const LANGUAGES = [
@@ -14,7 +15,7 @@ const LANGUAGES = [
   { code: 'bn', name: 'Bengali', native: 'বা' },
 ];
 
-export default function Header({ title, language, onLanguageChange, onMenuToggle, theme, onToggleTheme }) {
+function HeaderInternal({ title, language, onLanguageChange, onMenuToggle, theme, onToggleTheme, user }) {
   const [langOpen, setLangOpen] = useState(false);
   const [searchFocused, setSearchFocused] = useState(false);
   const [searchValue, setSearchValue] = useState('');
@@ -106,14 +107,32 @@ export default function Header({ title, language, onLanguageChange, onMenuToggle
         </button>
 
         {/* Clerk User Profile */}
-        <UserButton 
-          appearance={{
-            elements: {
-              userButtonAvatarBox: "w-9 h-9 border border-[var(--glass-border)] shadow-lg hover:scale-105 transition-transform",
-            }
-          }}
-        />
+        {IS_CLERK_BYPASS ? (
+          <div className="header__mock-user">
+            <User size={20} />
+          </div>
+        ) : (
+          <UserButton 
+            appearance={{
+              elements: {
+                userButtonAvatarBox: "w-9 h-9 border border-[var(--glass-border)] shadow-lg hover:scale-105 transition-transform",
+              }
+            }}
+          />
+        )}
       </div>
     </header>
   );
+}
+
+function HeaderClerk(props) {
+  const { user } = useUser();
+  return <HeaderInternal {...props} user={user} />;
+}
+
+export default function Header(props) {
+  if (IS_CLERK_BYPASS) {
+    return <HeaderInternal {...props} user={{ fullName: 'Investor' }} />;
+  }
+  return <HeaderClerk {...props} />;
 }

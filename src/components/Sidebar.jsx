@@ -1,5 +1,6 @@
 import { NavLink, useLocation } from 'react-router-dom';
 import { useUser } from '@clerk/clerk-react';
+import { IS_CLERK_BYPASS } from '../data/constants';
 import {
   LayoutDashboard, Orbit, TreePine, AlertTriangle, TrendingUp,
   ChevronLeft, ChevronRight, Gem, Receipt
@@ -15,9 +16,8 @@ const navItems = [
   { path: '/investments', icon: TrendingUp, label: 'Investments' },
 ];
 
-export default function Sidebar({ collapsed, onToggle, isOpen, onClose }) {
+function SidebarInternal({ collapsed, onToggle, isOpen, onClose, user }) {
   const location = useLocation();
-  const { user } = useUser();
 
   return (
     <>
@@ -91,4 +91,21 @@ export default function Sidebar({ collapsed, onToggle, isOpen, onClose }) {
     </aside>
     </>
   );
+}
+
+function SidebarClerk(props) {
+  const { user } = useUser();
+  return <SidebarInternal {...props} user={user} />;
+}
+
+export default function Sidebar(props) {
+  if (IS_CLERK_BYPASS) {
+    const mockUser = { 
+      fullName: 'Investor', 
+      imageUrl: 'https://ui-avatars.com/api/?name=Investor&background=0D8ABC&color=fff', 
+      primaryEmailAddress: { emailAddress: 'investor@finadvisor.local' } 
+    };
+    return <SidebarInternal {...props} user={mockUser} />;
+  }
+  return <SidebarClerk {...props} />;
 }

@@ -34,24 +34,6 @@ export default function Dashboard() {
   const [savingProfile, setSavingProfile] = useState(false);
   const [lastRefresh, setLastRefresh] = useState(new Date());
 
-  const fetchStats = useCallback(async () => {
-    try {
-      const res = await fetch(`${API_BASE}/api/dashboard/stats`);
-      const data = await res.json();
-      setStats(data);
-      return data;
-    } catch (err) { console.error('Failed to load stats', err); }
-    finally { setLoaded(true); }
-  }, []);
-
-  const fetchProfile = useCallback(async () => {
-    try {
-      const res = await fetch(`${API_BASE}/api/user/profile`);
-      const data = await res.json();
-      setProfile(data);
-    } catch (e) {}
-  }, []);
-
   const fetchInsights = useCallback(async () => {
     setInsightsLoading(true);
     try {
@@ -60,6 +42,30 @@ export default function Dashboard() {
       setInsights(Array.isArray(data) ? data : []);
     } catch (e) { setInsights([]); }
     finally { setInsightsLoading(false); }
+  }, []);
+
+  const fetchStats = useCallback(async () => {
+    try {
+      const res = await fetch(`${API_BASE}/api/dashboard/stats`);
+      const data = await res.json();
+      setStats(prev => {
+        // If transaction count changed (and it's not the first load), fetch new insights
+        if (prev.transactionCount !== undefined && data.transactionCount !== undefined && prev.transactionCount !== data.transactionCount) {
+          fetchInsights();
+        }
+        return data;
+      });
+      return data;
+    } catch (err) { console.error('Failed to load stats', err); }
+    finally { setLoaded(true); }
+  }, [fetchInsights]);
+
+  const fetchProfile = useCallback(async () => {
+    try {
+      const res = await fetch(`${API_BASE}/api/user/profile`);
+      const data = await res.json();
+      setProfile(data);
+    } catch (e) {}
   }, []);
 
   useEffect(() => {

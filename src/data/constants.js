@@ -43,3 +43,5 @@ export const RISK_LEVELS = [
 ];
 
 export const API_BASE = 'http://localhost:3001';
+
+export const IS_CLERK_BYPASS = import.meta.env.VITE_BYPASS_CLERK === 'true';

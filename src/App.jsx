@@ -2,6 +2,18 @@ import { useState } from 'react';
 import { BrowserRouter, Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import { SignedIn, SignedOut } from '@clerk/clerk-react';
 import { Bot, X } from 'lucide-react';
+import { IS_CLERK_BYPASS } from './data/constants';
+
+// Custom wrappers to allow local dev without Clerk CDN
+const CustomSignedIn = ({ children }) => {
+  if (IS_CLERK_BYPASS) return <>{children}</>;
+  return <SignedIn>{children}</SignedIn>;
+};
+
+const CustomSignedOut = ({ children }) => {
+  if (IS_CLERK_BYPASS) return null;
+  return <SignedOut>{children}</SignedOut>;
+};
 import { useTheme } from './hooks/useTheme';
 import Sidebar from './components/Sidebar';
 import Header from './components/Header';
@@ -46,15 +58,15 @@ function AppContent() {
       {/* Liquid WebGL Background */}
       <LiquidBackground hueTarget={targetHue} speed={0.8} complexity={0.8} />
 
-      <SignedOut>
+      <CustomSignedOut>
         {/* Unauthenticated User Flow */}
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
-      </SignedOut>
+      </CustomSignedOut>
 
-      <SignedIn>
+      <CustomSignedIn>
         {/* Authenticated User Flow */}
         <Sidebar 
           collapsed={sidebarCollapsed} 
@@ -97,7 +109,7 @@ function AppContent() {
         </button>
 
         <ChatDrawer isOpen={chatOpen} onClose={() => setChatOpen(false)} language={language} />
-      </SignedIn>
+      </CustomSignedIn>
     </div>
   );
 }

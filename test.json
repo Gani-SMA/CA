@@ -1,0 +1,1 @@
+[{"id":1,"title":"AI Analysis Unavailable","text":"Could not connect to AI (Parse error: Unterminated string in JSON at position 138 (line 5 column 81). Raw: [\n  {\n    \"id\": 1,\n    \"title\": \"Optimize Food Spending\",\n    \"text\": \"Your food expenses of ₹3,000 ...). Check your GEMINI_API_KEY in .env file.","impact":"Setup needed","icon":"target"}]

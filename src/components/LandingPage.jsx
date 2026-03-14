@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { SignIn, SignUp } from '@clerk/clerk-react';
+import { IS_CLERK_BYPASS } from '../data/constants';
 import { Shield, Sparkles, Sun, Moon } from 'lucide-react';
 import { useTheme } from '../hooks/useTheme';
 import './LandingPage.css';
@@ -168,46 +169,60 @@ export default function LandingPage() {
             <div className="auth-component-wrapper">
               {/* Pre-render SignIn but hide it if not active */}
               <div style={{ display: authMode === 'sign-in' ? 'block' : 'none', width: '100%' }}>
-                <SignIn 
-                  routing="hash" 
-                  appearance={{
-                    elements: {
-                      rootBox: "clerk-root-box",
-                      card: "clerk-card",
-                      headerTitle: "clerk-header",
-                      headerSubtitle: "clerk-subtitle",
-                      socialButtonsBlockButton: "clerk-social-btn",
-                      dividerLine: "clerk-divider-line",
-                      dividerText: "clerk-divider-text",
-                      formFieldLabel: "clerk-label",
-                      formFieldInput: "clerk-input",
-                      formButtonPrimary: "clerk-primary-btn btn btn-primary",
-                      footer: "clerk-footer hidden",
-                    }
-                  }}
-                />
+                {!IS_CLERK_BYPASS ? (
+                  <SignIn 
+                    routing="hash" 
+                    appearance={{
+                      elements: {
+                        rootBox: "clerk-root-box",
+                        card: "clerk-card",
+                        headerTitle: "clerk-header",
+                        headerSubtitle: "clerk-subtitle",
+                        socialButtonsBlockButton: "clerk-social-btn",
+                        dividerLine: "clerk-divider-line",
+                        dividerText: "clerk-divider-text",
+                        formFieldLabel: "clerk-label",
+                        formFieldInput: "clerk-input",
+                        formButtonPrimary: "clerk-primary-btn btn btn-primary",
+                        footer: "clerk-footer hidden",
+                      }
+                    }}
+                  />
+                ) : (
+                  <div className="clerk-bypass-msg glass-card">
+                    <p>Clerk Bypassed (Local Dev)</p>
+                    <button className="btn btn-primary" onClick={() => window.location.href = '/dashboard'}>Go to Dashboard</button>
+                  </div>
+                )}
               </div>
               
               {/* Pre-render SignUp but hide it if not active */}
               <div style={{ display: authMode === 'sign-up' ? 'block' : 'none', width: '100%' }}>
-                <SignUp 
-                  routing="hash" 
-                  appearance={{
-                    elements: {
-                      rootBox: "clerk-root-box",
-                      card: "clerk-card",
-                      headerTitle: "clerk-header",
-                      headerSubtitle: "clerk-subtitle",
-                      socialButtonsBlockButton: "clerk-social-btn",
-                      dividerLine: "clerk-divider-line",
-                      dividerText: "clerk-divider-text",
-                      formFieldLabel: "clerk-label",
-                      formFieldInput: "clerk-input",
-                      formButtonPrimary: "clerk-primary-btn btn btn-primary",
-                      footer: "clerk-footer hidden",
-                    }
-                  }}
-                />
+                {!IS_CLERK_BYPASS ? (
+                  <SignUp 
+                    routing="hash" 
+                    appearance={{
+                      elements: {
+                        rootBox: "clerk-root-box",
+                        card: "clerk-card",
+                        headerTitle: "clerk-header",
+                        headerSubtitle: "clerk-subtitle",
+                        socialButtonsBlockButton: "clerk-social-btn",
+                        dividerLine: "clerk-divider-line",
+                        dividerText: "clerk-divider-text",
+                        formFieldLabel: "clerk-label",
+                        formFieldInput: "clerk-input",
+                        formButtonPrimary: "clerk-primary-btn btn btn-primary",
+                        footer: "clerk-footer hidden",
+                      }
+                    }}
+                  />
+                ) : (
+                  <div className="clerk-bypass-msg glass-card">
+                    <p>Clerk Bypassed (Local Dev)</p>
+                    <button className="btn btn-primary" onClick={() => window.location.href = '/dashboard'}>Go to Dashboard</button>
+                  </div>
+                )}
               </div>
             </div>
           </div>

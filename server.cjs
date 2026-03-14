@@ -97,7 +97,7 @@ app.use((req, res, next) => {
 // ═══════════════════════════════════════════════════════
 // GEMINI AI HELPER
 // ═══════════════════════════════════════════════════════
-async function callGemini(prompt) {
+async function callGemini(prompt, isJson = false) {
   const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) {
     throw new Error('GEMINI_API_KEY not set in .env');
@@ -105,7 +105,11 @@ async function callGemini(prompt) {
   const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
   const body = {
     contents: [{ parts: [{ text: prompt }] }],
-    generationConfig: { temperature: 0.7, maxOutputTokens: 1500 }
+    generationConfig: {
+      temperature: 0.7,
+      maxOutputTokens: 8192,
+      ...(isJson ? { responseMimeType: 'application/json' } : {})
+    }
   };
   const response = await fetch(url, {
     method: 'POST',
@@ -349,7 +353,8 @@ app.get('/api/dashboard/stats', (req, res) => {
         spendingByCategory,
         monthlyTrends,
         manualMonthlyIncome: manualIncome,
-        profileType: profile?.profileType || 'employee'
+        profileType: profile?.profileType || 'employee',
+        transactionCount: rows.length
       });
     });
   });
@@ -623,9 +628,8 @@ Return ONLY a valid JSON array with exactly 4 objects. Each object must have:
 
 Give real, specific Indian finance advice (ELSS, PPF, NPS, SIP, term insurance, health insurance from IRDAI-approved insurers). Do not include mock data or generic advice.`;
 
-    const text = await callGemini(prompt);
-    const jsonMatch = text.match(/\[[\s\S]*\]/);
-    if (!jsonMatch) throw new Error('Invalid AI response format');
+    const text = await callGemini(prompt, true);
+    const jsonMatch = text.match(/\[[\s\S]*\]/) || [text];
     const suggestions = JSON.parse(jsonMatch[0]);
     res.json(suggestions);
   } catch (err) {
@@ -684,9 +688,8 @@ Return ONLY a valid JSON object with this exact structure:
 
 Tailor for the ${summary.profileType} profile. Give REAL, verifiable Indian financial products only. If surplus is ₹0 or income is ₹0, suggest building income/emergency fund first.`;
 
-    const text = await callGemini(prompt);
-    const jsonMatch = text.match(/\{[\s\S]*\}/);
-    if (!jsonMatch) throw new Error('Invalid AI response format');
+    const text = await callGemini(prompt, true);
+    const jsonMatch = text.match(/\{[\s\S]*\}/) || [text];
     const plan = JSON.parse(jsonMatch[0]);
     res.json(plan);
   } catch (err) {

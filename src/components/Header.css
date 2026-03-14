@@ -294,3 +294,17 @@
   .header__menu-btn { display: flex; }
   .header__title { font-size: 1.1rem; }
 }
+
+.header__mock-user {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  box-shadow: var(--shadow-lg);
+  cursor: default;
+}
