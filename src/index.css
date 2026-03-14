@@ -475,3 +475,57 @@ button {
   h2 { font-size: 1.1rem; }
   .glass-card { padding: var(--space-md); }
 }
+
+/* ═══════════ FATAL ERROR UI ═══════════ */
+.fatal-error-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  background: var(--bg-primary);
+  padding: var(--space-lg);
+  font-family: var(--font-body);
+}
+
+.fatal-error-card {
+  max-width: 500px;
+  width: 100%;
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--accent-rose);
+  border-radius: var(--radius-lg);
+  padding: var(--space-xl);
+  text-align: center;
+  box-shadow: 0 0 30px var(--accent-rose-glow);
+  animation: fadeIn 0.5s ease-out;
+}
+
+.fatal-error-card h1 {
+  color: var(--accent-rose);
+  margin-bottom: var(--space-md);
+  font-size: 1.75rem;
+}
+
+.fatal-error-card p {
+  color: var(--text-secondary);
+  margin-bottom: var(--space-lg);
+  line-height: 1.6;
+}
+
+.fatal-error-card code {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: var(--accent-amber);
+  font-family: monospace;
+}
+
+.fatal-error-footer {
+  margin-top: var(--space-xl);
+  padding-top: var(--space-lg);
+  border-top: 1px solid var(--glass-border);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+

@@ -7,18 +7,30 @@ import App from './App.jsx'
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
 
-if (!IS_CLERK_BYPASS && !PUBLISHABLE_KEY) {
-  throw new Error("Missing Publishable Key")
-}
+const rootElement = document.getElementById('root');
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    {IS_CLERK_BYPASS ? (
-      <App />
-    ) : (
-      <ClerkProvider publishableKey={PUBLISHABLE_KEY} afterSignOutUrl="/">
+if (!IS_CLERK_BYPASS && !PUBLISHABLE_KEY) {
+  createRoot(rootElement).render(
+    <div className="fatal-error-container">
+      <div className="fatal-error-card">
+        <h1>Configuration Missing</h1>
+        <p>The <code>VITE_CLERK_PUBLISHABLE_KEY</code> is not set in your environment variables.</p>
+        <div className="fatal-error-footer">
+          Please check your <code>.env</code> file or deployment configuration.
+        </div>
+      </div>
+    </div>
+  );
+} else {
+  createRoot(rootElement).render(
+    <StrictMode>
+      {IS_CLERK_BYPASS ? (
         <App />
-      </ClerkProvider>
-    )}
-  </StrictMode>,
-)
+      ) : (
+        <ClerkProvider publishableKey={PUBLISHABLE_KEY} afterSignOutUrl="/">
+          <App />
+        </ClerkProvider>
+      )}
+    </StrictMode>
+  );
+}
